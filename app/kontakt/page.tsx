@@ -81,9 +81,9 @@ export default function Kontakt() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Kontakt - Swiss Reinigungsfirma | Jetzt Angebot anfordern"
-        description="Kontaktieren Sie die Swiss Reinigungsfirma für ein individuelles Angebot. Wir sind für Sie da - per Telefon, E-Mail oder über unser Kontaktformular."
-        keywords="Kontakt, Angebot, Reinigungsfirma Schweiz, Anfrage, Beratung"
+        title="Kontakt - FIMI-Service | Jetzt Angebot anfordern"
+        description="Kontaktieren Sie FIMI-Service für ein individuelles Angebot. Ihr professioneller Business-Partner für Gebäudereinigung in Niederbayern - per Telefon, E-Mail oder Kontaktformular."
+        keywords="Kontakt, Angebot, Gebäudereinigung Niederbayern, Reinigungsfirma Landshut, Anfrage, Beratung"
         url="/kontakt"
       />
       <Navigation />
@@ -114,8 +114,8 @@ export default function Kontakt() {
               <Phone className="w-12 h-12 text-primary mx-auto mb-4" />
               <h3 className="font-bold text-xl mb-2">Telefon</h3>
               <p className="text-slate-600 mb-4">Rufen Sie uns an - wir beraten Sie gerne</p>
-              <a href="tel:+41413205610" className="text-primary font-semibold hover:underline">
-                +41 41 320 56 10
+              <a href="tel:01747225473" className="text-primary font-semibold hover:underline">
+                0174 722 5473
               </a>
             </Card>
 
@@ -123,8 +123,8 @@ export default function Kontakt() {
               <Mail className="w-12 h-12 text-primary mx-auto mb-4" />
               <h3 className="font-bold text-xl mb-2">E-Mail</h3>
               <p className="text-slate-600 mb-4">Schreiben Sie uns eine Nachricht</p>
-              <a href="mailto:info@bgs-service.ch" className="text-primary font-semibold hover:underline">
-                info@bgs-service.ch
+              <a href="mailto:info@fimi-service.de" className="text-primary font-semibold hover:underline">
+                info@fimi-service.de
               </a>
             </Card>
 
@@ -133,8 +133,9 @@ export default function Kontakt() {
               <h3 className="font-bold text-xl mb-2">Adresse</h3>
               <p className="text-slate-600 mb-4">Besuchen Sie uns vor Ort</p>
               <p className="text-slate-900 font-semibold">
-                Tannhof 10<br />
-                6020 Emmenbrücke
+                FIMI-Service<br />
+                Kellerstr. 39<br />
+                84036 Landshut
               </p>
             </Card>
           </div>
@@ -142,40 +143,40 @@ export default function Kontakt() {
           {/* Standort-Karte */}
           <div className="mb-16">
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-8 text-center">
-              Unsere Standorte
+              Unser Standort & Service-Regionen
             </h2>
             <div className="rounded-2xl overflow-hidden shadow-xl">
               <GoogleMap
                 apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || ""}
-                center={{ lat: 47.0502, lng: 8.3093 }}
-                zoom={10}
+                center={{ lat: 48.5379, lng: 12.1495 }}
+                zoom={9}
                 markers={[
                   {
-                    position: { lat: 47.0502, lng: 8.3093 },
-                    title: "Hauptsitz Emmenbrücke",
-                    info: "Swiss Reinigungsfirma<br/>Tannhof 10<br/>6020 Emmenbrücke"
+                    position: { lat: 48.5379, lng: 12.1495 },
+                    title: "FIMI-Service Hauptsitz",
+                    info: "FIMI-Service<br/>Kellerstr. 39<br/>84036 Landshut"
                   },
                   {
-                    position: { lat: 47.3769, lng: 8.5417 },
-                    title: "Standort Zürich",
-                    info: "Professionelle Gebäudereinigung in Zürich"
+                    position: { lat: 49.0134, lng: 12.1016 },
+                    title: "Service-Region Regensburg",
+                    info: "Professionelle Gebäudereinigung in Regensburg"
                   },
                   {
-                    position: { lat: 47.1667, lng: 8.5167 },
-                    title: "Standort Zug",
-                    info: "Professionelle Gebäudereinigung in Zug"
+                    position: { lat: 48.4011, lng: 11.7244 },
+                    title: "Service-Region Freising",
+                    info: "Professionelle Gebäudereinigung in Freising"
                   },
                   {
-                    position: { lat: 47.0502, lng: 8.3093 },
-                    title: "Standort Luzern",
-                    info: "Professionelle Gebäudereinigung in Luzern"
+                    position: { lat: 48.8768, lng: 12.5744 },
+                    title: "Service-Region Straubing",
+                    info: "Professionelle Gebäudereinigung in Straubing"
                   }
                 ]}
                 className="w-full h-[500px]"
               />
             </div>
             <p className="text-center text-slate-600 mt-4">
-              Zentral gelegen in der Zentralschweiz - schnell erreichbar aus Luzern, Zug und Zürich
+              Zentral in Niederbayern - schnell erreichbar aus Landshut, Regensburg, Freising und Umgebung
             </p>
           </div>
 
@@ -215,7 +216,7 @@ export default function Kontakt() {
             <Card className="p-6 hover-lift hover-tilt hover-tilt">
               <h3 className="font-bold text-lg mb-2">In welchen Regionen sind Sie tätig?</h3>
               <p className="text-slate-600">
-                Wir sind in der gesamten Zentralschweiz tätig, mit Schwerpunkt auf Luzern, Zug und Zürich. Für andere Regionen kontaktieren Sie uns bitte direkt.
+                Wir sind in ganz Niederbayern tätig, mit Schwerpunkt auf Landshut, Regensburg, Freising, Straubing und Umgebung. Für andere Regionen kontaktieren Sie uns bitte direkt.
               </p>
             </Card>
 
