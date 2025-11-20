@@ -29,7 +29,7 @@ import {
   scaleIn
 } from "@/utils/animations";
 
-export default function SwissHome() {
+export default function Home() {
   useScrollToAnchor();
   const [scrollY, setScrollY] = useState(0);
 
@@ -42,9 +42,9 @@ export default function SwissHome() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Professionelle Gebäudereinigung in Zürich, Zug & Luzern"
-        description="Swiss Reinigungsfirma - Professionelle Reinigungsfirma in der Schweiz für Unternehmen und Premium-Kunden. Gebäudereinigung, Büroreinigung und exklusive Premium Services."
-        keywords="Reinigungsfirma Schweiz, Gebäudereinigung Zürich, Büroreinigung Zug, Facility Management Luzern, Professionelle Reinigung"
+        title="Professionelle Gebäudereinigung in Niederbayern"
+        description="FIMI-Service - Ihr professioneller Business-Partner für Gebäudereinigung in Niederbayern. Büroreinigung, Industriereinigung und Facility Management in Landshut, Regensburg, Freising und Umgebung. ISO 9001 & 14001 zertifiziert."
+        keywords="Gebäudereinigung Niederbayern, Reinigungsservice Landshut, Büroreinigung Regensburg, Industriereinigung Freising, Facility Management Bayern, Professionelle Reinigung"
         url="/"
         schema={organizationSchema}
       />
@@ -65,23 +65,23 @@ export default function SwissHome() {
             animate="visible"
             variants={staggerContainer}
           >
-            <motion.div 
+            <motion.div
               className="inline-block px-3 sm:px-4 py-1.5 sm:py-2 bg-primary/10 rounded-full mb-4 sm:mb-6"
               variants={fadeInUp}
             >
-              <span className="text-primary font-semibold text-sm sm:text-base">Professionelle Reinigungsfirma in der Schweiz</span>
+              <span className="text-primary font-semibold text-sm sm:text-base">Ihr professioneller Business-Partner in Niederbayern</span>
             </motion.div>
-            <motion.h1 
+            <motion.h1
               className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white leading-tight mb-6"
               variants={fadeInUp}
             >
-              Erstklassige <span className="text-primary">Gebäudereinigung</span> für Zürich, Zug und Luzern
+              Professionelle <span className="text-primary">Gebäudereinigung</span> in Niederbayern
             </motion.h1>
-            <motion.p 
+            <motion.p
               className="text-sm sm:text-base md:text-lg text-white/95 mb-8 leading-relaxed max-w-2xl"
               variants={fadeInUp}
             >
-              Professionelle Reinigungsdienste für Unternehmen und Premium-Kunden mit Schweizer Präzision.
+              Zuverlässige Reinigungsdienste für Unternehmen in Landshut, Regensburg, Freising und Umgebung. ISO 9001 & 14001 zertifiziert mit über 15 Jahren Erfahrung.
             </motion.p>
             <motion.div
               className="flex flex-col sm:flex-row gap-3 sm:gap-4"
@@ -127,10 +127,10 @@ export default function SwissHome() {
             variants={staggerContainer}
           >
             {[
-              { icon: Shield, label: "Zertifizierte Qualität", value: "ISO Standards" },
-              { icon: Clock, label: "24/7 Verfügbar", value: "Notfall Service" },
-              { icon: Users, label: "500+ Kunden", value: "Zufrieden" },
-              { icon: Award, label: "15+ Jahre Erfahrung", value: "Schweizweit" },
+              { icon: Shield, label: "ISO 9001 & 14001", value: "Zertifiziert" },
+              { icon: Clock, label: "Flexibel & Zuverlässig", value: "Auf Wunsch 24/7" },
+              { icon: Users, label: "Zufriedene Kunden", value: "In Niederbayern" },
+              { icon: Award, label: "15+ Jahre", value: "Erfahrung" },
             ].map((item, index) => (
               <motion.div key={index} variants={scaleIn}>
                 
@@ -204,58 +204,29 @@ export default function SwissHome() {
                 Unsere Reinigungsdienstleistungen
               </h2>
               <p className="text-sm sm:text-base md:text-lg text-slate-600 max-w-3xl mx-auto">
-                Von Premium-Services für Luxusimmobilien bis zur professionellen Gebäudereinigung für Unternehmen – wir bieten maßgeschneiderte Reinigungslösungen für jeden Bedarf.
+                Von der professionellen Gebäudereinigung über Industriereinigung bis zum Facility Management – wir bieten maßgeschneiderte Reinigungslösungen für Ihr Unternehmen in Niederbayern.
               </p>
             </div>
           </RevealOnScroll>
 
-          <motion.div 
-            className="grid lg:grid-cols-3 gap-8"
+          <motion.div
+            className="grid lg:grid-cols-2 gap-8 max-w-5xl mx-auto"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.2 }}
             variants={staggerContainer}
           >
-            {/* Premium Services */}
+            {/* Gewerbliche Reinigung */}
             <motion.div variants={fadeInUp}>
-              
-                <Card className="p-10 hover-lift h-full hover-tilt hover-tilt">
-                  <Sparkles className="w-16 h-16 text-primary mb-6" />
-                  <h3 className="text-2xl sm:text-3xl font-bold mb-4 hover:text-primary transition-colors">Premium Services</h3>
-                  <p className="text-slate-600 mb-6">
-                    Exklusive Reinigungsdienstleistungen für höchste Ansprüche. Privatjets, Yachten, Luxusimmobilien und Private Housekeeping.
-                  </p>
-                  <ul className="space-y-3 mb-8">
-                    {["Privatjet Reinigung", "Yacht Reinigung", "Private Housekeeping", "Luxusimmobilien-Reinigung"].map((item, i) => (
-                      <li key={i} className="flex items-center gap-2 text-slate-700 text-xs sm:text-sm md:text-base">
-                        <Check className="w-5 h-5 text-primary flex-shrink-0" />
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
-                  <Link href="/premium/privatjet">
-                    <MagneticHover>
-                      <Button variant="outline" className="w-full hover:bg-primary hover:text-white transition-all">
-                        Mehr erfahren
-                        <ArrowRight className="ml-2 w-4 h-4" />
-                      </Button>
-                    </MagneticHover>
-                  </Link>
-                </Card>
-              
-            </motion.div>
 
-            {/* Business Lösungen */}
-            <motion.div variants={fadeInUp}>
-              
                 <Card className="p-10 hover-lift h-full hover-tilt hover-tilt">
                   <Users className="w-16 h-16 text-primary mb-6" />
-                  <h3 className="text-2xl sm:text-3xl font-bold mb-4 hover:text-primary transition-colors">Business Lösungen</h3>
+                  <h3 className="text-2xl sm:text-3xl font-bold mb-4 hover:text-primary transition-colors">Gewerbliche Reinigung</h3>
                   <p className="text-slate-600 mb-6">
-                    Professionelle Gebäudereinigung und Facility Management für Unternehmen in Zürich, Zug und Luzern.
+                    Professionelle Gebäudereinigung und Industriereinigung für Unternehmen in Landshut, Regensburg, Freising und ganz Niederbayern.
                   </p>
                   <ul className="space-y-3 mb-8">
-                    {["Büroreinigung", "Industriereinigung", "Fassaden- & Fensterreinigung", "Facility Management"].map((item, i) => (
+                    {["Büroreinigung", "Industriereinigung", "Hallenreinigung", "Baureinigung", "Fassaden- & Fensterreinigung", "Maschinenreinigung"].map((item, i) => (
                       <li key={i} className="flex items-center gap-2 text-slate-700 text-xs sm:text-sm md:text-base">
                         <Check className="w-5 h-5 text-primary flex-shrink-0" />
                         {item}
@@ -271,27 +242,27 @@ export default function SwissHome() {
                     </MagneticHover>
                   </Link>
                 </Card>
-              
+
             </motion.div>
 
-            {/* Basisreinigung */}
+            {/* Facility Management */}
             <motion.div variants={fadeInUp}>
-              
+
                 <Card className="p-10 hover-lift h-full hover-tilt hover-tilt">
                   <Shield className="w-16 h-16 text-primary mb-6" />
-                  <h3 className="text-2xl sm:text-3xl font-bold mb-4 hover:text-primary transition-colors">Basisreinigung</h3>
+                  <h3 className="text-2xl sm:text-3xl font-bold mb-4 hover:text-primary transition-colors">Facility Management</h3>
                   <p className="text-slate-600 mb-6">
-                    Zuverlässige Unterhaltsreinigung und Hausmeisterservice für Wohn- und Geschäftsobjekte.
+                    Umfassende Facility-Dienstleistungen für Ihre Immobilien und Betriebsgelände in Niederbayern.
                   </p>
                   <ul className="space-y-3 mb-8">
-                    {["Unterhaltsreinigung", "Hausmeisterservice", "Winterdienst", "Sonderleistungen"].map((item, i) => (
+                    {["Facility Management", "Unterhaltsreinigung", "Hausmeisterservice", "Winterdienst", "Außenanlagenpflege", "Beschaffungsmanagement"].map((item, i) => (
                       <li key={i} className="flex items-center gap-2 text-slate-700 text-xs sm:text-sm md:text-base">
                         <Check className="w-5 h-5 text-primary flex-shrink-0" />
                         {item}
                       </li>
                     ))}
                   </ul>
-                  <Link href="/basis/unterhaltsreinigung">
+                  <Link href="/business/facility-management">
                     <MagneticHover>
                       <Button variant="outline" className="w-full hover:bg-primary hover:text-white transition-all">
                         Mehr erfahren
@@ -300,63 +271,46 @@ export default function SwissHome() {
                     </MagneticHover>
                   </Link>
                 </Card>
-              
+
             </motion.div>
           </motion.div>
         </div>
       </section>
 
-      {/* Standorte Section with Parallax Images */}
+      {/* Service-Regionen Section */}
       <section className="py-32 bg-white overflow-hidden">
         <div className="container">
           <RevealOnScroll>
             <div className="text-center mb-16">
               <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
-                Unsere Standorte in der Schweiz
+                Unsere Service-Regionen in Niederbayern
               </h2>
               <p className="text-sm sm:text-base md:text-lg text-slate-600 max-w-3xl mx-auto">
-                Professionelle Reinigungsdienstleistungen in den wichtigsten Wirtschaftsregionen der Schweiz
+                Professionelle Reinigungsdienstleistungen in den wichtigsten Wirtschaftsregionen Niederbayerns und Umgebung
               </p>
             </div>
           </RevealOnScroll>
 
-          <motion.div 
-            className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8"
+          <motion.div
+            className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4 lg:gap-6 max-w-6xl mx-auto"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.2 }}
             variants={staggerContainer}
           >
             {[
-              { name: "Zürich", image: "/zurich-city.jpg", link: "/standorte/zuerich" },
-              { name: "Zug", image: "/zug-city.jpg", link: "/standorte/zug" },
-              { name: "Luzern", image: "/luzern-city.jpg", link: "/standorte/luzern" },
+              "Landshut",
+              "Regensburg",
+              "Freising",
+              "Straubing",
+              "Deggendorf",
+              "Augsburg",
+              "Nürnberg",
             ].map((location, index) => (
               <motion.div key={index} variants={scaleIn}>
-                <Link href={location.link}>
-                  
-                    <div className="relative overflow-hidden rounded-2xl">
-                      <ZoomOnScroll maxScale={1.2}>
-                        <ParallaxImage
-                          src={location.image}
-                          alt={`Reinigung in ${location.name}`}
-                          className="h-[350px] md:h-[400px] lg:h-[450px] rounded-2xl w-full"
-                          speed={0.15}
-                          scale={false}
-                        />
-                      </ZoomOnScroll>
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end p-6">
-                        <div>
-                          <h3 className="text-2xl font-bold text-white mb-2">{location.name}</h3>
-                          <div className="flex items-center text-white/90 group-hover:text-primary transition-colors">
-                            Mehr erfahren
-                            <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-2 transition-transform" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  
-                </Link>
+                <Card className="p-6 text-center hover-lift hover-tilt">
+                  <h3 className="text-lg font-bold text-slate-900">{location}</h3>
+                </Card>
               </motion.div>
             ))}
           </motion.div>
@@ -388,17 +342,17 @@ export default function SwissHome() {
               {
                 text: "Professionell, zuverlässig und immer pünktlich. Die Reinigungsqualität ist hervorragend!",
                 author: "Thomas M.",
-                role: "Geschäftsführer, Zürich"
+                role: "Geschäftsführer, Landshut"
               },
               {
-                text: "Seit Jahren vertrauen wir auf die exzellenten Services. Absolut empfehlenswert!",
+                text: "Seit Jahren vertrauen wir auf die exzellenten Reinigungsservices. Absolut empfehlenswert!",
                 author: "Sarah K.",
-                role: "Property Manager, Zug"
+                role: "Facility Managerin, Regensburg"
               },
               {
-                text: "Die Premium-Services übertreffen alle Erwartungen. Schweizer Qualität auf höchstem Niveau.",
+                text: "FIMI-Service überzeugt durch Qualität und Zuverlässigkeit. Unser Partner für Gebäudereinigung in Bayern.",
                 author: "Michael R.",
-                role: "Unternehmer, Luzern"
+                role: "Produktionsleiter, Freising"
               }
             ].map((testimonial, index) => (
               <motion.div key={index} variants={fadeInUp}>
