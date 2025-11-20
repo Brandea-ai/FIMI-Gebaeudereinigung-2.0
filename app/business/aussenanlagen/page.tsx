@@ -32,9 +32,9 @@ export default function Aussenanlagen() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Außenanlage Zürich, Zug & Luzern - Swiss Reinigungsfirma"
-        description="Professionelle Pflege von Außenanlagen in der Schweiz. Grünflächenpflege, Winterdienst und Außenreinigung."
-        keywords="Außenanlagen Pflege, Grünflächenpflege Schweiz, Außenreinigung, Facility Management Außen"
+        title="Außenanlage Niederbayern - FIMI-Service Landshut"
+        description="Professionelle Pflege von Außenanlagen in Niederbayern. Grünflächenpflege, Winterdienst und Außenreinigung."
+        keywords="Außenanlagen Pflege, Grünflächenpflege Niederbayern, Außenreinigung, Facility Management Außen"
         url="/business/aussenanlagen"
         schema={serviceSchema(serviceData)}
       />
@@ -52,7 +52,7 @@ export default function Aussenanlagen() {
                 Außenanlagen & Grünflächenpflege
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed mb-8">
-                Professionelle Pflege Ihrer Außenanlagen und Grünflächen in Zürich, Zug und Luzern. Für einen gepflegten ersten Eindruck.
+                Professionelle Pflege Ihrer Außenanlagen und Grünflächen in Landshut, Regensburg, Freising und ganz Niederbayern. Für einen gepflegten ersten Eindruck.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a href="#kontakt-formular">
@@ -101,8 +101,8 @@ export default function Aussenanlagen() {
               <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/10 text-primary rounded-full mb-4">
                 <Award className="w-8 h-8" />
               </div>
-              <h3 className="text-sm sm:text-base md:text-lg font-semibold mb-2">Schweizweit</h3>
-              <p className="text-slate-600 text-xs sm:text-sm md:text-base">Service in Zürich, Zug und Luzern</p>
+              <h3 className="text-sm sm:text-base md:text-lg font-semibold mb-2">In Niederbayern</h3>
+              <p className="text-slate-600 text-xs sm:text-sm md:text-base">Service in Landshut, Regensburg, Freising und ganz Niederbayern</p>
             </div>
           </div>
         </div>
