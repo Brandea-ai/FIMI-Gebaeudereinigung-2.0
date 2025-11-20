@@ -15,9 +15,9 @@ export default function UeberUns() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Über Uns - Swiss Reinigungsfirma | Qualität & Vertrauen"
-        description="Lernen Sie die Geschichte und die Werte der Swiss Reinigungsfirma kennen. Erfahren Sie, warum wir Ihr vertrauenswürdiger Partner für professionelle Reinigung sind."
-        keywords="Über uns, Reinigungsfirma Schweiz, Team, Werte, Mission, Geschichte"
+        title="Über Uns - FIMI-Service | Qualität & Vertrauen"
+        description="Lernen Sie FIMI-Service kennen - Ihr professioneller Business-Partner für Gebäudereinigung in Niederbayern. Erfahren Sie mehr über unsere Werte und unser engagiertes Team."
+        keywords="Über uns, FIMI-Service, Gebäudereinigung Niederbayern, Team, Werte, Mission, Landshut"
         url="/ueber-uns"
       />
       <Navigation />
@@ -29,21 +29,21 @@ export default function UeberUns() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
-                Unsere Geschichte: Von einer Vision zu Ihrem vertrauenswürdigen Partner
+                FIMI-Service: Ihr professioneller Business-Partner in Niederbayern
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed mb-8">
-                Seit unserer Gründung durch Nezir Bozhdaraj im Jahr 2005 hat sich die Swiss Reinigungsfirma von einem kleinen, engagierten Team zu einem der führenden Reinigungsunternehmen in der Schweiz entwickelt. Unsere Mission war von Anfang an klar: Wir wollen nicht nur reinigen, wir wollen Werte schaffen und Vertrauen aufbauen.
+                Mit über 15 Jahren Erfahrung hat sich FIMI-Service zu einem zuverlässigen Partner für professionelle Gebäudereinigung und Facility Management in Niederbayern entwickelt. Unter der Leitung von Ntonalnt Tzoutzis und Ergest Qiraj bieten wir ISO 9001 & 14001 zertifizierte Reinigungslösungen für Unternehmen in Landshut, Regensburg, Freising und Umgebung. Unsere Mission: Qualität, Zuverlässigkeit und persönlicher Service für jeden Kunden.
               </p>
               <Link href="/kontakt">
                 <MagneticHover><Button size="lg" className="text-lg">
-                  Werden Sie Teil unserer Geschichte <ArrowRight className="ml-2 w-5 h-5" />
+                  Werden Sie Teil unserer Erfolgsgeschichte <ArrowRight className="ml-2 w-5 h-5" />
                 </Button></MagneticHover>
               </Link>
             </div>
             <div className="relative">
-              <ParallaxImage 
-                src="/ueber-uns-hero.jpg" 
-                alt="Das Team der Swiss Reinigungsfirma"
+              <ParallaxImage
+                src="/ueber-uns-hero.jpg"
+                alt="Das Team von FIMI-Service"
                 className="rounded-2xl shadow-2xl w-full h-[500px] object-cover h-[400px] lg:h-[500px]"
                 speed={0.2}
                 scale={true}
@@ -115,14 +115,14 @@ export default function UeberUns() {
                 ))}
               </div>
               <p className="text-slate-700 mb-6 font-serif italic text-lg">
-                "Die Zusammenarbeit mit der Swiss Reinigungsfirma ist ein echter Gewinn. Das Team ist professionell, zuverlässig und das Ergebnis immer perfekt. Wir können sie uneingeschränkt empfehlen."
+                "Die Zusammenarbeit mit FIMI-Service ist ein echter Gewinn. Das Team ist professionell, zuverlässig und das Ergebnis immer perfekt. Wir können sie uneingeschränkt empfehlen."
               </p>
               <div>
                 <div className="font-bold text-slate-900">Anna Meier</div>
                 <div className="text-slate-600 text-sm">CEO, Meier AG</div>
               </div>
             </Card>
-            
+
             <Card className="p-8 hover-lift hover:shadow-xl transition-shadow hover-tilt hover-tilt">
               <div className="flex mb-4">
                 {[...Array(5)].map((_, i) => (
@@ -130,14 +130,14 @@ export default function UeberUns() {
                 ))}
               </div>
               <p className="text-slate-700 mb-6 font-serif italic text-lg">
-                "Seit wir die Reinigung unserer Büros an die Swiss Reinigungsfirma übergeben haben, hat sich die Arbeitsatmosphäre spürbar verbessert. Ein sauberes Umfeld motiviert!"
+                "Seit wir die Reinigung unserer Büros an FIMI-Service übergeben haben, hat sich die Arbeitsatmosphäre spürbar verbessert. Ein sauberes Umfeld motiviert!"
               </p>
               <div>
                 <div className="font-bold text-slate-900">Peter Schmidt</div>
                 <div className="text-slate-600 text-sm">Office Manager, Schmidt & Partner</div>
               </div>
             </Card>
-            
+
             <Card className="p-8 hover-lift hover:shadow-xl transition-shadow hover-tilt hover-tilt">
               <div className="flex mb-4">
                 {[...Array(5)].map((_, i) => (
@@ -145,7 +145,7 @@ export default function UeberUns() {
                 ))}
               </div>
               <p className="text-slate-700 mb-6 font-serif italic text-lg">
-                "Die Flexibilität und die hohe Qualität der Arbeit haben uns überzeugt. Die Swiss Reinigungsfirma ist ein Partner, auf den man sich verlassen kann."
+                "Die Flexibilität und die hohe Qualität der Arbeit haben uns überzeugt. FIMI-Service ist ein Partner, auf den man sich verlassen kann."
               </p>
               <div>
                 <div className="font-bold text-slate-900">Maria Rossi</div>
@@ -156,30 +156,38 @@ export default function UeberUns() {
         </div>
       </section>
 
-      {/* Meet the Founder Section */}
+      {/* Meet the Team Section */}
       <section className="py-20 bg-white">
         <div className="container">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="relative">
-              <ParallaxImage
-                src="/nezir-bozhdaraj.jpg?v=2"
-                alt="Nezir Bozhdaraj, Gründer der Swiss Reinigungsfirma"
-                className="rounded-2xl shadow-2xl w-full h-[500px] lg:h-[600px] object-cover object-[50%_20%]"
-                speed={0.2}
-                scale={false}
-                overlay={false}
-              />
-            </div>
-            <div>
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
-                Ein Wort vom Gründer
-              </h2>
-              <p className="text-slate-700 mb-6 font-serif italic text-lg">
-                "Als ich die Swiss Reinigungsfirma gründete, hatte ich eine einfache Vision: einen Reinigungsservice anzubieten, der auf Vertrauen, Qualität und persönlichem Engagement basiert. Ich bin stolz darauf, dass wir diese Werte auch heute noch leben und jeden Tag unser Bestes geben, um die Erwartungen unserer Kunden zu übertreffen."
+          <div className="text-center mb-16">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
+              Unsere Geschäftsführung
+            </h2>
+            <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto">
+              FIMI-Service wird von zwei erfahrenen Unternehmern geführt, die mit Leidenschaft und Engagement für höchste Qualität in der Gebäudereinigung sorgen.
+            </p>
+          </div>
+          <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
+            <Card className="p-8 hover-lift text-center hover-tilt">
+              <div className="w-32 h-32 bg-gradient-to-br from-primary to-primary/70 rounded-full mx-auto mb-6 flex items-center justify-center">
+                <span className="text-white text-4xl font-bold">NT</span>
+              </div>
+              <div className="font-bold text-slate-900 text-2xl mb-2">Ntonalnt Tzoutzis</div>
+              <div className="text-primary font-semibold mb-4">Geschäftsführer</div>
+              <p className="text-slate-600">
+                Mit langjähriger Erfahrung im Facility Management und einem Auge für Details sorgt Ntonalnt Tzoutzis dafür, dass jedes Projekt mit höchster Präzision umgesetzt wird.
               </p>
-              <div className="font-bold text-slate-900 text-lg">Nezir Bozhdaraj</div>
-              <div className="text-slate-600">Gründer & Geschäftsführer</div>
-            </div>
+            </Card>
+            <Card className="p-8 hover-lift text-center hover-tilt">
+              <div className="w-32 h-32 bg-gradient-to-br from-secondary to-secondary/70 rounded-full mx-auto mb-6 flex items-center justify-center">
+                <span className="text-white text-4xl font-bold">EQ</span>
+              </div>
+              <div className="font-bold text-slate-900 text-2xl mb-2">Ergest Qiraj</div>
+              <div className="text-secondary font-semibold mb-4">Geschäftsführer</div>
+              <p className="text-slate-600">
+                Ergest Qiraj bringt umfassende Expertise in der professionellen Gebäudereinigung mit und garantiert höchste Qualitätsstandards für alle Kunden.
+              </p>
+            </Card>
           </div>
         </div>
       </section>
