@@ -4,7 +4,7 @@ import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Check, ArrowRight, Star, Shield, Clock, Users, Sparkles, Award } from "lucide-react";
-import SwissNavigation from "@/components/SwissNavigation";
+import Navigation from "@/components/Navigation";
 import SwissFooter from "@/components/SwissFooter";
 import SEO from "@/components/SEO";
 import { organizationSchema } from "@/utils/schema";
@@ -47,7 +47,7 @@ export default function SwissHome() {
         url="/"
         schema={organizationSchema}
       />
-      <SwissNavigation />
+      <Navigation />
 
       {/* Hero Section with Advanced Parallax */}
       <section className="relative min-h-screen flex items-center overflow-hidden">

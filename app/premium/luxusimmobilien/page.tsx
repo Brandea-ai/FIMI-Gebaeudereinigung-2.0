@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { ParallaxImage, RevealOnScroll, TiltCard, MagneticHover } from "@/components/PremiumParallax";
 import { fadeInUp, staggerContainer, scaleIn } from "@/utils/animations";
 
-import SwissNavigation from "@/components/SwissNavigation";
+import Navigation from "@/components/Navigation";
 import { scrollToContact } from "@/utils/scroll";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
@@ -33,7 +33,7 @@ export default function Luxusimmobilien() {
         url="/premium/luxusimmobilien"
         schema={serviceSchema(serviceData)}
       />
-      <SwissNavigation />
+      <Navigation />
       
       <section className="pt-32 pb-20 relative">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-red-50/30 -z-10"/>

@@ -1,4 +1,4 @@
-import SwissNavigation from "@/components/SwissNavigation";
+import Navigation from "@/components/Navigation";
 import SwissFooter from "@/components/SwissFooter";
 import { Card } from "@/components/ui/card";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
@@ -6,7 +6,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 export default function Datenschutz() {
   return (
     <div className="min-h-screen bg-white">
-      <SwissNavigation />
+      <Navigation />
       
       <section className="pt-32 pb-20">
         <div className="container max-w-4xl">

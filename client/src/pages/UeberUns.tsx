@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { ParallaxImage, ParallaxBackground, RevealOnScroll, TiltCard, MagneticHover, ZoomOnScroll } from "@/components/PremiumParallax";
 import { fadeInUp, staggerContainer, scaleIn } from "@/utils/animations";
 
-import SwissNavigation from "@/components/SwissNavigation";
+import Navigation from "@/components/Navigation";
 import SwissFooter from "@/components/SwissFooter";
 import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
@@ -19,7 +19,7 @@ export default function UeberUns() {
         keywords="Über uns, Reinigungsfirma Schweiz, Team, Werte, Mission, Geschichte"
         url="/ueber-uns"
       />
-      <SwissNavigation />
+      <Navigation />
 
       {/* Hero Section */}
       <section className="pt-32 pb-20 relative bg-gradient-to-br from-slate-50 to-blue-50">

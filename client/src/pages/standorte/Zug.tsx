@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { ParallaxImage, ParallaxBackground, RevealOnScroll, TiltCard, MagneticHover, ZoomOnScroll } from "@/components/PremiumParallax";
 import { fadeInUp, staggerContainer, scaleIn } from "@/utils/animations";
 
-import SwissNavigation from "@/components/SwissNavigation";
+import Navigation from "@/components/Navigation";
 import { scrollToContact } from "../utils/scroll";
 import SwissFooter from "@/components/SwissFooter";
 import SEO from "@/components/SEO";
@@ -34,7 +34,7 @@ export default function Zug() {
         url="/standorte/zug"
         schema={localBusinessSchema(locationData)}
       />
-      <SwissNavigation />
+      <Navigation />
       
       <section className="relative pt-32 pb-20">
         <ParallaxBackground 

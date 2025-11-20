@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { ParallaxImage, ParallaxBackground, RevealOnScroll, TiltCard, MagneticHover, ZoomOnScroll } from "@/components/PremiumParallax";
 import { fadeInUp, staggerContainer, scaleIn } from "@/utils/animations";
 
-import SwissNavigation from "@/components/SwissNavigation";
+import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -48,7 +48,7 @@ export default function Blog() {
 
   return (
     <div className="min-h-screen bg-white">
-      <SwissNavigation />
+      <Navigation />
       
       <section className="pt-32 pb-20 bg-gradient-to-br from-white via-red-50/30 to-white">
         <div className="container">

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { ParallaxImage, ParallaxBackground, RevealOnScroll, TiltCard, MagneticHover, ZoomOnScroll } from "@/components/PremiumParallax";
 import { fadeInUp, staggerContainer, scaleIn } from "@/utils/animations";
 
-import SwissNavigation from "@/components/SwissNavigation";
+import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
 import { Card } from "@/components/ui/card";
@@ -86,7 +86,7 @@ export default function Kontakt() {
         keywords="Kontakt, Angebot, Reinigungsfirma Schweiz, Anfrage, Beratung"
         url="/kontakt"
       />
-      <SwissNavigation />
+      <Navigation />
 
       {/* Hero Section */}
       <section className="pt-32 pb-20 bg-gradient-to-br from-slate-50 to-blue-50">

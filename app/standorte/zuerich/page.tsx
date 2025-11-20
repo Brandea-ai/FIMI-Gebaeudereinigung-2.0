@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { ParallaxImage, ParallaxBackground, RevealOnScroll, TiltCard, MagneticHover, ZoomOnScroll } from "@/components/PremiumParallax";
 import { fadeInUp, staggerContainer, scaleIn } from "@/utils/animations";
 
-import SwissNavigation from "@/components/SwissNavigation";
+import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
 import { localBusinessSchema } from "@/utils/schema";
@@ -34,7 +34,7 @@ export default function Zuerich() {
         url="/standorte/zuerich"
         schema={localBusinessSchema(locationData)}
       />
-      <SwissNavigation />
+      <Navigation />
       
       <section className="relative pt-32 pb-20">
         <ParallaxBackground 

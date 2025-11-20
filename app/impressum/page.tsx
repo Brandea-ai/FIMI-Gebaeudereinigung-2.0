@@ -1,5 +1,5 @@
 'use client'
-import SwissNavigation from "@/components/SwissNavigation";
+import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
 import { Card } from "@/components/ui/card";
@@ -13,7 +13,7 @@ export default function Impressum() {
         keywords="Impressum, rechtliche Hinweise, Kontakt, Adresse, UID"
         url="/impressum"
       />
-      <SwissNavigation />
+      <Navigation />
 
       <section className="pt-32 pb-20 bg-slate-50">
         <div className="container max-w-4xl">

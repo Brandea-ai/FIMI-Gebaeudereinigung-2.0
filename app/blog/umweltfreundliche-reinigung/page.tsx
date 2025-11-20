@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { ParallaxImage, ParallaxBackground, RevealOnScroll, TiltCard, MagneticHover, ZoomOnScroll } from "@/components/PremiumParallax";
 import { fadeInUp, staggerContainer, scaleIn } from "@/utils/animations";
 
-import SwissNavigation from "@/components/SwissNavigation";
+import Navigation from "@/components/Navigation";
 import SEO from "@/components/SEO";
 import Footer from "@/components/Footer";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
@@ -28,7 +28,7 @@ export default function UmweltfreundlicheReinigung() {
 function UmweltfreundlicheReinigungContent() {
   return (
     <div className="min-h-screen bg-white">
-      <SwissNavigation />
+      <Navigation />
       <article className="pt-32 pb-20">
         <div className="container max-w-4xl">
           <div className="mb-12">

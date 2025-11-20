@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { ParallaxImage, RevealOnScroll, TiltCard, MagneticHover } from "@/components/PremiumParallax";
 import { fadeInUp, staggerContainer, scaleIn } from "@/utils/animations";
 
-import SwissNavigation from "@/components/SwissNavigation";
+import Navigation from "@/components/Navigation";
 import SwissFooter from "@/components/SwissFooter";
 import SEO from "@/components/SEO";
 import { serviceSchema } from "@/utils/schema";
@@ -37,7 +37,7 @@ export default function Maschinenreinigung() {
         url="/business/maschinenreinigung"
         schema={serviceSchema(serviceData)}
       />
-      <SwissNavigation />
+      <Navigation />
       
       {/* Hero Section */}
       <section className="pt-32 pb-20 relative">
