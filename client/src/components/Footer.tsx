@@ -60,25 +60,25 @@ export default function Footer() {
   };
 
   return (
-    <footer id="kontakt-formular" className="bg-gradient-to-b from-secondary/30 to-secondary/50 border-t border-border">
+    <footer id="kontakt-formular" className="bg-gradient-to-b from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-950 border-t border-slate-200 dark:border-slate-800">
       {/* Kontaktformular Section */}
-      <div className="bg-gradient-to-r from-accent/10 to-accent/5 py-12 lg:py-16">
-        <div className="container mx-auto px-4 lg:px-8">
+      <div className="bg-gradient-to-r from-red-50 to-red-100/50 dark:from-red-950/20 dark:to-red-900/10 py-12 lg:py-16">
+        <div className="container">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-8">
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-3">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 dark:text-white mb-3">
                 Jetzt Kontakt aufnehmen
               </h2>
-              <p className="text-sm sm:text-base lg:text-lg text-muted-foreground">
+              <p className="text-sm sm:text-base lg:text-lg text-slate-600 dark:text-slate-400">
                 Fordern Sie ein unverbindliches Angebot an – wir melden uns innerhalb von 24 Stunden
               </p>
             </div>
 
-            <form onSubmit={handleSubmit} className="bg-card rounded-lg shadow-lg p-6 lg:p-8 border border-border">
+            <form onSubmit={handleSubmit} className="bg-white dark:bg-slate-800 rounded-lg shadow-xl p-6 lg:p-8 border border-slate-200 dark:border-slate-700">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6 mb-4 lg:mb-6">
                 {/* Name */}
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
+                  <label htmlFor="name" className="block text-sm font-medium text-slate-900 dark:text-white mb-2">
                     Name *
                   </label>
                   <input
@@ -88,14 +88,14 @@ export default function Footer() {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2.5 lg:py-3 rounded-md border border-border bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all text-sm sm:text-base"
+                    className="w-full px-4 py-2.5 lg:py-3 rounded-md border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all text-sm sm:text-base"
                     placeholder="Ihr vollständiger Name"
                   />
                 </div>
 
                 {/* Email */}
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
+                  <label htmlFor="email" className="block text-sm font-medium text-slate-900 dark:text-white mb-2">
                     E-Mail *
                   </label>
                   <input
@@ -105,14 +105,14 @@ export default function Footer() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2.5 lg:py-3 rounded-md border border-border bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all text-sm sm:text-base"
+                    className="w-full px-4 py-2.5 lg:py-3 rounded-md border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all text-sm sm:text-base"
                     placeholder="ihre@email.de"
                   />
                 </div>
 
                 {/* Telefon */}
                 <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-foreground mb-2">
+                  <label htmlFor="phone" className="block text-sm font-medium text-slate-900 dark:text-white mb-2">
                     Telefon
                   </label>
                   <input
@@ -121,14 +121,14 @@ export default function Footer() {
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    className="w-full px-4 py-2.5 lg:py-3 rounded-md border border-border bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all text-sm sm:text-base"
-                    placeholder="+49 123 456789"
+                    className="w-full px-4 py-2.5 lg:py-3 rounded-md border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all text-sm sm:text-base"
+                    placeholder="+41 41 320 56 10"
                   />
                 </div>
 
                 {/* Service - Gruppiert nach Kategorien */}
                 <div>
-                  <label htmlFor="service" className="block text-sm font-medium text-foreground mb-2">
+                  <label htmlFor="service" className="block text-sm font-medium text-slate-900 dark:text-white mb-2">
                     Gewünschte Leistung
                   </label>
                   <select
@@ -136,7 +136,7 @@ export default function Footer() {
                     name="service"
                     value={formData.service}
                     onChange={handleChange}
-                    className="w-full px-4 py-2.5 lg:py-3 rounded-md border border-border bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all text-sm sm:text-base"
+                    className="w-full px-4 py-2.5 lg:py-3 rounded-md border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all text-sm sm:text-base"
                   >
                     <option value="">Bitte wählen...</option>
                     
@@ -189,7 +189,7 @@ export default function Footer() {
 
               {/* Nachricht */}
               <div className="mb-6">
-                <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
+                <label htmlFor="message" className="block text-sm font-medium text-slate-900 dark:text-white mb-2">
                   Ihre Nachricht *
                 </label>
                 <textarea
@@ -199,7 +199,7 @@ export default function Footer() {
                   onChange={handleChange}
                   required
                   rows={4}
-                  className="w-full px-4 py-2.5 lg:py-3 rounded-md border border-border bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent transition-all resize-none text-sm sm:text-base"
+                  className="w-full px-4 py-2.5 lg:py-3 rounded-md border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all resize-none text-sm sm:text-base"
                   placeholder="Beschreiben Sie Ihr Anliegen..."
                 />
               </div>
@@ -213,15 +213,15 @@ export default function Footer() {
                     checked={formData.acceptPrivacy}
                     onChange={(e) => setFormData({ ...formData, acceptPrivacy: e.target.checked })}
                     required
-                    className="mt-1 w-4 h-4 rounded border-border text-accent focus:ring-2 focus:ring-accent focus:ring-offset-0 cursor-pointer"
+                    className="mt-1 w-4 h-4 rounded border-slate-300 dark:border-slate-600 text-red-600 focus:ring-2 focus:ring-red-500 focus:ring-offset-0 cursor-pointer"
                   />
-                  <span className="text-xs sm:text-sm text-muted-foreground leading-relaxed">
+                  <span className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
                     Ich habe die{" "}
                     <a
                       href="/datenschutz"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-accent hover:underline font-medium"
+                      className="text-red-600 dark:text-red-400 hover:underline font-medium"
                     >
                       Datenschutzerklärung
                     </a>{" "}
@@ -232,17 +232,17 @@ export default function Footer() {
 
               {/* Submit Button */}
               <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-                <p className="text-xs sm:text-sm text-muted-foreground">
+                <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400">
                   * Pflichtfelder
                 </p>
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full sm:w-auto px-6 lg:px-8 py-3 lg:py-3.5 bg-accent hover:bg-accent/90 text-accent-foreground font-semibold rounded-md transition-all duration-300 flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg hover:shadow-xl text-sm sm:text-base"
+                  className="w-full sm:w-auto px-6 lg:px-8 py-3 lg:py-3.5 bg-red-600 hover:bg-red-700 text-white font-semibold rounded-md transition-all duration-300 flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg hover:shadow-xl text-sm sm:text-base"
                 >
                   {isSubmitting ? (
                     <>
-                      <div className="w-4 h-4 border-2 border-accent-foreground/30 border-t-accent-foreground rounded-full animate-spin" />
+                      <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
                       Wird gesendet...
                     </>
                   ) : (
@@ -256,15 +256,15 @@ export default function Footer() {
 
               {/* Status Messages */}
               {submitStatus === "success" && (
-                <div className="mt-4 p-4 bg-green-500/10 border border-green-500/20 rounded-md">
-                  <p className="text-sm text-green-600 dark:text-green-400">
+                <div className="mt-4 p-4 bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-md">
+                  <p className="text-sm text-green-700 dark:text-green-400">
                     ✓ Vielen Dank! Ihre Nachricht wurde erfolgreich versendet. Wir melden uns in Kürze bei Ihnen.
                   </p>
                 </div>
               )}
               {submitStatus === "error" && (
-                <div className="mt-4 p-4 bg-red-500/10 border border-red-500/20 rounded-md">
-                  <p className="text-sm text-red-600 dark:text-red-400">
+                <div className="mt-4 p-4 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-md">
+                  <p className="text-sm text-red-700 dark:text-red-400">
                     ✗ Es gab ein Problem beim Senden Ihrer Nachricht. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt.
                   </p>
                 </div>
@@ -275,137 +275,106 @@ export default function Footer() {
       </div>
 
       {/* Footer Content */}
-      <div className="container mx-auto px-4 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
-          {/* Über BGS */}
-          <div>
-            <h3 className="font-semibold text-foreground mb-4 text-base sm:text-lg">Über BGS</h3>
-            <p className="text-xs sm:text-sm text-muted-foreground mb-4">
-              Professionelle Gebäudereinigung in der Schweiz. Qualität, Zuverlässigkeit und Präzision seit Jahren.
-            </p>
-            <img
-              src="https://brandea.b-cdn.net/21844b22-60cc-442e-bc3b-bebff31a4053-removebg-preview.png"
-              alt="BGS Gebäudeservice Logo"
-              className="h-10 w-auto object-contain"
-            />
-          </div>
-
-          {/* Premium Services */}
-          <div>
-            <h3 className="font-semibold text-foreground mb-4 text-base sm:text-lg">Premium Services</h3>
-            <ul className="space-y-2 text-xs sm:text-sm">
-              <li>
-                <Link href="/premium/privatjet">
-                  <a className="text-muted-foreground hover:text-accent transition-smooth">
-                    Privatjet Reinigung
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/premium/yacht">
-                  <a className="text-muted-foreground hover:text-accent transition-smooth">
-                    Yacht Reinigung
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/premium/housekeeping">
-                  <a className="text-muted-foreground hover:text-accent transition-smooth">
-                    Private Housekeeping
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/premium/luxusimmobilien">
-                  <a className="text-muted-foreground hover:text-accent transition-smooth">
-                    Luxusimmobilien
-                  </a>
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* B2B Lösungen */}
-          <div>
-            <h3 className="font-semibold text-foreground mb-4 text-base sm:text-lg">B2B Lösungen</h3>
-            <ul className="space-y-2 text-xs sm:text-sm">
-              <li>
-                <Link href="/b2b/bueroreinigung">
-                  <a className="text-muted-foreground hover:text-accent transition-smooth">
-                    Büroreinigung
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/b2b/industriereinigung">
-                  <a className="text-muted-foreground hover:text-accent transition-smooth">
-                    Industriereinigung
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/b2b/fassadenreinigung">
-                  <a className="text-muted-foreground hover:text-accent transition-smooth">
-                    Fassadenreinigung
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/b2b/facility-management">
-                  <a className="text-muted-foreground hover:text-accent transition-smooth">
-                    Facility Management
-                  </a>
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Standorte */}
-          <div>
-            <h3 className="font-semibold text-foreground mb-4 text-base sm:text-lg">Standorte</h3>
-            <ul className="space-y-2 text-xs sm:text-sm">
-              <li>
-                <Link href="/standorte/zuerich">
-                  <a className="text-muted-foreground hover:text-accent transition-smooth">
-                    Zürich
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/standorte/zug">
-                  <a className="text-muted-foreground hover:text-accent transition-smooth">
-                    Zug
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/standorte/luzern">
-                  <a className="text-muted-foreground hover:text-accent transition-smooth">
-                    Luzern
-                  </a>
-                </Link>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        {/* Copyright */}
-        <div className="border-t border-border pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs sm:text-sm text-muted-foreground">
+      <footer className="bg-slate-900 text-white">
+        <div className="container py-16">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-12">
             <div>
-              © {currentYear} BGS Gebäudeservice. Alle Rechte vorbehalten.
+              <img src="/logo.png" alt="FIMI-Service" className="h-24 w-auto mb-6" />
+              <p className="text-slate-400 text-sm leading-relaxed mb-6">
+                Ihr professioneller Business-Partner für Gebäudereinigung in Niederbayern. Qualität, Zuverlässigkeit und Präzision seit über 15 Jahren.
+              </p>
+              <div className="space-y-2">
+                <Link href="/ueber-uns"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Über Uns</div></Link>
+                <Link href="/kontakt"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Kontakt</div></Link>
+                <Link href="/referenzen"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Referenzen</div></Link>
+                <Link href="/blog"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Blog</div></Link>
+              </div>
             </div>
-            <div className="flex gap-6">
-              <Link href="/impressum">
-                <a className="hover:text-accent transition-smooth">Impressum</a>
-              </Link>
-              <Link href="/datenschutz">
-                <a className="hover:text-accent transition-smooth">Datenschutz</a>
-              </Link>
+
+            <div>
+              <h3 className="font-semibold text-lg mb-4">Kontakt</h3>
+              <div className="space-y-3">
+                <div className="flex items-start gap-2">
+                  <MapPin className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
+                  <div className="text-slate-400 text-sm">
+                    <div className="font-medium text-white mb-1">FIMI-Service</div>
+                    <div>Kellerstr. 39</div>
+                    <div>84036 Landshut</div>
+                  </div>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Phone className="w-4 h-4 text-primary flex-shrink-0" />
+                  <a href="tel:01747225473" className="text-slate-400 hover:text-white transition-smooth text-sm">
+                    0174 722 5473
+                  </a>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Mail className="w-4 h-4 text-primary flex-shrink-0" />
+                  <a href="mailto:info@fimi-service.de" className="text-slate-400 hover:text-white transition-smooth text-sm">
+                    info@fimi-service.de
+                  </a>
+                </div>
+                <div className="text-slate-400 text-xs mt-4">
+                  UST-ID: DE347549925
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="font-semibold text-lg mb-4">Business Services</h3>
+              <div className="space-y-2">
+                <Link href="/business/bueroreinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Büroreinigung</div></Link>
+                <Link href="/business/industriereinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Industriereinigung</div></Link>
+                <Link href="/business/fassadenreinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Fassadenreinigung</div></Link>
+                <Link href="/business/fensterreinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Fensterreinigung</div></Link>
+                <Link href="/business/hallenreinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Hallenreinigung</div></Link>
+                <Link href="/business/maschinenreinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Maschinenreinigung</div></Link>
+                <Link href="/business/baureinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Baureinigung</div></Link>
+                <Link href="/business/aussenanlagen"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Außenanlagen</div></Link>
+                <Link href="/business/facility-management"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Facility Management</div></Link>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="font-semibold text-lg mb-4">Basis Services</h3>
+              <div className="space-y-2">
+                <Link href="/basis/unterhaltsreinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Unterhaltsreinigung</div></Link>
+                <Link href="/basis/hausmeisterservice"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Hausmeisterservice</div></Link>
+                <Link href="/basis/winterdienst"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Winterdienst</div></Link>
+                <Link href="/basis/beschaffung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Beschaffung</div></Link>
+                <Link href="/basis/sonderleistungen"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Sonderleistungen</div></Link>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="font-semibold text-lg mb-4">Service-Regionen</h3>
+              <div className="space-y-2 mb-6">
+                <div className="text-slate-400 text-sm">Landshut</div>
+                <div className="text-slate-400 text-sm">Regensburg</div>
+                <div className="text-slate-400 text-sm">Freising</div>
+                <div className="text-slate-400 text-sm">Straubing</div>
+                <div className="text-slate-400 text-sm">Deggendorf</div>
+                <div className="text-slate-400 text-sm">Augsburg</div>
+                <div className="text-slate-400 text-sm">Nürnberg</div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+
+        <div className="border-t border-slate-800">
+          <div className="container py-6">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-400">
+              <div>
+                © {currentYear} FIMI-Service | Ntonalnt Tzoutzis & Ergest Qiraj. Alle Rechte vorbehalten.
+              </div>
+              <div className="flex gap-6">
+                <Link href="/impressum"><span className="hover:text-white transition-smooth cursor-pointer">Impressum</span></Link>
+                <Link href="/datenschutz"><span className="hover:text-white transition-smooth cursor-pointer">Datenschutz</span></Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </footer>
   );
 }

@@ -4,7 +4,7 @@ import { ParallaxImage, ParallaxBackground, RevealOnScroll, TiltCard, MagneticHo
 import { fadeInUp, staggerContainer, scaleIn } from "@/utils/animations";
 
 import SwissNavigation from "@/components/SwissNavigation";
-import SwissFooter from "@/components/SwissFooter";
+import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
 import { localBusinessSchema } from "@/utils/schema";
 import { Card } from "@/components/ui/card";
@@ -260,7 +260,7 @@ export default function Zuerich() {
         </div>
       </section>
 
-      <SwissFooter />
+      <Footer />
     </div>
   );
 }

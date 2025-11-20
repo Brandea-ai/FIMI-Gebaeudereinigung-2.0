@@ -6,7 +6,7 @@ import { fadeInUp, staggerContainer, scaleIn } from "@/utils/animations";
 import SwissNavigation from "@/components/SwissNavigation";
 import SEO from "@/components/SEO";
 import { scrollToContact } from "@/utils/scroll";
-import SwissFooter from "@/components/SwissFooter";
+import Footer from "@/components/Footer";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -159,7 +159,7 @@ function ProfessionelleGebaeudereinigungContent() {
           </div>
         </div>
       </article>
-      <SwissFooter />
+      <Footer />
     </div>
   );
 }

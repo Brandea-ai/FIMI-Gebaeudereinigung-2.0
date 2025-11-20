@@ -5,7 +5,7 @@ import { fadeInUp, staggerContainer, scaleIn } from "@/utils/animations";
 
 import SwissNavigation from "@/components/SwissNavigation";
 import { scrollToContact } from "@/utils/scroll";
-import SwissFooter from "@/components/SwissFooter";
+import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
 import { localBusinessSchema } from "@/utils/schema";
 import { Card } from "@/components/ui/card";
@@ -246,7 +246,7 @@ export default function Zug() {
         </div>
       </section>
 
-      <SwissFooter />
+      <Footer />
     </div>
   );
 }

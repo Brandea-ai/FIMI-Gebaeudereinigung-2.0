@@ -6,7 +6,7 @@ import { fadeInUp, staggerContainer, scaleIn } from "@/utils/animations";
 import SwissNavigation from "@/components/SwissNavigation";
 import SEO from "@/components/SEO";
 import { scrollToContact } from "@/utils/scroll";
-import SwissFooter from "@/components/SwissFooter";
+import Footer from "@/components/Footer";
 import {
   Accordion,
   AccordionContent,
@@ -287,7 +287,7 @@ function RichtigeReinigungsfirmaFindenContent() {
         </div>
       </article>
 
-      <SwissFooter />
+      <Footer />
     </div>
   );
 }

@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Check, ArrowRight, Star, Shield, Clock, Users, Sparkles, Award } from "lucide-react";
 import SwissNavigation from "@/components/SwissNavigation";
-import SwissFooter from "@/components/SwissFooter";
+import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
 import { organizationSchema } from "@/utils/schema";
 import { motion } from "framer-motion";
@@ -453,7 +453,7 @@ export default function SwissHome() {
         </div>
       </section>
 
-      <SwissFooter />
+      <Footer />
     </div>
   );
 }

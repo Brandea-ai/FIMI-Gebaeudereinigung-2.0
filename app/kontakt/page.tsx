@@ -5,7 +5,7 @@ import { ParallaxImage, ParallaxBackground, RevealOnScroll, TiltCard, MagneticHo
 import { fadeInUp, staggerContainer, scaleIn } from "@/utils/animations";
 
 import SwissNavigation from "@/components/SwissNavigation";
-import SwissFooter from "@/components/SwissFooter";
+import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -237,7 +237,7 @@ export default function Kontakt() {
       </section>
 
 
-      <SwissFooter />
+      <Footer />
     </div>
   );
 }

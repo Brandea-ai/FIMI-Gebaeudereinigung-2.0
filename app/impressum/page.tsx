@@ -1,6 +1,6 @@
 'use client'
 import SwissNavigation from "@/components/SwissNavigation";
-import SwissFooter from "@/components/SwissFooter";
+import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
 import { Card } from "@/components/ui/card";
 
@@ -96,7 +96,7 @@ export default function Impressum() {
         </div>
       </section>
 
-      <SwissFooter />
+      <Footer />
     </div>
   );
 }

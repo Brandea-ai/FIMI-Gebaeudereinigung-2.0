@@ -4,7 +4,7 @@ import { ParallaxImage, ParallaxBackground, RevealOnScroll, TiltCard, MagneticHo
 import { fadeInUp, staggerContainer, scaleIn } from "@/utils/animations";
 
 import SwissNavigation from "@/components/SwissNavigation";
-import SwissFooter from "@/components/SwissFooter";
+import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -201,7 +201,7 @@ export default function UeberUns() {
         </div>
       </section>
 
-      <SwissFooter />
+      <Footer />
     </div>
   );
 }
