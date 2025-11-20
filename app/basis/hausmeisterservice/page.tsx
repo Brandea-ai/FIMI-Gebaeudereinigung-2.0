@@ -27,9 +27,9 @@ export default function Hausmeisterservice() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Hausmeisterservice Zürich, Zug & Luzern - Swiss Reinigungsfirma"
-        description="Professioneller Hausmeisterservice in der Schweiz. Objektbetreuung, Kleinreparaturen und 24/7 Notfall-Service."
-        keywords="Hausmeisterservice, Hausmeister Schweiz, Objektbetreuung, Facility Caretaker"
+        title="Hausmeisterservice Niederbayern - FIMI-Service Landshut"
+        description="Professioneller Hausmeisterservice in Niederbayern. Objektbetreuung, Kleinreparaturen und 24/7 Notfall-Service."
+        keywords="Hausmeisterservice, Hausmeister Niederbayern, Objektbetreuung, Facility Caretaker"
         url="/basis/hausmeisterservice"
         schema={serviceSchema(serviceData)}
       />
@@ -47,7 +47,7 @@ export default function Hausmeisterservice() {
                 Professioneller Hausmeisterservice
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed mb-8">
-                Umfassende Objektbetreuung für Wohn- und Geschäftsimmobilien in Zürich, Zug und Luzern. Zuverlässig, kompetent und immer erreichbar.
+                Umfassende Objektbetreuung für Wohn- und Geschäftsimmobilien in Landshut, Regensburg, Freising und ganz Niederbayern. Zuverlässig, kompetent und immer erreichbar.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a href="#kontakt-formular">

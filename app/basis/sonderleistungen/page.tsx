@@ -27,9 +27,9 @@ export default function Sonderleistungen() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Sonderleistungen Zürich, Zug & Luzern - Swiss Reinigungsfirma"
-        description="Professionelle Sonderleistungen in der Schweiz. Spezialreinigungen für außergewöhnliche Anforderungen."
-        keywords="Sonderleistungen, Spezialreinigung Schweiz, Notfallreinigung, Express Reinigung"
+        title="Sonderleistungen Niederbayern - FIMI-Service Landshut"
+        description="Professionelle Sonderleistungen in Niederbayern. Spezialreinigungen für außergewöhnliche Anforderungen."
+        keywords="Sonderleistungen, Spezialreinigung Niederbayern, Notfallreinigung, Express Reinigung"
         url="/basis/sonderleistungen"
         schema={serviceSchema(serviceData)}
       />
@@ -47,7 +47,7 @@ export default function Sonderleistungen() {
                 Professionelle Sonderleistungen
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed mb-8">
-                Spezielle Reinigungsleistungen für außergewöhnliche Anforderungen in Zürich, Zug und Luzern.
+                Spezielle Reinigungsleistungen für außergewöhnliche Anforderungen in Landshut, Regensburg, Freising und ganz Niederbayern.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a href="#kontakt-formular">
