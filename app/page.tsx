@@ -66,16 +66,16 @@ export default function Home() {
             variants={staggerContainer}
           >
             <motion.div
-              className="inline-block px-3 sm:px-4 py-1.5 sm:py-2 bg-primary/10 rounded-full mb-4 sm:mb-6"
+              className="inline-block px-3 sm:px-4 py-1.5 sm:py-2 bg-white/20 backdrop-blur-sm rounded-full mb-4 sm:mb-6"
               variants={fadeInUp}
             >
-              <span className="text-primary font-semibold text-sm sm:text-base">Ihr professioneller Business-Partner in Ober- und Niederbayern</span>
+              <span className="text-white font-semibold text-sm sm:text-base">Ihr professioneller Business-Partner in Ober- und Niederbayern</span>
             </motion.div>
             <motion.h1
               className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white leading-tight mb-6"
               variants={fadeInUp}
             >
-              Professionelle <span className="text-secondary">Gebäudereinigung</span> in Ober- und Niederbayern
+              Professionelle <span className="text-[#20E6B8]">Gebäudereinigung</span> in Ober- und Niederbayern
             </motion.h1>
             <motion.p
               className="text-sm sm:text-base md:text-lg text-white/95 mb-8 leading-relaxed max-w-2xl"
