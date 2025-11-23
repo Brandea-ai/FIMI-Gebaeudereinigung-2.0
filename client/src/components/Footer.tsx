@@ -281,7 +281,7 @@ export default function Footer() {
           <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-12">
             <div>
               <div className="relative h-32 w-64 mb-6">
-                <Image src="/logo.png" alt="FIMI-Service" fill className="object-contain object-left" />
+                <Image src="/FIMI-LOGO/FIMI-LOGO_Weiße-Schrift_Transparent.png" alt="FIMI-Service" fill className="object-contain object-left" />
               </div>
               <p className="text-slate-300 text-base leading-relaxed mb-6">
                 Ihr professioneller Business-Partner für Gebäudereinigung in Ober- und Niederbayern. Qualität, Zuverlässigkeit und Präzision seit über 15 Jahren.

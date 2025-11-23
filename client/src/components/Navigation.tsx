@@ -56,7 +56,7 @@ export default function Navigation() {
           {/* Logo - Left */}
           <Link href="/">
             <div className="flex items-center gap-3 cursor-pointer relative h-20 md:h-24 w-48 md:w-64">
-              <Image src="/logo.png" alt="FIMI-Service" fill className="object-contain object-left" priority />
+              <Image src="/FIMI-LOGO/FIMI-Logo_Transparent_FUER-Webseite.png" alt="FIMI-Service" fill className="object-contain object-left" priority />
             </div>
           </Link>
 
