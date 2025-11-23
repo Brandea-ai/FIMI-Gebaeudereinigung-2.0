@@ -280,54 +280,54 @@ export default function Footer() {
         <div className="container py-16">
           <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-12">
             <div>
-              <div className="relative h-24 w-48 mb-6">
+              <div className="relative h-32 w-64 mb-6">
                 <Image src="/logo.png" alt="FIMI-Service" fill className="object-contain object-left" />
               </div>
-              <p className="text-slate-400 text-sm leading-relaxed mb-6">
+              <p className="text-slate-300 text-base leading-relaxed mb-6">
                 Ihr professioneller Business-Partner für Gebäudereinigung in Ober- und Niederbayern. Qualität, Zuverlässigkeit und Präzision seit über 15 Jahren.
               </p>
-              <div className="space-y-2">
-                <Link href="/ueber-uns"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Über Uns</div></Link>
-                <Link href="/kontakt"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Kontakt</div></Link>
-                <Link href="/referenzen"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Referenzen</div></Link>
-                <Link href="/blog"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Blog</div></Link>
+              <div className="space-y-3">
+                <Link href="/ueber-uns"><div className="text-slate-300 hover:text-secondary transition-smooth cursor-pointer text-base font-medium">Über Uns</div></Link>
+                <Link href="/kontakt"><div className="text-slate-300 hover:text-secondary transition-smooth cursor-pointer text-base font-medium">Kontakt</div></Link>
+                <Link href="/referenzen"><div className="text-slate-300 hover:text-secondary transition-smooth cursor-pointer text-base font-medium">Referenzen</div></Link>
+                <Link href="/blog"><div className="text-slate-300 hover:text-secondary transition-smooth cursor-pointer text-base font-medium">Blog</div></Link>
               </div>
             </div>
 
             {/* KATEGORIE 1: GEWERBLICHE OBJEKTREINIGUNG */}
             <div>
-              <h3 className="font-semibold text-lg mb-4 text-secondary">Gewerbliche Objektreinigung</h3>
-              <div className="space-y-2">
-                <Link href="/business/bueroreinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Büroreinigung</div></Link>
-                <Link href="/basis/unterhaltsreinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Unterhaltsreinigung</div></Link>
-                <Link href="/business/baureinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Baureinigung</div></Link>
-                <Link href="/business/hallenreinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Hallenreinigung</div></Link>
-                <Link href="/business/parkplatzreinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Parkplatzreinigung</div></Link>
-                <Link href="/business/fensterreinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Fensterreinigung</div></Link>
+              <h3 className="font-bold text-xl mb-5 text-secondary">Gewerbliche Objektreinigung</h3>
+              <div className="space-y-3">
+                <Link href="/business/bueroreinigung"><div className="text-slate-300 hover:text-secondary transition-smooth cursor-pointer text-base font-medium">Büroreinigung</div></Link>
+                <Link href="/basis/unterhaltsreinigung"><div className="text-slate-300 hover:text-secondary transition-smooth cursor-pointer text-base font-medium">Unterhaltsreinigung</div></Link>
+                <Link href="/business/baureinigung"><div className="text-slate-300 hover:text-secondary transition-smooth cursor-pointer text-base font-medium">Baureinigung</div></Link>
+                <Link href="/business/hallenreinigung"><div className="text-slate-300 hover:text-secondary transition-smooth cursor-pointer text-base font-medium">Hallenreinigung</div></Link>
+                <Link href="/business/parkplatzreinigung"><div className="text-slate-300 hover:text-secondary transition-smooth cursor-pointer text-base font-medium">Parkplatzreinigung</div></Link>
+                <Link href="/business/fensterreinigung"><div className="text-slate-300 hover:text-secondary transition-smooth cursor-pointer text-base font-medium">Fensterreinigung</div></Link>
               </div>
             </div>
 
             {/* KATEGORIE 2: INDUSTRIELLE & SPEZIALREINIGUNG */}
             <div>
-              <h3 className="font-semibold text-lg mb-4 text-secondary">Industrielle & Spezialreinigung</h3>
-              <div className="space-y-2">
-                <Link href="/business/industriereinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Industriereinigung</div></Link>
-                <Link href="/business/maschinenreinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Maschinenreinigung</div></Link>
-                <Link href="/business/fassadenreinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Fassadenreinigung</div></Link>
-                <Link href="/business/tiefgaragenreinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Tiefgaragenreinigung</div></Link>
-                <Link href="/business/aussenanlagen"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Außenanlagenpflege</div></Link>
-                <Link href="/basis/sonderleistungen"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Sonderleistungen</div></Link>
+              <h3 className="font-bold text-xl mb-5 text-secondary">Industrielle & Spezialreinigung</h3>
+              <div className="space-y-3">
+                <Link href="/business/industriereinigung"><div className="text-slate-300 hover:text-secondary transition-smooth cursor-pointer text-base font-medium">Industriereinigung</div></Link>
+                <Link href="/business/maschinenreinigung"><div className="text-slate-300 hover:text-secondary transition-smooth cursor-pointer text-base font-medium">Maschinenreinigung</div></Link>
+                <Link href="/business/fassadenreinigung"><div className="text-slate-300 hover:text-secondary transition-smooth cursor-pointer text-base font-medium">Fassadenreinigung</div></Link>
+                <Link href="/business/tiefgaragenreinigung"><div className="text-slate-300 hover:text-secondary transition-smooth cursor-pointer text-base font-medium">Tiefgaragenreinigung</div></Link>
+                <Link href="/business/aussenanlagen"><div className="text-slate-300 hover:text-secondary transition-smooth cursor-pointer text-base font-medium">Außenanlagenpflege</div></Link>
+                <Link href="/basis/sonderleistungen"><div className="text-slate-300 hover:text-secondary transition-smooth cursor-pointer text-base font-medium">Sonderleistungen</div></Link>
               </div>
             </div>
 
             {/* KATEGORIE 3: FACILITY MANAGEMENT & SERVICES */}
             <div>
-              <h3 className="font-semibold text-lg mb-4 text-secondary">Facility Management & Services</h3>
-              <div className="space-y-2">
-                <Link href="/business/facility-management"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Facility Management</div></Link>
-                <Link href="/basis/hausmeisterservice"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Hausmeisterservice</div></Link>
-                <Link href="/basis/winterdienst"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Winterdienst</div></Link>
-                <Link href="/basis/beschaffung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Beschaffungsmanagement</div></Link>
+              <h3 className="font-bold text-xl mb-5 text-secondary">Facility Management & Services</h3>
+              <div className="space-y-3">
+                <Link href="/business/facility-management"><div className="text-slate-300 hover:text-secondary transition-smooth cursor-pointer text-base font-medium">Facility Management</div></Link>
+                <Link href="/basis/hausmeisterservice"><div className="text-slate-300 hover:text-secondary transition-smooth cursor-pointer text-base font-medium">Hausmeisterservice</div></Link>
+                <Link href="/basis/winterdienst"><div className="text-slate-300 hover:text-secondary transition-smooth cursor-pointer text-base font-medium">Winterdienst</div></Link>
+                <Link href="/basis/beschaffung"><div className="text-slate-300 hover:text-secondary transition-smooth cursor-pointer text-base font-medium">Beschaffungsmanagement</div></Link>
               </div>
             </div>
 

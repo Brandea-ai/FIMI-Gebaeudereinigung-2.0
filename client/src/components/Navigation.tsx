@@ -52,15 +52,17 @@ export default function Navigation() {
       scrolled ? "bg-white shadow-lg" : "bg-white/98 backdrop-blur-sm"
     }`}>
       <div className="container">
-        <div className="flex items-center justify-between h-20 md:h-24">
+        <div className="flex items-center h-24 md:h-28">
+          {/* Logo - Left */}
           <Link href="/">
-            <div className="flex items-center gap-3 cursor-pointer relative h-16 md:h-20 w-40 md:w-48">
+            <div className="flex items-center gap-3 cursor-pointer relative h-20 md:h-24 w-48 md:w-64">
               <Image src="/logo.png" alt="FIMI-Service" fill className="object-contain object-left" priority />
             </div>
           </Link>
 
-          <div className="hidden lg:flex items-center gap-8">
-            <Link href="/" className="text-foreground hover:text-secondary transition-smooth font-medium">
+          {/* Navigation Links - Center */}
+          <div className="hidden lg:flex flex-1 items-center justify-center gap-10">
+            <Link href="/" className="text-foreground hover:text-secondary transition-smooth font-medium text-base">
               Home
             </Link>
 
@@ -70,7 +72,7 @@ export default function Navigation() {
               onMouseLeave={() => setActiveDropdown(null)}
             >
               <button
-                className="text-foreground hover:text-secondary transition-smooth font-medium"
+                className="text-foreground hover:text-secondary transition-smooth font-medium text-base"
                 onClick={() => setActiveDropdown(activeDropdown === 'leistungen' ? null : 'leistungen')}
                 onKeyDown={(e) => {
                   if (e.key === 'Enter' || e.key === ' ') {
@@ -87,7 +89,7 @@ export default function Navigation() {
               </button>
               {activeDropdown === 'leistungen' && (
                 <div className="absolute top-full left-1/2 transform -translate-x-1/2 pt-4 w-[900px]">
-                  <div className="bg-white rounded-lg shadow-2xl p-8">
+                  <div className="bg-white rounded-lg shadow-2xl p-8 border border-slate-100">
                     <div className="grid grid-cols-3 gap-8">
                       <div>
                         <h3 className="text-sm font-bold text-secondary mb-4 uppercase tracking-wide">Gewerbliche Objektreinigung</h3>
@@ -131,23 +133,28 @@ export default function Navigation() {
               )}
             </div>
 
-            <Link href="/ueber-uns" className="text-foreground hover:text-secondary transition-smooth font-medium">
+            <Link href="/ueber-uns" className="text-foreground hover:text-secondary transition-smooth font-medium text-base">
               Über uns
             </Link>
-            <Link href="/referenzen" className="text-foreground hover:text-secondary transition-smooth font-medium">
+            <Link href="/referenzen" className="text-foreground hover:text-secondary transition-smooth font-medium text-base">
               Referenzen
             </Link>
-            <Link href="/blog" className="text-foreground hover:text-secondary transition-smooth font-medium">
+            <Link href="/blog" className="text-foreground hover:text-secondary transition-smooth font-medium text-base">
               Blog
-            </Link>
-            <Link href="/kontakt">
-              <Button>Kontakt aufnehmen</Button>
             </Link>
           </div>
 
+          {/* Kontakt Button - Right */}
+          <div className="hidden lg:block ml-auto">
+            <Link href="/kontakt">
+              <Button size="lg" className="text-base">Kontakt aufnehmen</Button>
+            </Link>
+          </div>
+
+          {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="lg:hidden p-2 text-foreground"
+            className="lg:hidden p-2 text-foreground ml-auto"
             aria-label="Toggle navigation menu"
             aria-expanded={isOpen}
           >
