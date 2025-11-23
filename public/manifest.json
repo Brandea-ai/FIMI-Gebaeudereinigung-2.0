@@ -1,21 +1,21 @@
 {
-  "name": "BGS Gebäudeservice",
-  "short_name": "BGS",
-  "description": "Professionelle Gebäudereinigung für Premium, Business und Basis-Services in der Schweiz",
+  "name": "FIMI-Service Gebäudereinigung",
+  "short_name": "FIMI",
+  "description": "Professionelle Gebäudereinigung für Business und Basis-Services in Niederbayern - Landshut, Regensburg, Freising",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#3b82f6",
+  "theme_color": "#012956",
   "icons": [
     {
-      "src": "/swiss-logo.webp",
+      "src": "/favicon.png",
       "sizes": "192x192",
-      "type": "image/webp"
+      "type": "image/png"
     },
     {
-      "src": "/swiss-logo.webp",
+      "src": "/favicon.png",
       "sizes": "512x512",
-      "type": "image/webp"
+      "type": "image/png"
     }
   ]
 }
