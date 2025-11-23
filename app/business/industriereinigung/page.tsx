@@ -36,7 +36,7 @@ export default function Industriereinigung() {
       <Navigation />
       
       <section className="pt-32 pb-20 relative">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-red-50/30 -z-10"/>
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-secondary/10/30 -z-10"/>
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -266,7 +266,7 @@ export default function Industriereinigung() {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-br from-primary/10 to-red-50">
+      <section className="py-20 bg-gradient-to-br from-primary/10 to-secondary/10">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-slate-900 mb-6">

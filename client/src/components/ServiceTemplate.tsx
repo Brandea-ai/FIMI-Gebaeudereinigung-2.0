@@ -34,7 +34,7 @@ export default function ServiceTemplate({
     <div className="min-h-screen bg-white">
       <Navigation />
       
-      <section className="pt-32 pb-20 bg-gradient-to-br from-white via-red-50/30 to-white">
+      <section className="pt-32 pb-20 bg-gradient-to-br from-white via-secondary/10/30 to-white">
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -123,7 +123,7 @@ export default function ServiceTemplate({
 
       {additionalContent}
 
-      <section className="py-20 bg-gradient-to-br from-primary/10 via-red-50 to-primary/10">
+      <section className="py-20 bg-gradient-to-br from-primary/10 via-secondary/10 to-primary/10">
         <div className="container">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-bold text-slate-900 mb-6">

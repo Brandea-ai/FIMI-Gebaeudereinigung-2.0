@@ -36,7 +36,7 @@ export default function Fensterreinigung() {
       <Navigation />
       
       <section className="pt-32 pb-20 relative">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-red-50/30 -z-10"/>
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-secondary/10/30 -z-10"/>
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -201,7 +201,7 @@ export default function Fensterreinigung() {
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-6">
             Bereit für streifenfreie Fenster?
           </h2>
-          <p className="text-sm sm:text-base md:text-lg mb-8 text-red-100">
+          <p className="text-sm sm:text-base md:text-lg mb-8 text-primary-foreground/80">
             Kontaktieren Sie uns für ein unverbindliches Angebot. Unsere Experten beraten Sie gerne.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

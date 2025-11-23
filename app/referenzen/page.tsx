@@ -78,7 +78,7 @@ function ReferenzenContent() {
     <div className="min-h-screen bg-white">
       <Navigation />
       
-      <section className="pt-32 pb-20 bg-gradient-to-br from-white via-red-50/30 to-white">
+      <section className="pt-32 pb-20 bg-gradient-to-br from-white via-secondary/10/30 to-white">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
@@ -172,7 +172,7 @@ function ReferenzenContent() {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-br from-primary/10 to-red-50">
+      <section className="py-20 bg-gradient-to-br from-primary/10 to-secondary/10">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-slate-900 mb-6">

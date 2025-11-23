@@ -165,7 +165,7 @@ function ReinigungskostenDeutschlandContent() {
               </TabsContent>
             </Tabs>
 
-            <Card className="p-8 hover-lift bg-gradient-to-br from-primary/10 to-red-50 mb-12 hover-tilt hover-tilt">
+            <Card className="p-8 hover-lift bg-gradient-to-br from-primary/10 to-secondary/10 mb-12 hover-tilt hover-tilt">
               <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-4">Kostenfaktoren</h3>
               <p className="text-slate-700 mb-4">Die Reinigungskosten werden von mehreren Faktoren beeinflusst:</p>
               <ul className="space-y-3">

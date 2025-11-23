@@ -56,10 +56,10 @@ export default function IndustryAdvisor() {
   };
 
   return (
-    <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-red-900 rounded-2xl p-8 shadow-2xl border border-red-500/20">
+    <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-primary/90 rounded-2xl p-8 shadow-2xl border border-primary/20">
       {/* Header */}
       <div className="flex items-center gap-3 mb-6">
-        <div className="w-12 h-12 bg-gradient-to-br from-red-600 to-red-700 rounded-xl flex items-center justify-center shadow-lg">
+        <div className="w-12 h-12 bg-gradient-to-br from-primary to-primary rounded-xl flex items-center justify-center shadow-lg">
           <Sparkles className="w-6 h-6 text-white" />
         </div>
         <div>
@@ -85,19 +85,19 @@ export default function IndustryAdvisor() {
               onChange={(e) => setIndustry(e.target.value)}
               onKeyPress={(e) => e.key === 'Enter' && handleAnalyze()}
               placeholder="z.B. Hotel, Büro, Fabrik, Krankenhaus..."
-              className="w-full pl-12 pr-4 py-4 bg-gray-800/50 border border-gray-700 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
+              className="w-full pl-12 pr-4 py-4 bg-gray-800/50 border border-gray-700 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
               disabled={loading}
             />
           </div>
 
           {error && (
-            <p className="text-red-400 text-sm">{error}</p>
+            <p className="text-primary/70 text-sm">{error}</p>
           )}
 
           <button
             onClick={handleAnalyze}
             disabled={loading}
-            className="w-full bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-semibold py-4 px-6 rounded-xl transition-all duration-200 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed group"
+            className="w-full bg-gradient-to-r from-primary to-primary hover:from-primary hover:to-primary/90 text-white font-semibold py-4 px-6 rounded-xl transition-all duration-200 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed group"
           >
             {loading ? (
               <>
@@ -121,7 +121,7 @@ export default function IndustryAdvisor() {
           {/* Recommendation */}
           <div className="bg-gray-800/50 rounded-xl p-6 border border-gray-700">
             <h4 className="text-lg font-semibold text-white mb-3 flex items-center gap-2">
-              <Sparkles className="w-5 h-5 text-red-500" />
+              <Sparkles className="w-5 h-5 text-primary" />
               Unsere Empfehlung für Sie
             </h4>
             <p className="text-gray-300 leading-relaxed">
@@ -138,8 +138,8 @@ export default function IndustryAdvisor() {
                   key={index}
                   className="bg-gray-800/30 border border-gray-700 rounded-lg p-4 flex items-center gap-3 hover:bg-gray-800/50 transition-colors"
                 >
-                  <div className="w-8 h-8 bg-red-600/20 rounded-lg flex items-center justify-center">
-                    <span className="text-red-500 font-bold">{index + 1}</span>
+                  <div className="w-8 h-8 bg-primary/20 rounded-lg flex items-center justify-center">
+                    <span className="text-primary font-bold">{index + 1}</span>
                   </div>
                   <span className="text-gray-200">{service}</span>
                 </div>
@@ -148,14 +148,14 @@ export default function IndustryAdvisor() {
           </div>
 
           {/* CTA */}
-          <div className="bg-gradient-to-r from-red-600/20 to-red-700/20 border border-red-500/30 rounded-xl p-6">
+          <div className="bg-gradient-to-r from-primary/20 to-primary/20 border border-primary/30 rounded-xl p-6">
             <p className="text-white font-medium mb-4">
               {response.callToAction}
             </p>
             <div className="flex gap-3">
               <button
                 onClick={scrollToContact}
-                className="flex-1 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl group"
+                className="flex-1 bg-gradient-to-r from-primary to-primary hover:from-primary hover:to-primary/90 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl group"
               >
                 <span>Jetzt Angebot anfordern</span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />

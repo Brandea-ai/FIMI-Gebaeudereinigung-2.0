@@ -129,7 +129,7 @@ function UmweltfreundlicheReinigungContent() {
               </AccordionItem>
             </Accordion>
 
-            <Card className="p-8 hover-lift bg-gradient-to-br from-primary/10 to-red-50 mb-12 hover-tilt hover-tilt">
+            <Card className="p-8 hover-lift bg-gradient-to-br from-primary/10 to-secondary/10 mb-12 hover-tilt hover-tilt">
               <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-4">Vorteile umweltfreundlicher Reinigung</h3>
               <div className="grid md:grid-cols-2 gap-4">
                 {[

@@ -63,7 +63,7 @@ export default function Footer() {
   return (
     <footer id="kontakt-formular" className="bg-gradient-to-b from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-950 border-t border-slate-200 dark:border-slate-800">
       {/* Kontaktformular Section */}
-      <div className="bg-gradient-to-r from-red-50 to-red-100/50 dark:from-red-950/20 dark:to-red-900/10 py-12 lg:py-16">
+      <div className="bg-gradient-to-r from-secondary/10 to-secondary/20/50 dark:from-primary/20 dark:to-primary/90/10 py-12 lg:py-16">
         <div className="container">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-8">
@@ -89,7 +89,7 @@ export default function Footer() {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2.5 lg:py-3 rounded-md border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all text-sm sm:text-base"
+                    className="w-full px-4 py-2.5 lg:py-3 rounded-md border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all text-sm sm:text-base"
                     placeholder="Ihr vollständiger Name"
                   />
                 </div>
@@ -106,7 +106,7 @@ export default function Footer() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2.5 lg:py-3 rounded-md border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all text-sm sm:text-base"
+                    className="w-full px-4 py-2.5 lg:py-3 rounded-md border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all text-sm sm:text-base"
                     placeholder="ihre@email.de"
                   />
                 </div>
@@ -122,7 +122,7 @@ export default function Footer() {
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    className="w-full px-4 py-2.5 lg:py-3 rounded-md border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all text-sm sm:text-base"
+                    className="w-full px-4 py-2.5 lg:py-3 rounded-md border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all text-sm sm:text-base"
                     placeholder="0174 722 5473"
                   />
                 </div>
@@ -137,7 +137,7 @@ export default function Footer() {
                     name="service"
                     value={formData.service}
                     onChange={handleChange}
-                    className="w-full px-4 py-2.5 lg:py-3 rounded-md border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all text-sm sm:text-base"
+                    className="w-full px-4 py-2.5 lg:py-3 rounded-md border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all text-sm sm:text-base"
                   >
                     <option value="">Bitte wählen...</option>
                     
@@ -200,7 +200,7 @@ export default function Footer() {
                   onChange={handleChange}
                   required
                   rows={4}
-                  className="w-full px-4 py-2.5 lg:py-3 rounded-md border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all resize-none text-sm sm:text-base"
+                  className="w-full px-4 py-2.5 lg:py-3 rounded-md border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all resize-none text-sm sm:text-base"
                   placeholder="Beschreiben Sie Ihr Anliegen..."
                 />
               </div>
@@ -214,7 +214,7 @@ export default function Footer() {
                     checked={formData.acceptPrivacy}
                     onChange={(e) => setFormData({ ...formData, acceptPrivacy: e.target.checked })}
                     required
-                    className="mt-1 w-4 h-4 rounded border-slate-300 dark:border-slate-600 text-red-600 focus:ring-2 focus:ring-red-500 focus:ring-offset-0 cursor-pointer"
+                    className="mt-1 w-4 h-4 rounded border-slate-300 dark:border-slate-600 text-primary focus:ring-2 focus:ring-primary focus:ring-offset-0 cursor-pointer"
                   />
                   <span className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
                     Ich habe die{" "}
@@ -222,7 +222,7 @@ export default function Footer() {
                       href="/datenschutz"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-red-600 dark:text-red-400 hover:underline font-medium"
+                      className="text-primary dark:text-primary/70 hover:underline font-medium"
                     >
                       Datenschutzerklärung
                     </a>{" "}
@@ -239,7 +239,7 @@ export default function Footer() {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full sm:w-auto px-6 lg:px-8 py-3 lg:py-3.5 bg-red-600 hover:bg-red-700 text-white font-semibold rounded-md transition-all duration-300 flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg hover:shadow-xl text-sm sm:text-base"
+                  className="w-full sm:w-auto px-6 lg:px-8 py-3 lg:py-3.5 bg-primary hover:bg-primary/90 text-white font-semibold rounded-md transition-all duration-300 flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg hover:shadow-xl text-sm sm:text-base"
                 >
                   {isSubmitting ? (
                     <>
@@ -264,8 +264,8 @@ export default function Footer() {
                 </div>
               )}
               {submitStatus === "error" && (
-                <div className="mt-4 p-4 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-md">
-                  <p className="text-sm text-red-700 dark:text-red-400">
+                <div className="mt-4 p-4 bg-secondary/10 dark:bg-primary/20/20 border border-secondary/30 dark:border-primary/90 rounded-md">
+                  <p className="text-sm text-primary/90 dark:text-primary/70">
                     ✗ Es gab ein Problem beim Senden Ihrer Nachricht. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt.
                   </p>
                 </div>

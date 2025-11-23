@@ -42,7 +42,7 @@ export default function Hallenreinigung() {
       
       {/* Hero Section */}
       <section className="pt-32 pb-20 relative">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-red-50/30 -z-10"/>
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-secondary/10/30 -z-10"/>
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>

@@ -24,7 +24,7 @@ export default function UeberUns() {
 
       {/* Hero Section */}
       <section className="pt-32 pb-20 relative bg-gradient-to-br from-slate-50 to-blue-50">
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-red-50/30 -z-10" />
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-secondary/10/30 -z-10" />
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>

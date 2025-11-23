@@ -190,7 +190,7 @@ export default function Kontakt() {
             </p>
             <button
               onClick={scrollToForm}
-              className="bg-red-600 hover:bg-red-700 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors shadow-lg hover:shadow-xl"
+              className="bg-primary hover:bg-primary/90 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors shadow-lg hover:shadow-xl"
             >
               Zum Kontaktformular
             </button>

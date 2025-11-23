@@ -50,7 +50,7 @@ export default function Blog() {
     <div className="min-h-screen bg-white">
       <Navigation />
       
-      <section className="pt-32 pb-20 bg-gradient-to-br from-white via-red-50/30 to-white">
+      <section className="pt-32 pb-20 bg-gradient-to-br from-white via-secondary/10/30 to-white">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-6">

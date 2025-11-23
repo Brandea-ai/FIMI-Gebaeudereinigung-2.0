@@ -104,7 +104,7 @@ function RichtigeReinigungsfirmaFindenContent() {
               Eine professionelle Reinigungsfirma ist mehr als nur ein Dienstleister – sie ist ein Partner für die Werterhaltung Ihrer Immobilie. Saubere und gepflegte Räumlichkeiten schaffen eine angenehme Arbeitsatmosphäre, reduzieren Krankheitstage und hinterlassen bei Kunden einen positiven ersten Eindruck. Gleichzeitig schützt regelmäßige professionelle Reinigung Ihre Investition in Gebäude und Ausstattung.
             </p>
 
-            <Card className="p-8 hover-lift bg-red-50 mb-12 hover-tilt hover-tilt">
+            <Card className="p-8 hover-lift bg-secondary/10 mb-12 hover-tilt hover-tilt">
               <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-4">Die wichtigsten Auswahlkriterien auf einen Blick</h3>
               <div className="grid md:grid-cols-2 gap-4">
                 {[
@@ -293,7 +293,7 @@ function RichtigeReinigungsfirmaFindenContent() {
               ))}
             </div>
 
-            <Card className="p-8 hover-lift bg-gradient-to-br from-primary/10 to-red-50 mb-12 hover-tilt hover-tilt">
+            <Card className="p-8 hover-lift bg-gradient-to-br from-primary/10 to-secondary/10 mb-12 hover-tilt hover-tilt">
               <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-4">Fazit</h3>
               <p className="text-lg leading-relaxed text-slate-700 text-xs sm:text-sm md:text-base">
                 Die Wahl der richtigen Reinigungsfirma erfordert sorgfältige Überlegung und Recherche. Nehmen Sie sich die Zeit, verschiedene Anbieter zu vergleichen und achten Sie nicht nur auf den Preis, sondern vor allem auf Qualität, Zuverlässigkeit und Service. Eine professionelle Reinigungsfirma ist ein langfristiger Partner, der zum Erfolg Ihres Unternehmens beiträgt.

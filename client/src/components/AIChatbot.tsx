@@ -359,7 +359,7 @@ Zeitpunkt: ${extractedInfo.timing || 'nicht angegeben'}
     return (
       <button
         onClick={() => openChat(false)}
-        className="fixed bottom-6 right-6 bg-red-600 hover:bg-red-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 z-50"
+        className="fixed bottom-6 right-6 bg-primary hover:bg-primary/90 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 z-50"
         aria-label="Chat öffnen"
       >
         <MessageCircle className="w-6 h-6" />
@@ -370,7 +370,7 @@ Zeitpunkt: ${extractedInfo.timing || 'nicht angegeben'}
   return (
     <div className="fixed bottom-6 right-6 w-96 h-[600px] bg-white rounded-lg shadow-2xl flex flex-col z-50 border border-gray-200">
       {/* Header */}
-      <div className="bg-gradient-to-r from-red-600 to-red-700 text-white p-4 rounded-t-lg flex items-center justify-between">
+      <div className="bg-gradient-to-r from-primary to-primary/90 text-white p-4 rounded-t-lg flex items-center justify-between">
         <div className="flex items-center gap-3">
           <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-white shadow-lg">
             <Image
@@ -382,7 +382,7 @@ Zeitpunkt: ${extractedInfo.timing || 'nicht angegeben'}
           </div>
           <div>
             <h3 className="font-semibold text-sm">{supporter.name} - {supporter.role}</h3>
-            <div className="flex items-center gap-1 text-xs text-red-100">
+            <div className="flex items-center gap-1 text-xs text-primary-foreground/80">
               <Circle className="w-2 h-2 fill-green-400 text-green-400" />
               <span>Online - Antwortet sofort</span>
             </div>
@@ -390,7 +390,7 @@ Zeitpunkt: ${extractedInfo.timing || 'nicht angegeben'}
         </div>
         <button
           onClick={closeChat}
-          className="hover:bg-red-800 p-1 rounded transition-colors"
+          className="hover:bg-primary/80 p-1 rounded transition-colors"
         >
           <X className="w-5 h-5" />
         </button>
@@ -399,11 +399,11 @@ Zeitpunkt: ${extractedInfo.timing || 'nicht angegeben'}
       {/* Consent Screen */}
       {!hasConsent && (
         <div className="flex-1 flex flex-col items-center justify-center p-6 text-center">
-          <Shield className="w-16 h-16 text-red-600 mb-4" />
+          <Shield className="w-16 h-16 text-primary mb-4" />
           <h3 className="text-lg font-semibold text-gray-900 mb-2">Datenschutz & Einwilligung</h3>
           <p className="text-sm text-gray-600 mb-4">
             Bevor wir beginnen, benötigen wir Ihre Zustimmung zur Verarbeitung Ihrer Daten gemäß unserer{' '}
-            <a href="/datenschutz" className="text-red-600 underline" target="_blank">
+            <a href="/datenschutz" className="text-primary underline" target="_blank">
               Datenschutzerklärung
             </a>.
           </p>
@@ -423,7 +423,7 @@ Zeitpunkt: ${extractedInfo.timing || 'nicht angegeben'}
           </ul>
           <button
             onClick={handleConsent}
-            className="w-full bg-red-600 hover:bg-red-700 text-white py-3 px-4 rounded-lg font-medium transition-colors"
+            className="w-full bg-primary hover:bg-primary/90 text-white py-3 px-4 rounded-lg font-medium transition-colors"
           >
             Zustimmen & Chat starten
           </button>
@@ -442,12 +442,12 @@ Zeitpunkt: ${extractedInfo.timing || 'nicht angegeben'}
                 <div
                   className={`max-w-[80%] rounded-lg p-3 ${
                     message.role === 'user'
-                      ? 'bg-red-600 text-white'
+                      ? 'bg-primary text-white'
                       : 'bg-gray-100 text-gray-900'
                   }`}
                 >
                   {renderMessage(message)}
-                  <div className={`text-xs mt-1 ${message.role === 'user' ? 'text-red-100' : 'text-gray-500'}`}>
+                  <div className={`text-xs mt-1 ${message.role === 'user' ? 'text-primary-foreground/80' : 'text-gray-500'}`}>
                     {message.timestamp.toLocaleTimeString('de-DE', { hour: '2-digit', minute: '2-digit' })}
                   </div>
                 </div>
@@ -457,7 +457,7 @@ Zeitpunkt: ${extractedInfo.timing || 'nicht angegeben'}
             {loading && (
               <div className="flex justify-start">
                 <div className="bg-gray-100 rounded-lg p-3">
-                  <Loader2 className="w-5 h-5 animate-spin text-red-600" />
+                  <Loader2 className="w-5 h-5 animate-spin text-primary" />
                 </div>
               </div>
             )}
@@ -494,18 +494,18 @@ Zeitpunkt: ${extractedInfo.timing || 'nicht angegeben'}
                   Oder kontaktieren Sie uns direkt:
                 </p>
                 <div className="flex gap-2">
-                  {/* E-Mail FIRST (red) */}
+                  {/* E-Mail FIRST (primary) */}
                   <a
                     href="mailto:info@fimi-service.de"
-                    className="flex-1 bg-red-600 hover:bg-red-700 text-white py-2 px-4 rounded-lg font-medium transition-colors flex items-center justify-center gap-2"
+                    className="flex-1 bg-primary hover:bg-primary/90 text-white py-2 px-4 rounded-lg font-medium transition-colors flex items-center justify-center gap-2"
                   >
                     <Mail className="w-4 h-4" />
                     E-Mail
                   </a>
-                  {/* Anrufen SECOND (gray) */}
+                  {/* Anrufen SECOND (secondary) */}
                   <a
                     href="tel:+41413205610"
-                    className="flex-1 bg-gray-500 hover:bg-gray-600 text-white py-2 px-4 rounded-lg font-medium transition-colors flex items-center justify-center gap-2"
+                    className="flex-1 bg-secondary hover:bg-secondary/90 text-white py-2 px-4 rounded-lg font-medium transition-colors flex items-center justify-center gap-2"
                   >
                     <Phone className="w-4 h-4" />
                     Anrufen
@@ -526,13 +526,13 @@ Zeitpunkt: ${extractedInfo.timing || 'nicht angegeben'}
                 onChange={(e) => setInput(e.target.value)}
                 onKeyPress={(e) => e.key === 'Enter' && handleSendMessage()}
                 placeholder="Ihre Nachricht..."
-                className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500"
+                className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
                 disabled={loading}
               />
               <button
                 onClick={handleSendMessage}
                 disabled={loading || !input.trim()}
-                className="bg-red-600 hover:bg-red-700 disabled:bg-gray-300 text-white p-2 rounded-lg transition-colors"
+                className="bg-primary hover:bg-primary/90 disabled:bg-gray-300 text-white p-2 rounded-lg transition-colors"
               >
                 <Send className="w-5 h-5" />
               </button>

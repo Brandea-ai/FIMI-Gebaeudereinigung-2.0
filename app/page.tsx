@@ -196,7 +196,7 @@ export default function Home() {
       </section>
 
       {/* Services Overview with Enhanced Cards */}
-      <section className="py-32 bg-gradient-to-br from-slate-50 via-white to-red-50/30">
+      <section className="py-32 bg-gradient-to-br from-slate-50 via-white to-secondary/10/30">
         <div className="container">
           <RevealOnScroll>
             <div className="text-center mb-16">
@@ -377,7 +377,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section with Parallax Background */}
-      <section className="relative py-32 overflow-hidden bg-gradient-to-br from-red-600 via-red-700 to-red-800">
+      <section className="relative py-32 overflow-hidden bg-gradient-to-br from-primary via-primary to-primary/90">
         <div className="container relative z-10">
           <RevealOnScroll>
             <div className="max-w-3xl mx-auto text-center">
