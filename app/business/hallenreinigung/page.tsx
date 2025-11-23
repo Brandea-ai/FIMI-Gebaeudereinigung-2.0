@@ -32,9 +32,9 @@ export default function Hallenreinigung() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Hallenreinigung Niederbayern - FIMI-Service Landshut"
-        description="Spezialisierte Hallenreinigung in Niederbayern für Industrie, Logistik und Lager. Effizient und gründlich."
-        keywords="Hallenreinigung, Industriehallen Reinigung, Lager Reinigung Niederbayern, Logistikhallen Reinigung"
+        title="Hallenreinigung Ober- und Niederbayern - FIMI-Service Landshut"
+        description="Spezialisierte Hallenreinigung in Ober- und Niederbayern für Industrie, Logistik und Lager. Effizient und gründlich."
+        keywords="Hallenreinigung, Industriehallen Reinigung, Lager Reinigung Ober- und Niederbayern, Logistikhallen Reinigung"
         url="/business/hallenreinigung"
         schema={serviceSchema(serviceData)}
       />
@@ -53,7 +53,7 @@ export default function Hallenreinigung() {
                 Professionelle Hallenreinigung
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed mb-8">
-                Effiziente Reinigung großer Hallen und Lagerflächen in Landshut, Regensburg, Freising und ganz Niederbayern. Mit Industriegeräten für schnelle Ergebnisse und makellose Sauberkeit.
+                Effiziente Reinigung großer Hallen und Lagerflächen in Landshut, Regensburg, Freising und ganz Ober- und Niederbayern. Mit Industriegeräten für schnelle Ergebnisse und makellose Sauberkeit.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a href="#kontakt-formular">
@@ -234,7 +234,7 @@ export default function Hallenreinigung() {
             Bereit für professionelle Hallenreinigung?
           </h2>
           <p className="text-sm sm:text-base md:text-lg mb-8 max-w-2xl mx-auto">
-            Kontaktieren Sie uns für ein unverbindliches Angebot. Unsere Experten beraten Sie gerne zu allen Reinigungsdienstleistungen in Landshut, Regensburg, Freising und ganz Niederbayern.
+            Kontaktieren Sie uns für ein unverbindliches Angebot. Unsere Experten beraten Sie gerne zu allen Reinigungsdienstleistungen in Landshut, Regensburg, Freising und ganz Ober- und Niederbayern.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a href="#kontakt-formular">

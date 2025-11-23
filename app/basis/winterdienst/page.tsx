@@ -27,9 +27,9 @@ export default function Winterdienst() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Winterdienst Niederbayern - FIMI-Service Landshut"
-        description="Professioneller Winterdienst in Niederbayern. Schneeräumung, Streudienst und 24/7 Bereitschaft für Verkehrssicherheit."
-        keywords="Winterdienst, Schneeräumung Niederbayern, Streudienst, Schnee räumen"
+        title="Winterdienst Ober- und Niederbayern - FIMI-Service Landshut"
+        description="Professioneller Winterdienst in Ober- und Niederbayern. Schneeräumung, Streudienst und 24/7 Bereitschaft für Verkehrssicherheit."
+        keywords="Winterdienst, Schneeräumung Ober- und Niederbayern, Streudienst, Schnee räumen"
         url="/basis/winterdienst"
         schema={serviceSchema(serviceData)}
       />
@@ -47,7 +47,7 @@ export default function Winterdienst() {
                 Professioneller Winterdienst
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed mb-8">
-                Zuverlässige Schneeräumung und Streudienst für Landshut, Regensburg, Freising und ganz Niederbayern. 24/7 Bereitschaft für Ihre Verkehrssicherheit im Winter.
+                Zuverlässige Schneeräumung und Streudienst für Landshut, Regensburg, Freising und ganz Ober- und Niederbayern. 24/7 Bereitschaft für Ihre Verkehrssicherheit im Winter.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a href="#kontakt-formular">

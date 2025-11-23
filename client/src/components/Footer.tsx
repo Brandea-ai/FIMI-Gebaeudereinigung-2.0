@@ -284,7 +284,7 @@ export default function Footer() {
                 <Image src="/logo.png" alt="FIMI-Service" fill className="object-contain object-left" />
               </div>
               <p className="text-slate-400 text-sm leading-relaxed mb-6">
-                Ihr professioneller Business-Partner für Gebäudereinigung in Niederbayern. Qualität, Zuverlässigkeit und Präzision seit über 15 Jahren.
+                Ihr professioneller Business-Partner für Gebäudereinigung in Ober- und Niederbayern. Qualität, Zuverlässigkeit und Präzision seit über 15 Jahren.
               </p>
               <div className="space-y-2">
                 <Link href="/ueber-uns"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Über Uns</div></Link>
@@ -294,58 +294,40 @@ export default function Footer() {
               </div>
             </div>
 
+            {/* KATEGORIE 1: GEWERBLICHE OBJEKTREINIGUNG */}
             <div>
-              <h3 className="font-semibold text-lg mb-4">Kontakt</h3>
-              <div className="space-y-3">
-                <div className="flex items-start gap-2">
-                  <MapPin className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
-                  <div className="text-slate-400 text-sm">
-                    <div className="font-medium text-white mb-1">FIMI-Service</div>
-                    <div>Kellerstr. 39</div>
-                    <div>84036 Landshut</div>
-                  </div>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Phone className="w-4 h-4 text-primary flex-shrink-0" />
-                  <a href="tel:01747225473" className="text-slate-400 hover:text-white transition-smooth text-sm">
-                    0174 722 5473
-                  </a>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Mail className="w-4 h-4 text-primary flex-shrink-0" />
-                  <a href="mailto:info@fimi-service.de" className="text-slate-400 hover:text-white transition-smooth text-sm">
-                    info@fimi-service.de
-                  </a>
-                </div>
-                <div className="text-slate-400 text-xs mt-4">
-                  UST-ID: DE347549925
-                </div>
-              </div>
-            </div>
-
-            <div>
-              <h3 className="font-semibold text-lg mb-4">Business Services</h3>
+              <h3 className="font-semibold text-lg mb-4 text-secondary">Gewerbliche Objektreinigung</h3>
               <div className="space-y-2">
                 <Link href="/business/bueroreinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Büroreinigung</div></Link>
-                <Link href="/business/industriereinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Industriereinigung</div></Link>
-                <Link href="/business/fassadenreinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Fassadenreinigung</div></Link>
-                <Link href="/business/fensterreinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Fensterreinigung</div></Link>
-                <Link href="/business/hallenreinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Hallenreinigung</div></Link>
-                <Link href="/business/maschinenreinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Maschinenreinigung</div></Link>
+                <Link href="/basis/unterhaltsreinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Unterhaltsreinigung</div></Link>
                 <Link href="/business/baureinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Baureinigung</div></Link>
-                <Link href="/business/aussenanlagen"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Außenanlagen</div></Link>
-                <Link href="/business/facility-management"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Facility Management</div></Link>
+                <Link href="/business/hallenreinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Hallenreinigung</div></Link>
+                <Link href="/business/parkplatzreinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Parkplatzreinigung</div></Link>
+                <Link href="/business/fensterreinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Fensterreinigung</div></Link>
               </div>
             </div>
 
+            {/* KATEGORIE 2: INDUSTRIELLE & SPEZIALREINIGUNG */}
             <div>
-              <h3 className="font-semibold text-lg mb-4">Basis Services</h3>
+              <h3 className="font-semibold text-lg mb-4 text-secondary">Industrielle & Spezialreinigung</h3>
               <div className="space-y-2">
-                <Link href="/basis/unterhaltsreinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Unterhaltsreinigung</div></Link>
+                <Link href="/business/industriereinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Industriereinigung</div></Link>
+                <Link href="/business/maschinenreinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Maschinenreinigung</div></Link>
+                <Link href="/business/fassadenreinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Fassadenreinigung</div></Link>
+                <Link href="/business/tiefgaragenreinigung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Tiefgaragenreinigung</div></Link>
+                <Link href="/business/aussenanlagen"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Außenanlagenpflege</div></Link>
+                <Link href="/basis/sonderleistungen"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Sonderleistungen</div></Link>
+              </div>
+            </div>
+
+            {/* KATEGORIE 3: FACILITY MANAGEMENT & SERVICES */}
+            <div>
+              <h3 className="font-semibold text-lg mb-4 text-secondary">Facility Management & Services</h3>
+              <div className="space-y-2">
+                <Link href="/business/facility-management"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Facility Management</div></Link>
                 <Link href="/basis/hausmeisterservice"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Hausmeisterservice</div></Link>
                 <Link href="/basis/winterdienst"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Winterdienst</div></Link>
-                <Link href="/basis/beschaffung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Beschaffung</div></Link>
-                <Link href="/basis/sonderleistungen"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Sonderleistungen</div></Link>
+                <Link href="/basis/beschaffung"><div className="text-slate-400 hover:text-white transition-smooth cursor-pointer text-sm">Beschaffungsmanagement</div></Link>
               </div>
             </div>
 

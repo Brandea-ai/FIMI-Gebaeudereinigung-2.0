@@ -32,9 +32,9 @@ export default function FacilityManagement() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Facility Management Niederbayern - FIMI-Service Landshut"
-        description="Umfassendes Facility Management in Niederbayern. Reinigung, Wartung und Instandhaltung aus einer Hand."
-        keywords="Facility Management, Gebäudemanagement Niederbayern, Facility Services, Immobilienverwaltung"
+        title="Facility Management Ober- und Niederbayern - FIMI-Service Landshut"
+        description="Umfassendes Facility Management in Ober- und Niederbayern. Reinigung, Wartung und Instandhaltung aus einer Hand."
+        keywords="Facility Management, Gebäudemanagement Ober- und Niederbayern, Facility Services, Immobilienverwaltung"
         url="/business/facility-management"
         schema={serviceSchema(serviceData)}
       />
@@ -52,7 +52,7 @@ export default function FacilityManagement() {
                 Ganzheitliches Facility Management
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed mb-8">
-                Umfassende Gebäudedienstleistungen aus einer Hand in Landshut, Regensburg, Freising und ganz Niederbayern. Von Reinigung über Hausmeister bis Winterdienst.
+                Umfassende Gebäudedienstleistungen aus einer Hand in Landshut, Regensburg, Freising und ganz Ober- und Niederbayern. Von Reinigung über Hausmeister bis Winterdienst.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a href="#kontakt-formular">

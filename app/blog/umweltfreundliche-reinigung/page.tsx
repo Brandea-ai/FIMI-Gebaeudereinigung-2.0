@@ -30,7 +30,7 @@ function UmweltfreundlicheReinigungContent() {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Nachhaltige Gebäudereinigung: Umweltfreundlich & Effektiv",
-    "description": "Moderne Reinigungslösungen für Niederbayern, die Umwelt und Gesundheit schonen. Erfahren Sie mehr über grüne Reinigungsmethoden und Zertifizierungen.",
+    "description": "Moderne Reinigungslösungen für Ober- und Niederbayern, die Umwelt und Gesundheit schonen. Erfahren Sie mehr über grüne Reinigungsmethoden und Zertifizierungen.",
     "image": "https://fimi-service.de/blog-umwelt.jpg",
     "datePublished": "2025-01-15",
     "dateModified": "2025-01-15",

@@ -14,12 +14,12 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   metadataBase: new URL('https://fimi-service.de'),
   title: {
-    default: 'FIMI-Service - Ihr professioneller Business-Partner für Gebäudereinigung in Niederbayern',
+    default: 'FIMI-Service - Ihr professioneller Business-Partner für Gebäudereinigung in Ober- und Niederbayern',
     template: '%s | FIMI-Service'
   },
-  description: 'Professionelle Gebäudereinigung, Industriereinigung und Facility Management in Niederbayern. ISO 9001 & 14001 zertifiziert. Über 15 Jahre Erfahrung. Ihr zuverlässiger Partner für gewerbliche Reinigungslösungen in Landshut, Regensburg, Freising und Umgebung.',
+  description: 'Professionelle Gebäudereinigung, Industriereinigung und Facility Management in Ober- und Niederbayern. ISO 9001 & 14001 zertifiziert. Über 15 Jahre Erfahrung. Ihr zuverlässiger Partner für gewerbliche Reinigungslösungen in Landshut, Regensburg, Freising und Umgebung.',
   keywords: [
-    'Gebäudereinigung Niederbayern',
+    'Gebäudereinigung Ober- und Niederbayern',
     'Reinigungsservice Landshut',
     'Büroreinigung Regensburg',
     'Industriereinigung',
@@ -44,8 +44,8 @@ export const metadata: Metadata = {
     locale: 'de_DE',
     url: 'https://fimi-service.de',
     siteName: 'FIMI-Service',
-    title: 'FIMI-Service - Professionelle Gebäudereinigung in Niederbayern',
-    description: 'Ihr professioneller Business-Partner für ISO-zertifizierte Gebäudereinigung und Facility Management in Niederbayern',
+    title: 'FIMI-Service - Professionelle Gebäudereinigung in Ober- und Niederbayern',
+    description: 'Ihr professioneller Business-Partner für ISO-zertifizierte Gebäudereinigung und Facility Management in Ober- und Niederbayern',
     images: [
       {
         url: '/og-image.jpg',
@@ -57,8 +57,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'FIMI-Service - Professionelle Gebäudereinigung in Niederbayern',
-    description: 'Professionelle Gebäudereinigung in Niederbayern - Landshut, Regensburg, Freising',
+    title: 'FIMI-Service - Professionelle Gebäudereinigung in Ober- und Niederbayern',
+    description: 'Professionelle Gebäudereinigung in Ober- und Niederbayern - Landshut, Regensburg, Freising',
     images: ['/og-image.jpg'],
   },
   robots: {
@@ -91,7 +91,7 @@ export default function RootLayout({
     "url": "https://fimi-service.de",
     "logo": "https://fimi-service.de/logo.png",
     "image": "https://fimi-service.de/og-image.jpg",
-    "description": "Professionelle Gebäudereinigung, Industriereinigung und Facility Management in Niederbayern. ISO 9001 & 14001 zertifiziert. Über 15 Jahre Erfahrung.",
+    "description": "Professionelle Gebäudereinigung, Industriereinigung und Facility Management in Ober- und Niederbayern. ISO 9001 & 14001 zertifiziert. Über 15 Jahre Erfahrung.",
     "foundingDate": "2008",
     "email": "info@fimi-service.de",
     "telephone": "+49-174-722-5473",

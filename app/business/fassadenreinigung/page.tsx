@@ -27,9 +27,9 @@ export default function Fassadenreinigung() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Fassadenreinigung Niederbayern - FIMI-Service Landshut"
-        description="Professionelle Fassadenreinigung in Niederbayern. Schonend und effektiv für alle Materialien - Glas, Naturstein, Verbundmaterialien."
-        keywords="Fassadenreinigung, Gebäudereinigung Außen, Fassade reinigen Niederbayern, Hochhaus Fassadenreinigung"
+        title="Fassadenreinigung Ober- und Niederbayern - FIMI-Service Landshut"
+        description="Professionelle Fassadenreinigung in Ober- und Niederbayern. Schonend und effektiv für alle Materialien - Glas, Naturstein, Verbundmaterialien."
+        keywords="Fassadenreinigung, Gebäudereinigung Außen, Fassade reinigen Ober- und Niederbayern, Hochhaus Fassadenreinigung"
         url="/business/fassadenreinigung"
         schema={serviceSchema(serviceData)}
       />
@@ -47,7 +47,7 @@ export default function Fassadenreinigung() {
                 Professionelle Fassadenreinigung
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed mb-8">
-                Schonende und effektive Fassadenreinigung für alle Materialien in Landshut, Regensburg, Freising und ganz Niederbayern. Von Glas über Naturstein bis zu modernen Verbundmaterialien.
+                Schonende und effektive Fassadenreinigung für alle Materialien in Landshut, Regensburg, Freising und ganz Ober- und Niederbayern. Von Glas über Naturstein bis zu modernen Verbundmaterialien.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a href="#kontakt-formular">

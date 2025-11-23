@@ -27,9 +27,9 @@ export default function Fensterreinigung() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Fensterreinigung Niederbayern - FIMI-Service Landshut"
-        description="Professionelle Fensterreinigung in Niederbayern. Streifenfrei, sicher und zuverlässig für Gewerbe und Industrie."
-        keywords="Fensterreinigung, Fenster putzen Niederbayern, Glasreinigung, Fensterreinigung Gewerbe"
+        title="Fensterreinigung Ober- und Niederbayern - FIMI-Service Landshut"
+        description="Professionelle Fensterreinigung in Ober- und Niederbayern. Streifenfrei, sicher und zuverlässig für Gewerbe und Industrie."
+        keywords="Fensterreinigung, Fenster putzen Ober- und Niederbayern, Glasreinigung, Fensterreinigung Gewerbe"
         url="/business/fensterreinigung"
         schema={serviceSchema(serviceData)}
       />
@@ -47,7 +47,7 @@ export default function Fensterreinigung() {
                 Professionelle Fensterreinigung
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed mb-8">
-                Streifenfreie Fensterreinigung für Gewerbe und Industrie in Landshut, Regensburg, Freising und ganz Niederbayern. Von Bürogebäuden bis zu Produktionshallen.
+                Streifenfreie Fensterreinigung für Gewerbe und Industrie in Landshut, Regensburg, Freising und ganz Ober- und Niederbayern. Von Bürogebäuden bis zu Produktionshallen.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a href="#kontakt-formular">

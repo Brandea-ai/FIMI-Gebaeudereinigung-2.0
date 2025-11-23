@@ -32,9 +32,9 @@ export default function Baureinigung() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Baureinigung Niederbayern - FIMI-Service Landshut"
-        description="Professionelle Baureinigung in Niederbayern. Bauschlussreinigung, Baustellenreinigung und Entsorgung für Neubauten und Renovierungen."
-        keywords="Baureinigung, Bauschlussreinigung, Baustellenreinigung Niederbayern, Endreinigung Neubau"
+        title="Baureinigung Ober- und Niederbayern - FIMI-Service Landshut"
+        description="Professionelle Baureinigung in Ober- und Niederbayern. Bauschlussreinigung, Baustellenreinigung und Entsorgung für Neubauten und Renovierungen."
+        keywords="Baureinigung, Bauschlussreinigung, Baustellenreinigung Ober- und Niederbayern, Endreinigung Neubau"
         url="/business/baureinigung"
         schema={serviceSchema(serviceData)}
       />
@@ -52,7 +52,7 @@ export default function Baureinigung() {
                 Professionelle Baureinigung
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed mb-8">
-                Zuverlässige Baureinigung für Neubauten, Umbauten und Renovierungen in Landshut, Regensburg, Freising und ganz Niederbayern. Von der Grobreinigung bis zur Endreinigung.
+                Zuverlässige Baureinigung für Neubauten, Umbauten und Renovierungen in Landshut, Regensburg, Freising und ganz Ober- und Niederbayern. Von der Grobreinigung bis zur Endreinigung.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a href="#kontakt-formular">

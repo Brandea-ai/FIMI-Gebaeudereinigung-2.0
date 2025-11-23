@@ -16,8 +16,8 @@ export default function UeberUns() {
     <div className="min-h-screen bg-white">
       <SEO
         title="Über Uns - FIMI-Service | Qualität & Vertrauen"
-        description="Lernen Sie FIMI-Service kennen - Ihr professioneller Business-Partner für Gebäudereinigung in Niederbayern. Erfahren Sie mehr über unsere Werte und unser engagiertes Team."
-        keywords="Über uns, FIMI-Service, Gebäudereinigung Niederbayern, Team, Werte, Mission, Landshut"
+        description="Lernen Sie FIMI-Service kennen - Ihr professioneller Business-Partner für Gebäudereinigung in Ober- und Niederbayern. Erfahren Sie mehr über unsere Werte und unser engagiertes Team."
+        keywords="Über uns, FIMI-Service, Gebäudereinigung Ober- und Niederbayern, Team, Werte, Mission, Landshut"
         url="/ueber-uns"
       />
       <Navigation />
@@ -29,10 +29,10 @@ export default function UeberUns() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-6">
-                FIMI-Service: Ihr professioneller Business-Partner in Niederbayern
+                FIMI-Service: Ihr professioneller Business-Partner in Ober- und Niederbayern
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed mb-8">
-                Mit über 15 Jahren Erfahrung hat sich FIMI-Service zu einem zuverlässigen Partner für professionelle Gebäudereinigung und Facility Management in Niederbayern entwickelt. Unter der Leitung von Ntonalnt Tzoutzis und Ergest Qiraj bieten wir ISO 9001 & 14001 zertifizierte Reinigungslösungen für Unternehmen in Landshut, Regensburg, Freising und Umgebung. Unsere Mission: Qualität, Zuverlässigkeit und persönlicher Service für jeden Kunden.
+                Mit über 15 Jahren Erfahrung hat sich FIMI-Service zu einem zuverlässigen Partner für professionelle Gebäudereinigung und Facility Management in Ober- und Niederbayern entwickelt. Unter der Leitung von Ntonalnt Tzoutzis und Ergest Qiraj bieten wir ISO 9001 & 14001 zertifizierte Reinigungslösungen für Unternehmen in Landshut, Regensburg, Freising und Umgebung. Unsere Mission: Qualität, Zuverlässigkeit und persönlicher Service für jeden Kunden.
               </p>
               <Link href="/kontakt">
                 <MagneticHover><Button size="lg" className="text-lg">

@@ -19,13 +19,18 @@ export default function Navigation() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const businessServices = [
+  // KATEGORIE 1: GEWERBLICHE OBJEKTREINIGUNG
+  const objektreinigungServices = [
     { title: "Büroreinigung", href: "/business/bueroreinigung" },
     { title: "Unterhaltsreinigung", href: "/basis/unterhaltsreinigung" },
     { title: "Baureinigung", href: "/business/baureinigung" },
     { title: "Hallenreinigung", href: "/business/hallenreinigung" },
     { title: "Parkplatzreinigung", href: "/business/parkplatzreinigung" },
-    { title: "Fensterreinigung", href: "/business/fensterreinigung" },
+    { title: "Fensterreinigung", href: "/business/fensterreinigung" }
+  ];
+
+  // KATEGORIE 2: INDUSTRIELLE & SPEZIALREINIGUNG
+  const industrialServices = [
     { title: "Industriereinigung", href: "/business/industriereinigung" },
     { title: "Maschinenreinigung", href: "/business/maschinenreinigung" },
     { title: "Fassadenreinigung", href: "/business/fassadenreinigung" },
@@ -34,6 +39,7 @@ export default function Navigation() {
     { title: "Sonderleistungen", href: "/basis/sonderleistungen" }
   ];
 
+  // KATEGORIE 3: FACILITY MANAGEMENT & SERVICES
   const facilityServices = [
     { title: "Facility Management", href: "/business/facility-management" },
     { title: "Hausmeisterservice", href: "/basis/hausmeisterservice" },
@@ -80,13 +86,13 @@ export default function Navigation() {
                 Leistungen
               </button>
               {activeDropdown === 'leistungen' && (
-                <div className="absolute top-full left-1/2 transform -translate-x-1/2 pt-4 w-[700px]">
+                <div className="absolute top-full left-1/2 transform -translate-x-1/2 pt-4 w-[900px]">
                   <div className="bg-white rounded-lg shadow-2xl p-8">
-                    <div className="grid grid-cols-2 gap-8">
+                    <div className="grid grid-cols-3 gap-8">
                       <div>
-                        <h3 className="text-sm font-bold text-secondary mb-4 uppercase tracking-wide">Gewerbliche Reinigung</h3>
+                        <h3 className="text-sm font-bold text-secondary mb-4 uppercase tracking-wide">Gewerbliche Objektreinigung</h3>
                         <div className="space-y-2">
-                          {businessServices.map((service, index) => (
+                          {objektreinigungServices.map((service, index) => (
                             <Link key={index} href={service.href}>
                               <div className="px-3 py-2 hover:bg-secondary/10 hover:text-secondary rounded-md transition-smooth cursor-pointer text-sm">
                                 {service.title}
@@ -96,7 +102,19 @@ export default function Navigation() {
                         </div>
                       </div>
                       <div>
-                        <h3 className="text-sm font-bold text-secondary mb-4 uppercase tracking-wide">Facility Management</h3>
+                        <h3 className="text-sm font-bold text-secondary mb-4 uppercase tracking-wide">Industrielle & Spezialreinigung</h3>
+                        <div className="space-y-2">
+                          {industrialServices.map((service, index) => (
+                            <Link key={index} href={service.href}>
+                              <div className="px-3 py-2 hover:bg-secondary/10 hover:text-secondary rounded-md transition-smooth cursor-pointer text-sm">
+                                {service.title}
+                              </div>
+                            </Link>
+                          ))}
+                        </div>
+                      </div>
+                      <div>
+                        <h3 className="text-sm font-bold text-secondary mb-4 uppercase tracking-wide">Facility Management & Services</h3>
                         <div className="space-y-2">
                           {facilityServices.map((service, index) => (
                             <Link key={index} href={service.href}>
@@ -145,9 +163,9 @@ export default function Navigation() {
               <div className="py-2 text-foreground hover:text-secondary transition-smooth">Home</div>
             </Link>
             <div>
-              <div className="py-2 font-semibold text-foreground">Gewerbliche Reinigung</div>
+              <div className="py-2 font-semibold text-secondary">Gewerbliche Objektreinigung</div>
               <div className="pl-4 space-y-2">
-                {businessServices.map((service, index) => (
+                {objektreinigungServices.map((service, index) => (
                   <Link key={index} href={service.href} onClick={() => setIsOpen(false)}>
                     <div className="py-2 text-muted-foreground hover:text-secondary transition-smooth text-sm">
                       {service.title}
@@ -157,7 +175,19 @@ export default function Navigation() {
               </div>
             </div>
             <div>
-              <div className="py-2 font-semibold text-foreground">Facility Management</div>
+              <div className="py-2 font-semibold text-secondary">Industrielle & Spezialreinigung</div>
+              <div className="pl-4 space-y-2">
+                {industrialServices.map((service, index) => (
+                  <Link key={index} href={service.href} onClick={() => setIsOpen(false)}>
+                    <div className="py-2 text-muted-foreground hover:text-secondary transition-smooth text-sm">
+                      {service.title}
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+            <div>
+              <div className="py-2 font-semibold text-secondary">Facility Management & Services</div>
               <div className="pl-4 space-y-2">
                 {facilityServices.map((service, index) => (
                   <Link key={index} href={service.href} onClick={() => setIsOpen(false)}>

@@ -14,7 +14,7 @@ export default function Blog() {
   const articles = [
     {
       title: "Wie finde ich die richtige Reinigungsfirma?",
-      excerpt: "Ein umfassender Leitfaden zur Auswahl der perfekten Reinigungsfirma für Ihr Unternehmen in Niederbayern.",
+      excerpt: "Ein umfassender Leitfaden zur Auswahl der perfekten Reinigungsfirma für Ihr Unternehmen in Ober- und Niederbayern.",
       image: "/blog-reinigungsfirma-finden.jpg",
       date: "15. Januar 2025",
       readTime: "8 Min.",
@@ -29,8 +29,8 @@ export default function Blog() {
       slug: "professionelle-gebaeudereinigung"
     },
     {
-      title: "Reinigungskosten in Niederbayern: Ein Überblick",
-      excerpt: "Transparente Informationen zu Reinigungskosten und Preisgestaltung in Landshut, Regensburg, Freising und ganz Niederbayern.",
+      title: "Reinigungskosten in Ober- und Niederbayern: Ein Überblick",
+      excerpt: "Transparente Informationen zu Reinigungskosten und Preisgestaltung in Landshut, Regensburg, Freising und ganz Ober- und Niederbayern.",
       image: "/blog-kosten.jpg",
       date: "5. Januar 2025",
       readTime: "7 Min.",
@@ -57,7 +57,7 @@ export default function Blog() {
               Wissen & Ratgeber
             </h1>
             <p className="text-sm sm:text-base md:text-lg text-slate-600 leading-relaxed">
-              Expertenwissen rund um professionelle Reinigung, Gebäudeservice und Facility Management in Niederbayern.
+              Expertenwissen rund um professionelle Reinigung, Gebäudeservice und Facility Management in Ober- und Niederbayern.
             </p>
           </div>
         </div>

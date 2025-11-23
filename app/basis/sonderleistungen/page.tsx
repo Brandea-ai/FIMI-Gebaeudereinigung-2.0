@@ -27,9 +27,9 @@ export default function Sonderleistungen() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Sonderleistungen Niederbayern - FIMI-Service Landshut"
-        description="Professionelle Sonderleistungen in Niederbayern. Spezialreinigungen für außergewöhnliche Anforderungen."
-        keywords="Sonderleistungen, Spezialreinigung Niederbayern, Notfallreinigung, Express Reinigung"
+        title="Sonderleistungen Ober- und Niederbayern - FIMI-Service Landshut"
+        description="Professionelle Sonderleistungen in Ober- und Niederbayern. Spezialreinigungen für außergewöhnliche Anforderungen."
+        keywords="Sonderleistungen, Spezialreinigung Ober- und Niederbayern, Notfallreinigung, Express Reinigung"
         url="/basis/sonderleistungen"
         schema={serviceSchema(serviceData)}
       />
@@ -47,7 +47,7 @@ export default function Sonderleistungen() {
                 Professionelle Sonderleistungen
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed mb-8">
-                Spezielle Reinigungsleistungen für außergewöhnliche Anforderungen in Landshut, Regensburg, Freising und ganz Niederbayern.
+                Spezielle Reinigungsleistungen für außergewöhnliche Anforderungen in Landshut, Regensburg, Freising und ganz Ober- und Niederbayern.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a href="#kontakt-formular">

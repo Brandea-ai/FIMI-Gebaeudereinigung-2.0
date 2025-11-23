@@ -27,9 +27,9 @@ export default function Industriereinigung() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Industriereinigung Niederbayern - FIMI-Service Landshut"
-        description="Professionelle Industriereinigung in Niederbayern. Spezialisiert auf Produktionshallen, Werkstätten und Industrieanlagen."
-        keywords="Industriereinigung, Produktionshallen Reinigung, Werkstatt Reinigung Niederbayern, Industrieanlagen Reinigung"
+        title="Industriereinigung Ober- und Niederbayern - FIMI-Service Landshut"
+        description="Professionelle Industriereinigung in Ober- und Niederbayern. Spezialisiert auf Produktionshallen, Werkstätten und Industrieanlagen."
+        keywords="Industriereinigung, Produktionshallen Reinigung, Werkstatt Reinigung Ober- und Niederbayern, Industrieanlagen Reinigung"
         url="/business/industriereinigung"
         schema={serviceSchema(serviceData)}
       />
@@ -47,7 +47,7 @@ export default function Industriereinigung() {
                 Professionelle Industriereinigung
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed mb-8">
-                Spezialisierte Reinigungslösungen für Produktionshallen, Werkstätten und Industrieanlagen in Landshut, Regensburg, Freising und ganz Niederbayern. Sicher, effizient und normgerecht.
+                Spezialisierte Reinigungslösungen für Produktionshallen, Werkstätten und Industrieanlagen in Landshut, Regensburg, Freising und ganz Ober- und Niederbayern. Sicher, effizient und normgerecht.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a href="#kontakt-formular">

@@ -18,7 +18,7 @@ export default function Referenzen() {
       <SEO 
         title="Referenzen & Erfolgsgeschichten | FIMI-Service"
         description="Überzeugen Sie sich von unseren erfolgreichen Reinigungsprojekten in Landshut, Regensburg und Freising. Von Luxushotels bis Industrieanlagen - Referenzen zufriedener Kunden."
-        keywords="Referenzen Reinigungsfirma, Kundenbewertungen, Erfolgsgeschichten, Reinigung Landshut, Gebäudereinigung Niederbayern"
+        keywords="Referenzen Reinigungsfirma, Kundenbewertungen, Erfolgsgeschichten, Reinigung Landshut, Gebäudereinigung Ober- und Niederbayern"
       />
       <ReferenzenContent />
     </>

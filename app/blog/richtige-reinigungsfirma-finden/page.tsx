@@ -36,7 +36,7 @@ function RichtigeReinigungsfirmaFindenContent() {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Die richtige Reinigungsfirma finden: Ein Leitfaden",
-    "description": "Expertenrat zur Auswahl der idealen Reinigungsfirma für Ihr Unternehmen in Niederbayern. Qualitätskriterien, Preisvergleiche und wichtige Fragen.",
+    "description": "Expertenrat zur Auswahl der idealen Reinigungsfirma für Ihr Unternehmen in Ober- und Niederbayern. Qualitätskriterien, Preisvergleiche und wichtige Fragen.",
     "image": "https://fimi-service.de/blog-firma-finden.jpg",
     "datePublished": "2025-01-15",
     "dateModified": "2025-01-15",
@@ -75,7 +75,7 @@ function RichtigeReinigungsfirmaFindenContent() {
               Wie finde ich die richtige Reinigungsfirma?
             </h1>
             <p className="text-sm sm:text-base md:text-lg text-slate-600 leading-relaxed">
-              Ein umfassender Leitfaden zur Auswahl der perfekten Reinigungsfirma für Ihr Unternehmen in Niederbayern.
+              Ein umfassender Leitfaden zur Auswahl der perfekten Reinigungsfirma für Ihr Unternehmen in Ober- und Niederbayern.
             </p>
             <div className="flex items-center gap-6 mt-6 text-sm text-muted-foreground text-xs sm:text-sm md:text-base">
               <span>15. Januar 2025</span>
@@ -216,7 +216,7 @@ function RichtigeReinigungsfirmaFindenContent() {
               </AccordionItem>
             </Accordion>
 
-            <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-secondary mt-12 mb-6">Regionale Besonderheiten in Niederbayern</h2>
+            <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-secondary mt-12 mb-6">Regionale Besonderheiten in Ober- und Niederbayern</h2>
             <p className="text-lg leading-relaxed text-slate-700 mb-8">
               Bei der Auswahl einer Reinigungsfirma in Landshut, Regensburg oder Freising sollten Sie auch regionale Faktoren berücksichtigen. Eine lokale Reinigungsfirma kennt die örtlichen Gegebenheiten, hat kurze Anfahrtswege und kann flexibel auf Ihre Bedürfnisse reagieren. Zudem unterstützen Sie mit der Wahl eines regionalen Anbieters die lokale Wirtschaft.
             </p>

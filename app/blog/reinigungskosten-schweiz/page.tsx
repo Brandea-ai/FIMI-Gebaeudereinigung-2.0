@@ -18,7 +18,7 @@ export default function ReinigungskostenDeutschland() {
     <>
       <SEO 
         title="Reinigungskosten Deutschland 2025: Preise & Spartipps | FIMI-Service"
-        description="Aktuelle Preise für Reinigungsdienstleistungen in Niederbayern. Kostenübersicht, Preisfaktoren und Tipps zum Sparen bei professioneller Gebäudereinigung."
+        description="Aktuelle Preise für Reinigungsdienstleistungen in Ober- und Niederbayern. Kostenübersicht, Preisfaktoren und Tipps zum Sparen bei professioneller Gebäudereinigung."
         keywords="Reinigungskosten Deutschland, Preise Gebäudereinigung, Kosten Büroreinigung, Reinigungsfirma Preise"
       />
       <ReinigungskostenDeutschlandContent />
@@ -30,8 +30,8 @@ function ReinigungskostenDeutschlandContent() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Reinigungskosten in Niederbayern: Ein Überblick",
-    "description": "Transparente Informationen zu Reinigungskosten und Preisgestaltung in Landshut, Regensburg, Freising und ganz Niederbayern.",
+    "headline": "Reinigungskosten in Ober- und Niederbayern: Ein Überblick",
+    "description": "Transparente Informationen zu Reinigungskosten und Preisgestaltung in Landshut, Regensburg, Freising und ganz Ober- und Niederbayern.",
     "image": "https://fimi-service.de/blog-kosten.jpg",
     "datePublished": "2025-01-15",
     "dateModified": "2025-01-15",
@@ -66,10 +66,10 @@ function ReinigungskostenDeutschlandContent() {
           <div className="mb-12">
             <div className="text-sm text-primary font-semibold mb-4">PREISÜBERSICHT</div>
             <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-6 leading-tight">
-              Reinigungskosten in Niederbayern: Ein Überblick
+              Reinigungskosten in Ober- und Niederbayern: Ein Überblick
             </h1>
             <p className="text-sm sm:text-base md:text-lg text-slate-600 leading-relaxed">
-              Transparente Informationen zu Reinigungskosten und Preisgestaltung in Landshut, Regensburg, Freising und ganz Niederbayern.
+              Transparente Informationen zu Reinigungskosten und Preisgestaltung in Landshut, Regensburg, Freising und ganz Ober- und Niederbayern.
             </p>
           </div>
           <ParallaxImage 
@@ -84,7 +84,7 @@ function ReinigungskostenDeutschlandContent() {
           
           <div className="prose prose-lg max-w-none">
             <p className="text-lg leading-relaxed text-slate-700 mb-8">
-              Die Kosten für professionelle Reinigungsdienstleistungen variieren je nach Region, Leistungsumfang und Objektgröße. In diesem Ratgeber geben wir Ihnen einen transparenten Überblick über die Preisgestaltung in Niederbayern und zeigen, welche Faktoren die Kosten beeinflussen.
+              Die Kosten für professionelle Reinigungsdienstleistungen variieren je nach Region, Leistungsumfang und Objektgröße. In diesem Ratgeber geben wir Ihnen einen transparenten Überblick über die Preisgestaltung in Ober- und Niederbayern und zeigen, welche Faktoren die Kosten beeinflussen.
             </p>
 
             <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-secondary mt-12 mb-6">Preisfaktoren im Überblick</h2>

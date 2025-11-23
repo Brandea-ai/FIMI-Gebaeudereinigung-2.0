@@ -32,7 +32,7 @@ function ProfessionelleGebaeudereinigungContent() {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Professionelle Gebäudereinigung: Was Sie wissen müssen",
-    "description": "Alles Wichtige über professionelle Gebäudereinigung, Standards und Qualitätsmerkmale in Niederbayern.",
+    "description": "Alles Wichtige über professionelle Gebäudereinigung, Standards und Qualitätsmerkmale in Ober- und Niederbayern.",
     "image": "https://fimi-service.de/blog-gebaeudereinigung.jpg",
     "datePublished": "2025-01-15",
     "dateModified": "2025-01-15",
@@ -70,7 +70,7 @@ function ProfessionelleGebaeudereinigungContent() {
               Professionelle Gebäudereinigung: Was Sie wissen müssen
             </h1>
             <p className="text-sm sm:text-base md:text-lg text-slate-600 leading-relaxed">
-              Alles Wichtige über professionelle Gebäudereinigung, Standards und Qualitätsmerkmale in Niederbayern.
+              Alles Wichtige über professionelle Gebäudereinigung, Standards und Qualitätsmerkmale in Ober- und Niederbayern.
             </p>
           </div>
           <ParallaxImage 
@@ -85,7 +85,7 @@ function ProfessionelleGebaeudereinigungContent() {
           
           <div className="prose prose-lg max-w-none">
             <p className="text-lg leading-relaxed text-slate-700 mb-8">
-              Professionelle Gebäudereinigung ist weit mehr als nur Staubwischen und Böden wischen. Es handelt sich um ein komplexes Fachgebiet, das spezialisiertes Wissen, moderne Technologie und geschultes Personal erfordert. In diesem umfassenden Ratgeber erfahren Sie alles über Standards, Methoden und Qualitätsmerkmale professioneller Gebäudereinigung in Niederbayern.
+              Professionelle Gebäudereinigung ist weit mehr als nur Staubwischen und Böden wischen. Es handelt sich um ein komplexes Fachgebiet, das spezialisiertes Wissen, moderne Technologie und geschultes Personal erfordert. In diesem umfassenden Ratgeber erfahren Sie alles über Standards, Methoden und Qualitätsmerkmale professioneller Gebäudereinigung in Ober- und Niederbayern.
             </p>
 
             <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-secondary mt-12 mb-6">Was macht Gebäudereinigung professionell?</h2>

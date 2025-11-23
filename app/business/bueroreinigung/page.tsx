@@ -19,7 +19,7 @@ import AppointmentButton from "@/components/AppointmentButton";
 export default function Bueroreinigung() {
   const serviceData = {
     name: "Professionelle Büroreinigung",
-    description: "Zuverlässige Büroreinigung für Unternehmen in Niederbayern. Flexibel, effizient und auf Ihre Bedürfnisse zugeschnitten.",
+    description: "Zuverlässige Büroreinigung für Unternehmen in Ober- und Niederbayern. Flexibel, effizient und auf Ihre Bedürfnisse zugeschnitten.",
     url: "/business/bueroreinigung",
     category: "Commercial Cleaning"
   };
@@ -27,9 +27,9 @@ export default function Bueroreinigung() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Büroreinigung Niederbayern - FIMI-Service Landshut"
-        description="Professionelle Büroreinigung für Unternehmen in Niederbayern. ISO 9001 & 14001 zertifiziert. Zuverlässig, flexibel und auf höchstem Qualitätsniveau."
-        keywords="Büroreinigung Niederbayern, Büroreinigung Landshut, Gebäudereinigung Büro Regensburg, Reinigung Geschäftsräume Freising"
+        title="Büroreinigung Ober- und Niederbayern - FIMI-Service Landshut"
+        description="Professionelle Büroreinigung für Unternehmen in Ober- und Niederbayern. ISO 9001 & 14001 zertifiziert. Zuverlässig, flexibel und auf höchstem Qualitätsniveau."
+        keywords="Büroreinigung Ober- und Niederbayern, Büroreinigung Landshut, Gebäudereinigung Büro Regensburg, Reinigung Geschäftsräume Freising"
         url="/business/bueroreinigung"
         schema={serviceSchema(serviceData)}
       />
@@ -47,7 +47,7 @@ export default function Bueroreinigung() {
                 Professionelle Büroreinigung
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed mb-8">
-                Zuverlässige Reinigungslösungen für Büros und Geschäftsräume in Landshut, Regensburg, Freising und ganz Niederbayern. Flexibel, effizient und auf Ihre Bedürfnisse zugeschnitten.
+                Zuverlässige Reinigungslösungen für Büros und Geschäftsräume in Landshut, Regensburg, Freising und ganz Ober- und Niederbayern. Flexibel, effizient und auf Ihre Bedürfnisse zugeschnitten.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a href="#kontakt-formular">

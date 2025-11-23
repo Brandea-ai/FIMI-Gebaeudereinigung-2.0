@@ -42,9 +42,9 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Professionelle Gebäudereinigung in Niederbayern"
-        description="FIMI-Service - Ihr professioneller Business-Partner für Gebäudereinigung in Niederbayern. Büroreinigung, Industriereinigung und Facility Management in Landshut, Regensburg, Freising und Umgebung. ISO 9001 & 14001 zertifiziert."
-        keywords="Gebäudereinigung Niederbayern, Reinigungsservice Landshut, Büroreinigung Regensburg, Industriereinigung Freising, Facility Management Bayern, Professionelle Reinigung"
+        title="Professionelle Gebäudereinigung in Ober- und Niederbayern"
+        description="FIMI-Service - Ihr professioneller Business-Partner für Gebäudereinigung in Ober- und Niederbayern. Büroreinigung, Industriereinigung und Facility Management in Landshut, Regensburg, Freising und Umgebung. ISO 9001 & 14001 zertifiziert."
+        keywords="Gebäudereinigung Ober- und Niederbayern, Reinigungsservice Landshut, Büroreinigung Regensburg, Industriereinigung Freising, Facility Management Bayern, Professionelle Reinigung"
         url="/"
         schema={organizationSchema}
       />
@@ -69,13 +69,13 @@ export default function Home() {
               className="inline-block px-3 sm:px-4 py-1.5 sm:py-2 bg-primary/10 rounded-full mb-4 sm:mb-6"
               variants={fadeInUp}
             >
-              <span className="text-primary font-semibold text-sm sm:text-base">Ihr professioneller Business-Partner in Niederbayern</span>
+              <span className="text-primary font-semibold text-sm sm:text-base">Ihr professioneller Business-Partner in Ober- und Niederbayern</span>
             </motion.div>
             <motion.h1
               className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white leading-tight mb-6"
               variants={fadeInUp}
             >
-              Professionelle <span className="text-secondary">Gebäudereinigung</span> in Niederbayern
+              Professionelle <span className="text-secondary">Gebäudereinigung</span> in Ober- und Niederbayern
             </motion.h1>
             <motion.p
               className="text-sm sm:text-base md:text-lg text-white/95 mb-8 leading-relaxed max-w-2xl"
@@ -129,7 +129,7 @@ export default function Home() {
             {[
               { icon: Shield, label: "ISO 9001 & 14001", value: "Zertifiziert" },
               { icon: Clock, label: "Flexibel & Zuverlässig", value: "Auf Wunsch 24/7" },
-              { icon: Users, label: "Zufriedene Kunden", value: "In Niederbayern" },
+              { icon: Users, label: "Zufriedene Kunden", value: "In Ober- und Niederbayern" },
               { icon: Award, label: "15+ Jahre", value: "Erfahrung" },
             ].map((item, index) => (
               <motion.div key={index} variants={scaleIn}>
@@ -204,7 +204,7 @@ export default function Home() {
                 Unsere Reinigungsdienstleistungen
               </h2>
               <p className="text-sm sm:text-base md:text-lg text-slate-600 max-w-3xl mx-auto">
-                Von der professionellen Gebäudereinigung über Industriereinigung bis zum Facility Management – wir bieten maßgeschneiderte Reinigungslösungen für Ihr Unternehmen in Niederbayern.
+                Von der professionellen Gebäudereinigung über Industriereinigung bis zum Facility Management – wir bieten maßgeschneiderte Reinigungslösungen für Ihr Unternehmen in Ober- und Niederbayern.
               </p>
             </div>
           </RevealOnScroll>
@@ -223,7 +223,7 @@ export default function Home() {
                   <Users className="w-16 h-16 text-secondary mb-6" />
                   <h3 className="text-2xl sm:text-3xl font-bold mb-4 text-secondary">Gewerbliche Reinigung</h3>
                   <p className="text-slate-600 mb-6">
-                    Professionelle Gebäudereinigung und Industriereinigung für Unternehmen in Landshut, Regensburg, Freising und ganz Niederbayern.
+                    Professionelle Gebäudereinigung und Industriereinigung für Unternehmen in Landshut, Regensburg, Freising und ganz Ober- und Niederbayern.
                   </p>
                   <ul className="space-y-3 mb-8">
                     {["Büroreinigung", "Industriereinigung", "Hallenreinigung", "Baureinigung", "Fassaden- & Fensterreinigung", "Maschinenreinigung"].map((item, i) => (
@@ -252,7 +252,7 @@ export default function Home() {
                   <Shield className="w-16 h-16 text-secondary mb-6" />
                   <h3 className="text-2xl sm:text-3xl font-bold mb-4 text-secondary">Facility Management</h3>
                   <p className="text-slate-600 mb-6">
-                    Umfassende Facility-Dienstleistungen für Ihre Immobilien und Betriebsgelände in Niederbayern.
+                    Umfassende Facility-Dienstleistungen für Ihre Immobilien und Betriebsgelände in Ober- und Niederbayern.
                   </p>
                   <ul className="space-y-3 mb-8">
                     {["Facility Management", "Unterhaltsreinigung", "Hausmeisterservice", "Winterdienst", "Außenanlagenpflege", "Beschaffungsmanagement"].map((item, i) => (
@@ -283,10 +283,10 @@ export default function Home() {
           <RevealOnScroll>
             <div className="text-center mb-16">
               <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-6">
-                Unsere Service-Regionen in Niederbayern
+                Unsere Service-Regionen in Ober- und Niederbayern
               </h2>
               <p className="text-sm sm:text-base md:text-lg text-slate-600 max-w-3xl mx-auto">
-                Professionelle Reinigungsdienstleistungen in den wichtigsten Wirtschaftsregionen Niederbayerns und Umgebung
+                Professionelle Reinigungsdienstleistungen in den wichtigsten Wirtschaftsregionen Ober- und Niederbayerns und Umgebung
               </p>
             </div>
           </RevealOnScroll>
@@ -300,6 +300,7 @@ export default function Home() {
           >
             {[
               "Landshut",
+              "München",
               "Regensburg",
               "Freising",
               "Straubing",

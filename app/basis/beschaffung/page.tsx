@@ -27,9 +27,9 @@ export default function Beschaffung() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Beschaffungsmanagement Niederbayern - FIMI-Service Landshut"
-        description="Professionelles Beschaffungsmanagement in Niederbayern. Reinigungsmittel und Verbrauchsmaterialien automatisch und bedarfsgerecht."
-        keywords="Beschaffungsmanagement, Reinigungsmittel Beschaffung, Verbrauchsmaterial Niederbayern, Procurement"
+        title="Beschaffungsmanagement Ober- und Niederbayern - FIMI-Service Landshut"
+        description="Professionelles Beschaffungsmanagement in Ober- und Niederbayern. Reinigungsmittel und Verbrauchsmaterialien automatisch und bedarfsgerecht."
+        keywords="Beschaffungsmanagement, Reinigungsmittel Beschaffung, Verbrauchsmaterial Ober- und Niederbayern, Procurement"
         url="/basis/beschaffung"
         schema={serviceSchema(serviceData)}
       />
@@ -47,7 +47,7 @@ export default function Beschaffung() {
                 Professionelles Beschaffungsmanagement
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed mb-8">
-                Automatische Beschaffung von Reinigungsmitteln und Verbrauchsmaterialien in Landshut, Regensburg, Freising und ganz Niederbayern. Bedarfsgerecht, nachhaltig und kosteneffizient.
+                Automatische Beschaffung von Reinigungsmitteln und Verbrauchsmaterialien in Landshut, Regensburg, Freising und ganz Ober- und Niederbayern. Bedarfsgerecht, nachhaltig und kosteneffizient.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a href="#kontakt-formular">

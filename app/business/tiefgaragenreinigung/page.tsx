@@ -18,28 +18,28 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { CheckCircle, Settings, ArrowRight, Shield, Wrench, Award } from "lucide-react";
+import { CheckCircle, Car, ArrowRight, Shield, Clock, Award } from "lucide-react";
 import AppointmentButton from "@/components/AppointmentButton";
 
-export default function Maschinenreinigung() {
+export default function Tiefgaragenreinigung() {
   const serviceData = {
-    name: "Professionelle Maschinenreinigung",
-    description: "Professionelle Maschinenreinigung für Industrie und Produktion. Präzise, sicher und normgerecht.",
-    url: "/business/maschinenreinigung",
-    category: "Machine Cleaning"
+    name: "Professionelle Tiefgaragenreinigung",
+    description: "Spezialisierte Tiefgaragenreinigung in Bayern. Gründlich, effizient und zuverlässig.",
+    url: "/business/tiefgaragenreinigung",
+    category: "Underground Garage Cleaning"
   };
 
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Maschinenreinigung Ober- und Niederbayern - FIMI-Service Landshut"
-        description="Professionelle Maschinenreinigung in Ober- und Niederbayern für Industrie und Produktion. Präzise, sicher und normgerecht."
-        keywords="Maschinenreinigung, Industriemaschinen Reinigung, Produktionsanlagen Reinigung Ober- und Niederbayern"
-        url="/business/maschinenreinigung"
+        title="Tiefgaragenreinigung Bayern - FIMI-Service"
+        description="Professionelle Tiefgaragenreinigung in Ober- und Niederbayern. Gründliche Reinigung von Parkgaragen und Tiefgaragen."
+        keywords="Tiefgaragenreinigung, Parkgarage Reinigung Bayern, Garagenreinigung München, Tiefgarage sauber Landshut"
+        url="/business/tiefgaragenreinigung"
         schema={serviceSchema(serviceData)}
       />
       <Navigation />
-      
+
       {/* Hero Section */}
       <section className="pt-32 pb-20 relative">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-secondary/10/30 -z-10"/>
@@ -47,13 +47,13 @@ export default function Maschinenreinigung() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <div className="inline-block bg-secondary/10 text-secondary px-4 py-2 rounded-full text-xs sm:text-sm font-semibold mb-6">
-                Business Lösung
+                Industrielle & Spezialreinigung
               </div>
               <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-6">
-                Professionelle Maschinenreinigung
+                Professionelle Tiefgaragenreinigung
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed mb-8">
-                Spezialisierte Reinigung von Produktionsmaschinen und Industrieanlagen in Landshut, Regensburg, Freising und ganz Ober- und Niederbayern. Für optimale Leistung und längere Lebensdauer Ihrer Maschinen.
+                Gründliche Reinigung von Tiefgaragen und Parkdecks in München, Landshut, Regensburg und ganz Ober- und Niederbayern. Mit Spezialgeräten für optimale Sauberkeit.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a href="#kontakt-formular">
@@ -66,10 +66,10 @@ export default function Maschinenreinigung() {
               </div>
             </div>
             <div className="relative">
-              <ParallaxImage 
-                src="/machine-cleaning.jpg" 
-                alt="Professionelle Maschinenreinigung"
-                className="rounded-2xl shadow-2xl w-full h-[500px] object-cover h-[500px]"
+              <ParallaxImage
+                src="/warehouse-cleaning.jpg"
+                alt="Professionelle Tiefgaragenreinigung"
+                className="rounded-2xl shadow-2xl w-full h-[500px] object-cover"
                 speed={0.2}
                 scale={true}
                 overlay={true}
@@ -80,15 +80,15 @@ export default function Maschinenreinigung() {
         </div>
       </section>
 
-      {/* Features Section with Image Left */}
+      {/* Features Section */}
       <section className="py-20 bg-primary/5">
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="relative">
-              <ParallaxImage 
-                src="/industrial-machine.jpg" 
-                alt="Industriemaschine Reinigung"
-                className="rounded-2xl shadow-xl w-full h-[400px] object-cover h-[500px]"
+              <ParallaxImage
+                src="/industrial-floor-cleaning.jpg"
+                alt="Garagenboden Reinigung"
+                className="rounded-2xl shadow-xl w-full h-[400px] object-cover"
                 speed={0.2}
                 scale={true}
                 overlay={true}
@@ -97,20 +97,20 @@ export default function Maschinenreinigung() {
             </div>
             <div>
               <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-secondary mb-6">
-                Spezialisiert auf Industrieanlagen
+                Spezialisiert auf Parkhäuser & Tiefgaragen
               </h2>
               <p className="text-lg text-slate-600 mb-6">
-                Unsere <Link href="/business/industriereinigung" className="text-primary hover:underline">Industriereinigung</Link> umfasst die fachgerechte Reinigung von CNC-Maschinen, Produktionsanlagen und Fertigungsstraßen. Mit speziellen Reinigungsmitteln und Techniken entfernen wir Öl, Fett und Produktionsrückstände.
+                Unsere <Link href="/business/industriereinigung" className="text-secondary hover:underline">Industriereinigung</Link> umfasst die professionelle Reinigung von Tiefgaragen, Parkhäusern und Parkdecks. Mit Hochdruckreinigern und Scheuersaugmaschinen reinigen wir effizient große Flächen.
               </p>
               <div className="grid md:grid-cols-2 gap-4">
                 {[
-                  { icon: Shield, text: "Schonende Reinigung" },
-                  { icon: Wrench, text: "Fachgerechte Methoden" },
-                  { icon: Award, text: "Zertifizierte Experten" },
-                  { icon: Settings, text: "Alle Maschinentypen" }
+                  { icon: Shield, text: "Zertifizierte Fachkräfte" },
+                  { icon: Clock, text: "Flexible Einsatzzeiten" },
+                  { icon: Award, text: "Modernste Technologie" },
+                  { icon: Car, text: "Alle Garagentypen" }
                 ].map((item, i) => (
                   <div key={i} className="flex items-center gap-3">
-                    <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
+                    <div className="w-10 h-10 rounded-full bg-secondary/10 flex items-center justify-center">
                       <item.icon className="w-5 h-5 text-secondary" />
                     </div>
                     <span className="text-slate-700 text-xs sm:text-sm md:text-base">{item.text}</span>
@@ -122,7 +122,7 @@ export default function Maschinenreinigung() {
         </div>
       </section>
 
-      {/* Services Section with Image Right */}
+      {/* Services Section */}
       <section className="py-20 bg-white">
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -131,18 +131,18 @@ export default function Maschinenreinigung() {
                 Umfassende Reinigungsleistungen
               </h2>
               <p className="text-lg text-slate-600 mb-6">
-                Von der Grundreinigung bis zur Wartungsreinigung - wir bieten alle Leistungen für Ihre Maschinen. Unsere <Link href="/business/hallenreinigung" className="text-primary hover:underline">Hallenreinigung</Link> kann bei Bedarf integriert werden.
+                Von der Bodenreinigung bis zur Wandpflege - wir bieten alle Leistungen für Ihre Tiefgarage. Unsere <Link href="/business/facility-management" className="text-secondary hover:underline">Facility Management</Link> Services sorgen für dauerhaft saubere Parkflächen.
               </p>
               <div className="space-y-3">
                 {[
-                  "CNC-Maschinen und Drehbänke",
-                  "Produktionsanlagen und Fertigungsstraßen",
-                  "Pressen und Stanzen",
-                  "Förderanlagen und Transportbänder",
-                  "Verpackungsmaschinen",
-                  "Druckmaschinen und Offset-Anlagen",
-                  "Lebensmittelmaschinen (HACCP-konform)",
-                  "Pharma-Anlagen (GMP-konform)"
+                  "Bodenreinigung mit Hochdruckreiniger",
+                  "Ölflecken-Entfernung",
+                  "Parkplatz-Markierungen reinigen",
+                  "Wände und Decken",
+                  "Einfahrten und Rampen",
+                  "Aufzugsbereiche",
+                  "Müllräume und Abstellplätze",
+                  "Entwässerungsrinnen"
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-secondary mt-0.5 flex-shrink-0"/>
@@ -152,10 +152,10 @@ export default function Maschinenreinigung() {
               </div>
             </div>
             <div className="relative">
-              <ParallaxImage 
-                src="/production-line-cleaning.jpg" 
-                alt="Produktionslinie Reinigung"
-                className="rounded-2xl shadow-xl w-full h-[500px] object-cover h-[500px]"
+              <ParallaxImage
+                src="/hallenreinigung-hero.jpg"
+                alt="Tiefgarage Reinigung"
+                className="rounded-2xl shadow-xl w-full h-[500px] object-cover"
                 speed={0.2}
                 scale={true}
                 overlay={true}
@@ -166,61 +166,63 @@ export default function Maschinenreinigung() {
         </div>
       </section>
 
-      {/* Accordion Section - FAQ */}
+      {/* FAQ Section */}
       <section className="py-20 bg-primary/5">
         <div className="container max-w-4xl">
-          <RevealOnScroll><div className="text-center mb-12">
-            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-secondary mb-4">
-              Häufig gestellte Fragen
-            </h2>
-            <p className="text-lg text-slate-600 text-xs sm:text-sm md:text-base">
-              Alles was Sie über unsere Maschinenreinigung wissen müssen
-            </p>
-          </div></RevealOnScroll>
-          
+          <RevealOnScroll>
+            <div className="text-center mb-12">
+              <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-secondary mb-4">
+                Häufig gestellte Fragen
+              </h2>
+              <p className="text-lg text-slate-600 text-xs sm:text-sm md:text-base">
+                Alles was Sie über unsere Tiefgaragenreinigung wissen müssen
+              </p>
+            </div>
+          </RevealOnScroll>
+
           <Accordion type="single" collapsible className="space-y-4">
             <AccordionItem value="item-1" className="bg-white rounded-lg px-6">
               <AccordionTrigger className="text-lg font-semibold">
-                Welche Reinigungsmittel verwenden Sie?
+                Wie oft sollte eine Tiefgarage gereinigt werden?
               </AccordionTrigger>
               <AccordionContent className="text-slate-600 text-xs sm:text-sm md:text-base">
-                Wir verwenden spezialisierte, materialschonende Reinigungsmittel, die auf den jeweiligen Maschinentyp abgestimmt sind. Für Lebensmittelmaschinen setzen wir HACCP-konforme Produkte ein, für Pharma-Anlagen GMP-konforme Reiniger. Alle Mittel sind umweltfreundlich und biologisch abbaubar.
+                Wir empfehlen eine Grundreinigung 2-4 Mal pro Jahr, abhängig von der Nutzungsintensität. Hochfrequentierte Tiefgaragen in Bürogebäuden oder Einkaufszentren benötigen häufigere Reinigung als Wohnhaus-Tiefgaragen.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-2" className="bg-white rounded-lg px-6">
               <AccordionTrigger className="text-lg font-semibold">
-                Können Sie während der Produktionspausen reinigen?
+                Können Ölflecken komplett entfernt werden?
               </AccordionTrigger>
               <AccordionContent className="text-slate-600 text-xs sm:text-sm md:text-base">
-                Ja, wir passen uns flexibel Ihren Produktionszeiten an. Ob während Schichtwechseln, nachts oder am Wochenende - wir reinigen dann, wenn es für Ihren Betrieb am besten passt. Unsere <Link href="/business/facility-management" className="text-primary hover:underline">Facility Management</Link> Services koordinieren alle Abläufe.
+                Ja, mit speziellen Reinigungsmitteln und Hochdruckreinigern entfernen wir auch hartnäckige Öl- und Fettflecken. Bei sehr alten Flecken kann eine vollständige Entfernung allerdings schwierig sein.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-3" className="bg-white rounded-lg px-6">
               <AccordionTrigger className="text-lg font-semibold">
-                Wie oft sollten Maschinen gereinigt werden?
+                Arbeiten Sie auch nachts?
               </AccordionTrigger>
               <AccordionContent className="text-slate-600 text-xs sm:text-sm md:text-base">
-                Die Reinigungsfrequenz hängt von der Nutzung und dem Verschmutzungsgrad ab. Lebensmittelmaschinen benötigen oft tägliche Reinigung, während andere Produktionsanlagen mit wöchentlicher oder monatlicher Reinigung auskommen. Wir erstellen einen individuellen Wartungsplan.
+                Ja, wir bieten flexible Reinigungszeiten an. Viele Tiefgaragen reinigen wir nachts oder am Wochenende, damit die Nutzer nicht gestört werden und alle Parkplätze verfügbar bleiben.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-4" className="bg-white rounded-lg px-6">
               <AccordionTrigger className="text-lg font-semibold">
-                Bieten Sie auch Grundreinigung an?
+                Reinigen Sie auch Parkplätze im Freien?
               </AccordionTrigger>
               <AccordionContent className="text-slate-600 text-xs sm:text-sm md:text-base">
-                Ja, wir bieten sowohl Unterhaltsreinigung als auch intensive Grundreinigung an. Bei der Grundreinigung werden hartnäckige Verschmutzungen, Öl- und Fettrückstände vollständig entfernt. Unsere <Link href="/business/baureinigung" className="text-primary hover:underline">Baureinigung</Link> umfasst auch Endreinigung nach Umbauten.
+                Ja, unsere <Link href="/business/parkplatzreinigung" className="text-secondary hover:underline">Parkplatzreinigung</Link> umfasst sowohl Tiefgaragen als auch Parkplätze im Freien. Zusätzlich bieten wir <Link href="/basis/winterdienst" className="text-secondary hover:underline">Winterdienst</Link> für Außenparkplätze an.
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-5" className="bg-white rounded-lg px-6">
               <AccordionTrigger className="text-lg font-semibold">
-                Sind Ihre Mitarbeiter geschult?
+                Welche Regionen bedienen Sie?
               </AccordionTrigger>
               <AccordionContent className="text-slate-600 text-xs sm:text-sm md:text-base">
-                Alle unsere Mitarbeiter sind speziell für Maschinenreinigung geschult und verfügen über Kenntnisse in Arbeitssicherheit und Maschinentechnik. Sie sind mit den spezifischen Anforderungen verschiedener Branchen vertraut und arbeiten nach höchsten Qualitätsstandards.
+                Wir sind in ganz Ober- und Niederbayern tätig, inkl. München, Landshut, Regensburg, Freising, Straubing, Deggendorf, Augsburg und Nürnberg.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
@@ -228,22 +230,22 @@ export default function Maschinenreinigung() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-primary text-white">
+      <section className="py-20 bg-gradient-to-br from-secondary to-secondary/90 text-white">
         <div className="container text-center">
           <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-6">
-            Bereit für professionelle Maschinenreinigung?
+            Bereit für professionelle Tiefgaragenreinigung?
           </h2>
           <p className="text-sm sm:text-base md:text-lg mb-8 max-w-2xl mx-auto">
-            Kontaktieren Sie uns für ein unverbindliches Angebot. Unsere Experten beraten Sie gerne zu allen Reinigungsdienstleistungen in Landshut, Regensburg, Freising und ganz Ober- und Niederbayern.
+            Kontaktieren Sie uns für ein unverbindliches Angebot. Unsere Experten beraten Sie gerne zu allen Reinigungsdienstleistungen in München, Landshut, Regensburg und ganz Bayern.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a href="#kontakt-formular">
-              <Button size="lg" variant="secondary" className="text-sm sm:text-base md:text-lg px-6 sm:px-8">
+              <Button size="lg" className="bg-white text-secondary hover:bg-white/90 text-sm sm:text-base md:text-lg px-6 sm:px-8">
                 Jetzt Kontakt aufnehmen
                 <ArrowRight className="ml-2 w-5 h-5"/>
               </Button>
             </a>
-            <AppointmentButton size="lg" variant="outline" className="text-sm sm:text-base md:text-lg px-6 sm:px-8 border-white text-white hover:bg-white hover:text-primary" />
+            <AppointmentButton size="lg" variant="outline" className="text-sm sm:text-base md:text-lg px-6 sm:px-8 border-white text-white hover:bg-white/20" />
           </div>
         </div>
       </section>

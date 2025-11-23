@@ -82,8 +82,8 @@ export default function Kontakt() {
     <div className="min-h-screen bg-white">
       <SEO
         title="Kontakt - FIMI-Service | Jetzt Angebot anfordern"
-        description="Kontaktieren Sie FIMI-Service für ein individuelles Angebot. Ihr professioneller Business-Partner für Gebäudereinigung in Niederbayern - per Telefon, E-Mail oder Kontaktformular."
-        keywords="Kontakt, Angebot, Gebäudereinigung Niederbayern, Reinigungsfirma Landshut, Anfrage, Beratung"
+        description="Kontaktieren Sie FIMI-Service für ein individuelles Angebot. Ihr professioneller Business-Partner für Gebäudereinigung in Ober- und Niederbayern - per Telefon, E-Mail oder Kontaktformular."
+        keywords="Kontakt, Angebot, Gebäudereinigung Ober- und Niederbayern, Reinigungsfirma Landshut, Anfrage, Beratung"
         url="/kontakt"
       />
       <Navigation />
@@ -176,7 +176,7 @@ export default function Kontakt() {
               />
             </div>
             <p className="text-center text-slate-600 mt-4">
-              Zentral in Niederbayern - schnell erreichbar aus Landshut, Regensburg, Freising und Umgebung
+              Zentral in Ober- und Niederbayern - schnell erreichbar aus Landshut, Regensburg, Freising und Umgebung
             </p>
           </div>
 
@@ -216,7 +216,7 @@ export default function Kontakt() {
             <Card className="p-6 hover-lift hover-tilt hover-tilt">
               <h3 className="font-bold text-lg mb-2">In welchen Regionen sind Sie tätig?</h3>
               <p className="text-slate-600">
-                Wir sind in ganz Niederbayern tätig, mit Schwerpunkt auf Landshut, Regensburg, Freising, Straubing und Umgebung. Für andere Regionen kontaktieren Sie uns bitte direkt.
+                Wir sind in ganz Ober- und Niederbayern tätig, mit Schwerpunkt auf Landshut, Regensburg, Freising, Straubing und Umgebung. Für andere Regionen kontaktieren Sie uns bitte direkt.
               </p>
             </Card>
 
