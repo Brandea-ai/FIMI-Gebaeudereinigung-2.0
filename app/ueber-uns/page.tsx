@@ -28,7 +28,7 @@ export default function UeberUns() {
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
+              <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-6">
                 FIMI-Service: Ihr professioneller Business-Partner in Niederbayern
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed mb-8">
@@ -59,7 +59,7 @@ export default function UeberUns() {
       <section className="py-20 bg-white">
         <div className="container">
           <RevealOnScroll><div className="text-center mb-16">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-4">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-secondary mb-4">
               Unsere Werte: Das Fundament unseres Erfolgs
             </h2>
             <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto">
@@ -69,7 +69,7 @@ export default function UeberUns() {
           
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="p-8 hover-lift text-center hover:shadow-xl transition-shadow hover-tilt hover-tilt">
-              <Award className="w-16 h-16 text-primary mx-auto mb-6" />
+              <Award className="w-16 h-16 text-secondary mx-auto mb-6" />
               <h3 className="font-bold text-xl mb-4">Qualität</h3>
               <p className="text-slate-600 text-xs sm:text-sm md:text-base">
                 Wir verwenden nur die besten Materialien und modernsten Techniken, um ein makelloses Ergebnis zu garantieren. Unsere Mitarbeiter werden kontinuierlich geschult, um die höchsten Standards zu erfüllen.
@@ -77,7 +77,7 @@ export default function UeberUns() {
             </Card>
             
             <Card className="p-8 hover-lift text-center hover:shadow-xl transition-shadow hover-tilt hover-tilt">
-              <Users className="w-16 h-16 text-primary mx-auto mb-6" />
+              <Users className="w-16 h-16 text-secondary mx-auto mb-6" />
               <h3 className="font-bold text-xl mb-4">Zuverlässigkeit</h3>
               <p className="text-slate-600 text-xs sm:text-sm md:text-base">
                 Pünktlichkeit, Diskretion und ein fester Ansprechpartner sind für uns selbstverständlich. Sie können sich darauf verlassen, dass wir unsere Zusagen einhalten – immer.
@@ -85,7 +85,7 @@ export default function UeberUns() {
             </Card>
             
             <Card className="p-8 hover-lift text-center hover:shadow-xl transition-shadow hover-tilt hover-tilt">
-              <Heart className="w-16 h-16 text-primary mx-auto mb-6" />
+              <Heart className="w-16 h-16 text-secondary mx-auto mb-6" />
               <h3 className="font-bold text-xl mb-4">Kundennähe</h3>
               <p className="text-slate-600 text-xs sm:text-sm md:text-base">
                 Wir hören Ihnen zu und entwickeln individuelle Lösungen, die perfekt auf Ihre Bedürfnisse zugeschnitten sind. Ihre Zufriedenheit ist unser größter Ansporn.
@@ -96,10 +96,10 @@ export default function UeberUns() {
       </section>
 
       {/* Social Proof Section */}
-      <section className="py-20 bg-slate-50">
+      <section className="py-20 bg-white">
         <div className="container">
           <RevealOnScroll><div className="text-center mb-16">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-4">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-secondary mb-4">
               Was unsere Kunden sagen
             </h2>
             <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto">
@@ -118,7 +118,7 @@ export default function UeberUns() {
                 "Die Zusammenarbeit mit FIMI-Service ist ein echter Gewinn. Das Team ist professionell, zuverlässig und das Ergebnis immer perfekt. Wir können sie uneingeschränkt empfehlen."
               </p>
               <div>
-                <div className="font-bold text-slate-900">Anna Meier</div>
+                <div className="font-bold text-secondary">Anna Meier</div>
                 <div className="text-slate-600 text-sm">CEO, Meier AG</div>
               </div>
             </Card>
@@ -133,7 +133,7 @@ export default function UeberUns() {
                 "Seit wir die Reinigung unserer Büros an FIMI-Service übergeben haben, hat sich die Arbeitsatmosphäre spürbar verbessert. Ein sauberes Umfeld motiviert!"
               </p>
               <div>
-                <div className="font-bold text-slate-900">Peter Schmidt</div>
+                <div className="font-bold text-secondary">Peter Schmidt</div>
                 <div className="text-slate-600 text-sm">Office Manager, Schmidt & Partner</div>
               </div>
             </Card>
@@ -148,7 +148,7 @@ export default function UeberUns() {
                 "Die Flexibilität und die hohe Qualität der Arbeit haben uns überzeugt. FIMI-Service ist ein Partner, auf den man sich verlassen kann."
               </p>
               <div>
-                <div className="font-bold text-slate-900">Maria Rossi</div>
+                <div className="font-bold text-secondary">Maria Rossi</div>
                 <div className="text-slate-600 text-sm">Inhaberin, Rossi Boutique</div>
               </div>
             </Card>
@@ -160,7 +160,7 @@ export default function UeberUns() {
       <section className="py-20 bg-white">
         <div className="container">
           <div className="text-center mb-16">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-secondary mb-6">
               Unsere Geschäftsführung
             </h2>
             <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto">
@@ -172,7 +172,7 @@ export default function UeberUns() {
               <div className="w-32 h-32 bg-gradient-to-br from-primary to-primary/70 rounded-full mx-auto mb-6 flex items-center justify-center">
                 <span className="text-white text-4xl font-bold">NT</span>
               </div>
-              <div className="font-bold text-slate-900 text-2xl mb-2">Ntonalnt Tzoutzis</div>
+              <div className="font-bold text-secondary text-2xl mb-2">Ntonalnt Tzoutzis</div>
               <div className="text-primary font-semibold mb-4">Geschäftsführer</div>
               <p className="text-slate-600">
                 Mit langjähriger Erfahrung im Facility Management und einem Auge für Details sorgt Ntonalnt Tzoutzis dafür, dass jedes Projekt mit höchster Präzision umgesetzt wird.
@@ -182,7 +182,7 @@ export default function UeberUns() {
               <div className="w-32 h-32 bg-gradient-to-br from-secondary to-secondary/70 rounded-full mx-auto mb-6 flex items-center justify-center">
                 <span className="text-white text-4xl font-bold">EQ</span>
               </div>
-              <div className="font-bold text-slate-900 text-2xl mb-2">Ergest Qiraj</div>
+              <div className="font-bold text-secondary text-2xl mb-2">Ergest Qiraj</div>
               <div className="text-secondary font-semibold mb-4">Geschäftsführer</div>
               <p className="text-slate-600">
                 Ergest Qiraj bringt umfassende Expertise in der professionellen Gebäudereinigung mit und garantiert höchste Qualitätsstandards für alle Kunden.

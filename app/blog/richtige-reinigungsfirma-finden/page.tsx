@@ -71,7 +71,7 @@ function RichtigeReinigungsfirmaFindenContent() {
         <div className="container max-w-4xl">
           <div className="mb-12">
             <div className="text-sm text-primary font-semibold mb-4">RATGEBER</div>
-            <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-6 leading-tight">
+            <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-6 leading-tight">
               Wie finde ich die richtige Reinigungsfirma?
             </h1>
             <p className="text-sm sm:text-base md:text-lg text-slate-600 leading-relaxed">
@@ -99,7 +99,7 @@ function RichtigeReinigungsfirmaFindenContent() {
               Die Wahl der richtigen Reinigungsfirma ist eine wichtige Entscheidung für jedes Unternehmen. Eine professionelle Gebäudereinigung trägt nicht nur zur Hygiene und Sauberkeit bei, sondern beeinflusst auch das Image Ihres Unternehmens und das Wohlbefinden Ihrer Mitarbeiter. In diesem umfassenden Ratgeber erfahren Sie, worauf Sie bei der Auswahl einer Reinigungsfirma in Landshut, Regensburg oder Freising achten sollten.
             </p>
 
-            <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-slate-900 mt-12 mb-6">Warum ist die richtige Wahl so wichtig?</h2>
+            <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-secondary mt-12 mb-6">Warum ist die richtige Wahl so wichtig?</h2>
             <p className="text-lg leading-relaxed text-slate-700 mb-8">
               Eine professionelle Reinigungsfirma ist mehr als nur ein Dienstleister – sie ist ein Partner für die Werterhaltung Ihrer Immobilie. Saubere und gepflegte Räumlichkeiten schaffen eine angenehme Arbeitsatmosphäre, reduzieren Krankheitstage und hinterlassen bei Kunden einen positiven ersten Eindruck. Gleichzeitig schützt regelmäßige professionelle Reinigung Ihre Investition in Gebäude und Ausstattung.
             </p>
@@ -118,14 +118,14 @@ function RichtigeReinigungsfirmaFindenContent() {
                   "Professionelles Personal"
                 ].map((item, index) => (
                   <div key={index} className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+                    <Check className="w-5 h-5 text-secondary mt-0.5 flex-shrink-0" />
                     <span className="text-slate-700 text-xs sm:text-sm md:text-base">{item}</span>
                   </div>
                 ))}
               </div>
             </Card>
 
-            <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-slate-900 mt-12 mb-6">Detaillierte Auswahlkriterien</h2>
+            <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-secondary mt-12 mb-6">Detaillierte Auswahlkriterien</h2>
             
             <Accordion type="single" collapsible className="mb-12">
               <AccordionItem value="item-1">
@@ -216,7 +216,7 @@ function RichtigeReinigungsfirmaFindenContent() {
               </AccordionItem>
             </Accordion>
 
-            <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-slate-900 mt-12 mb-6">Regionale Besonderheiten in Niederbayern</h2>
+            <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-secondary mt-12 mb-6">Regionale Besonderheiten in Niederbayern</h2>
             <p className="text-lg leading-relaxed text-slate-700 mb-8">
               Bei der Auswahl einer Reinigungsfirma in Landshut, Regensburg oder Freising sollten Sie auch regionale Faktoren berücksichtigen. Eine lokale Reinigungsfirma kennt die örtlichen Gegebenheiten, hat kurze Anfahrtswege und kann flexibel auf Ihre Bedürfnisse reagieren. Zudem unterstützen Sie mit der Wahl eines regionalen Anbieters die lokale Wirtschaft.
             </p>
@@ -242,7 +242,7 @@ function RichtigeReinigungsfirmaFindenContent() {
               </Card>
             </div>
 
-            <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-slate-900 mt-12 mb-6">Der Auswahlprozess Schritt für Schritt</h2>
+            <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-secondary mt-12 mb-6">Der Auswahlprozess Schritt für Schritt</h2>
             <div className="space-y-6 mb-12">
               {[
                 {

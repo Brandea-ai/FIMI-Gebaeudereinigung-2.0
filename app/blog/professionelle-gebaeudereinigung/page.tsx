@@ -66,7 +66,7 @@ function ProfessionelleGebaeudereinigungContent() {
         <div className="container max-w-4xl">
           <div className="mb-12">
             <div className="text-sm text-primary font-semibold mb-4">EXPERTENWISSEN</div>
-            <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-6 leading-tight">
+            <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-6 leading-tight">
               Professionelle Gebäudereinigung: Was Sie wissen müssen
             </h1>
             <p className="text-sm sm:text-base md:text-lg text-slate-600 leading-relaxed">
@@ -88,7 +88,7 @@ function ProfessionelleGebaeudereinigungContent() {
               Professionelle Gebäudereinigung ist weit mehr als nur Staubwischen und Böden wischen. Es handelt sich um ein komplexes Fachgebiet, das spezialisiertes Wissen, moderne Technologie und geschultes Personal erfordert. In diesem umfassenden Ratgeber erfahren Sie alles über Standards, Methoden und Qualitätsmerkmale professioneller Gebäudereinigung in Niederbayern.
             </p>
 
-            <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-slate-900 mt-12 mb-6">Was macht Gebäudereinigung professionell?</h2>
+            <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-secondary mt-12 mb-6">Was macht Gebäudereinigung professionell?</h2>
             <Tabs defaultValue="standards" className="mb-12">
               <TabsList className="grid w-full grid-cols-3">
                 <TabsTrigger value="standards" className="text-xs sm:text-sm md:text-base px-2 sm:px-4">Standards</TabsTrigger>
@@ -104,7 +104,7 @@ function ProfessionelleGebaeudereinigungContent() {
                   <div className="space-y-3">
                     {["ISO 9001 Zertifizierung", "Definierte Reinigungspläne", "Qualitätskontrollen", "Dokumentation", "Kundenfeedback-Systeme"].map((item, i) => (
                       <div key={i} className="flex items-center gap-3">
-                        <Shield className="w-5 h-5 text-primary"/>
+                        <Shield className="w-5 h-5 text-secondary"/>
                         <span>{item}</span>
                       </div>
                     ))}
@@ -120,7 +120,7 @@ function ProfessionelleGebaeudereinigungContent() {
                   <div className="space-y-3">
                     {["Industriesauger mit HEPA-Filter", "Scheuersaugmaschinen", "Hochdruckreiniger", "Mikrofasertechnologie", "Umweltfreundliche Reinigungsmittel"].map((item, i) => (
                       <div key={i} className="flex items-center gap-3">
-                        <Award className="w-5 h-5 text-primary"/>
+                        <Award className="w-5 h-5 text-secondary"/>
                         <span>{item}</span>
                       </div>
                     ))}
@@ -136,7 +136,7 @@ function ProfessionelleGebaeudereinigungContent() {
                   <div className="space-y-3">
                     {["Fachausbildung Gebäudereinigung", "Hygieneschulungen", "Arbeitssicherheit", "Kundenorientierung", "Spezialschulungen"].map((item, i) => (
                       <div key={i} className="flex items-center gap-3">
-                        <Users className="w-5 h-5 text-primary"/>
+                        <Users className="w-5 h-5 text-secondary"/>
                         <span>{item}</span>
                       </div>
                     ))}
@@ -145,7 +145,7 @@ function ProfessionelleGebaeudereinigungContent() {
               </TabsContent>
             </Tabs>
 
-            <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-slate-900 mt-12 mb-6">Reinigungsarten im Detail</h2>
+            <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-secondary mt-12 mb-6">Reinigungsarten im Detail</h2>
             <Accordion type="single" collapsible className="mb-12">
               <AccordionItem value="item-1">
                 <AccordionTrigger className="text-sm sm:text-base md:text-lg font-semibold">Unterhaltsreinigung</AccordionTrigger>
@@ -175,7 +175,7 @@ function ProfessionelleGebaeudereinigungContent() {
               <div className="grid md:grid-cols-2 gap-4">
                 {["Zertifizierte Prozesse", "Geschultes Personal", "Moderne Ausrüstung", "Umweltfreundliche Produkte", "Transparente Kommunikation", "Flexible Einsatzzeiten", "Versicherungsschutz", "Qualitätskontrollen"].map((item, i) => (
                   <div key={i} className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-primary mt-0.5"/>
+                    <Check className="w-5 h-5 text-secondary mt-0.5"/>
                     <span>{item}</span>
                   </div>
                 ))}

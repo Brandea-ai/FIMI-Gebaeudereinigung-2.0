@@ -40,10 +40,10 @@ export default function Sonderleistungen() {
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="inline-block bg-primary/10 text-primary px-4 py-2 rounded-full text-xs sm:text-sm font-semibold mb-6">
+              <div className="inline-block bg-secondary/10 text-secondary px-4 py-2 rounded-full text-xs sm:text-sm font-semibold mb-6">
                 Basis Service
               </div>
-              <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
+              <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-6">
                 Professionelle Sonderleistungen
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed mb-8">
@@ -78,28 +78,28 @@ export default function Sonderleistungen() {
         <div className="container">
           <div className="grid md:grid-cols-4 gap-8 mb-20">
             <Card className="p-6 text-center">
-              <Zap className="w-12 h-12 text-primary mx-auto mb-4"/>
+              <Zap className="w-12 h-12 text-secondary mx-auto mb-4"/>
               <div className="font-bold text-lg mb-2">Express-Service</div>
               <div className="text-slate-600 text-xs sm:text-sm md:text-base">Schnelle Reaktionszeiten</div>
             </Card>
             <Card className="p-6 text-center">
-              <Star className="w-12 h-12 text-primary mx-auto mb-4"/>
+              <Star className="w-12 h-12 text-secondary mx-auto mb-4"/>
               <div className="font-bold text-lg mb-2">Spezialisiert</div>
               <div className="text-slate-600 text-xs sm:text-sm md:text-base">Für besondere Anforderungen</div>
             </Card>
             <Card className="p-6 text-center">
-              <Shield className="w-12 h-12 text-primary mx-auto mb-4"/>
+              <Shield className="w-12 h-12 text-secondary mx-auto mb-4"/>
               <div className="font-bold text-lg mb-2">Professionell</div>
               <div className="text-slate-600 text-xs sm:text-sm md:text-base">Geschulte Spezialisten</div>
             </Card>
             <Card className="p-6 text-center">
-              <Clock className="w-12 h-12 text-primary mx-auto mb-4"/>
+              <Clock className="w-12 h-12 text-secondary mx-auto mb-4"/>
               <div className="font-bold text-lg mb-2">24/7 Verfügbar</div>
               <div className="text-slate-600 text-xs sm:text-sm md:text-base">Auch an Wochenenden</div>
             </Card>
           </div>
 
-          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-slate-900 mb-8 text-center">Häufig gestellte Fragen</h2>
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-secondary mb-8 text-center">Häufig gestellte Fragen</h2>
           <Accordion type="single" collapsible className="max-w-3xl mx-auto">
             <AccordionItem value="item-1">
               <AccordionTrigger className="text-lg font-semibold">
@@ -116,7 +116,7 @@ export default function Sonderleistungen() {
       <section className="py-20 bg-gradient-to-br from-primary/10 to-secondary/10">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-slate-900 mb-6">
+            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-secondary mb-6">
               Benötigen Sie eine Sonderleistung?
             </h2>
             <p className="text-sm sm:text-base md:text-lg text-slate-600 mb-8">

@@ -46,10 +46,10 @@ export default function Hallenreinigung() {
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="inline-block bg-primary/10 text-primary px-4 py-2 rounded-full text-xs sm:text-sm font-semibold mb-6">
+              <div className="inline-block bg-secondary/10 text-secondary px-4 py-2 rounded-full text-xs sm:text-sm font-semibold mb-6">
                 Business Lösung
               </div>
-              <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
+              <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-6">
                 Professionelle Hallenreinigung
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed mb-8">
@@ -81,7 +81,7 @@ export default function Hallenreinigung() {
       </section>
 
       {/* Features Section with Image Left */}
-      <section className="py-20 bg-slate-50">
+      <section className="py-20 bg-primary/5">
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="relative">
@@ -96,7 +96,7 @@ export default function Hallenreinigung() {
               />
             </div>
             <div>
-              <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-slate-900 mb-6">
+              <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-secondary mb-6">
                 Spezialisiert auf große Flächen
               </h2>
               <p className="text-lg text-slate-600 mb-6">
@@ -111,7 +111,7 @@ export default function Hallenreinigung() {
                 ].map((item, i) => (
                   <div key={i} className="flex items-center gap-3">
                     <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
-                      <item.icon className="w-5 h-5 text-primary" />
+                      <item.icon className="w-5 h-5 text-secondary" />
                     </div>
                     <span className="text-slate-700 text-xs sm:text-sm md:text-base">{item.text}</span>
                   </div>
@@ -127,7 +127,7 @@ export default function Hallenreinigung() {
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-slate-900 mb-6">
+              <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-secondary mb-6">
                 Umfassende Reinigungsleistungen
               </h2>
               <p className="text-lg text-slate-600 mb-6">
@@ -145,7 +145,7 @@ export default function Hallenreinigung() {
                   "Fenster und Oberlichter"
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-2">
-                    <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0"/>
+                    <CheckCircle className="w-5 h-5 text-secondary mt-0.5 flex-shrink-0"/>
                     <span className="text-slate-700 text-xs sm:text-sm md:text-base">{item}</span>
                   </div>
                 ))}
@@ -167,10 +167,10 @@ export default function Hallenreinigung() {
       </section>
 
       {/* Accordion Section - FAQ */}
-      <section className="py-20 bg-slate-50">
+      <section className="py-20 bg-primary/5">
         <div className="container max-w-4xl">
           <RevealOnScroll><div className="text-center mb-12">
-            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-slate-900 mb-4">
+            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-secondary mb-4">
               Häufig gestellte Fragen
             </h2>
             <p className="text-lg text-slate-600 text-xs sm:text-sm md:text-base">

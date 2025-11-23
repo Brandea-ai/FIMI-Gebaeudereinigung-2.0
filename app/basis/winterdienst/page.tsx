@@ -40,10 +40,10 @@ export default function Winterdienst() {
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="inline-block bg-primary/10 text-primary px-4 py-2 rounded-full text-xs sm:text-sm font-semibold mb-6">
+              <div className="inline-block bg-secondary/10 text-secondary px-4 py-2 rounded-full text-xs sm:text-sm font-semibold mb-6">
                 Basis Service
               </div>
-              <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
+              <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-6">
                 Professioneller Winterdienst
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed mb-8">
@@ -78,22 +78,22 @@ export default function Winterdienst() {
         <div className="container">
           <div className="grid md:grid-cols-4 gap-8 mb-20">
             <Card className="p-6 text-center">
-              <Phone className="w-12 h-12 text-primary mx-auto mb-4"/>
+              <Phone className="w-12 h-12 text-secondary mx-auto mb-4"/>
               <div className="font-bold text-lg mb-2">24/7 Bereitschaft</div>
               <div className="text-slate-600 text-xs sm:text-sm md:text-base">Rund um die Uhr einsatzbereit</div>
             </Card>
             <Card className="p-6 text-center">
-              <Snowflake className="w-12 h-12 text-primary mx-auto mb-4"/>
+              <Snowflake className="w-12 h-12 text-secondary mx-auto mb-4"/>
               <div className="font-bold text-lg mb-2">Schnell</div>
               <div className="text-slate-600 text-xs sm:text-sm md:text-base">Einsatz bei Schneefall</div>
             </Card>
             <Card className="p-6 text-center">
-              <Shield className="w-12 h-12 text-primary mx-auto mb-4"/>
+              <Shield className="w-12 h-12 text-secondary mx-auto mb-4"/>
               <div className="font-bold text-lg mb-2">Verkehrssicher</div>
               <div className="text-slate-600 text-xs sm:text-sm md:text-base">Erfüllung der Räumpflicht</div>
             </Card>
             <Card className="p-6 text-center">
-              <Clock className="w-12 h-12 text-primary mx-auto mb-4"/>
+              <Clock className="w-12 h-12 text-secondary mx-auto mb-4"/>
               <div className="font-bold text-lg mb-2">Zuverlässig</div>
               <div className="text-slate-600 text-xs sm:text-sm md:text-base">Pünktlich vor Geschäftsbeginn</div>
             </Card>
@@ -122,7 +122,7 @@ export default function Winterdienst() {
                         "Dachschnee entfernen"
                       ].map((item, i) => (
                         <li key={i} className="flex items-start gap-2">
-                          <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0"/>
+                          <CheckCircle className="w-5 h-5 text-secondary mt-0.5 flex-shrink-0"/>
                           <span className="text-slate-700 text-xs sm:text-sm md:text-base">{item}</span>
                         </li>
                       ))}
@@ -140,7 +140,7 @@ export default function Winterdienst() {
                         "Notfall-Einsätze 24/7"
                       ].map((item, i) => (
                         <li key={i} className="flex items-start gap-2">
-                          <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0"/>
+                          <CheckCircle className="w-5 h-5 text-secondary mt-0.5 flex-shrink-0"/>
                           <span className="text-slate-700 text-xs sm:text-sm md:text-base">{item}</span>
                         </li>
                       ))}
@@ -255,7 +255,7 @@ export default function Winterdienst() {
             </TabsContent>
           </Tabs>
 
-          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-slate-900 mb-8 text-center">Häufig gestellte Fragen</h2>
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-secondary mb-8 text-center">Häufig gestellte Fragen</h2>
           <Accordion type="single" collapsible className="max-w-3xl mx-auto">
             <AccordionItem value="item-1">
               <AccordionTrigger className="text-lg font-semibold">
@@ -299,7 +299,7 @@ export default function Winterdienst() {
       <section className="py-20 bg-gradient-to-br from-primary/10 to-secondary/10">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-slate-900 mb-6">
+            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-secondary mb-6">
               Bereit für einen sicheren Winter?
             </h2>
             <p className="text-sm sm:text-base md:text-lg text-slate-600 mb-8">

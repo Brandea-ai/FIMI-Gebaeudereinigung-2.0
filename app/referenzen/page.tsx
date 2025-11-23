@@ -81,7 +81,7 @@ function ReferenzenContent() {
       <section className="pt-32 pb-20 bg-gradient-to-br from-white via-secondary/10/30 to-white">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
+            <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-6">
               Referenzen & Kundenerfolge
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed">
@@ -95,23 +95,23 @@ function ReferenzenContent() {
         <div className="container">
           <div className="grid md:grid-cols-3 gap-8 mb-20">
             <Card className="p-8 hover-lift text-center hover-tilt hover-tilt">
-              <Building className="w-16 h-16 text-primary mx-auto mb-4"/>
-              <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-2">500+</div>
+              <Building className="w-16 h-16 text-secondary mx-auto mb-4"/>
+              <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-2">500+</div>
               <div className="text-lg text-slate-600 text-xs sm:text-sm md:text-base">Zufriedene Kunden</div>
             </Card>
             <Card className="p-8 hover-lift text-center hover-tilt hover-tilt">
-              <Users className="w-16 h-16 text-primary mx-auto mb-4"/>
-              <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-2">15+</div>
+              <Users className="w-16 h-16 text-secondary mx-auto mb-4"/>
+              <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-2">15+</div>
               <div className="text-lg text-slate-600 text-xs sm:text-sm md:text-base">Jahre Erfahrung</div>
             </Card>
             <Card className="p-8 hover-lift text-center hover-tilt hover-tilt">
-              <Award className="w-16 h-16 text-primary mx-auto mb-4"/>
-              <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-2">98%</div>
+              <Award className="w-16 h-16 text-secondary mx-auto mb-4"/>
+              <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-2">98%</div>
               <div className="text-lg text-slate-600 text-xs sm:text-sm md:text-base">Kundenzufriedenheit</div>
             </Card>
           </div>
 
-          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-slate-900 mb-12 text-center">
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-secondary mb-12 text-center">
             Ausgewählte Projekte
           </h2>
           <div className="grid lg:grid-cols-3 gap-8 mb-20">
@@ -146,23 +146,23 @@ function ReferenzenContent() {
             ))}
           </div>
 
-          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-slate-900 mb-12 text-center">
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-secondary mb-12 text-center">
             Was unsere Kunden sagen
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             {testimonials.map((testimonial, i) => (
               <Card key={i} className="p-8 relative">
-                <Quote className="w-12 h-12 text-primary/20 absolute top-6 right-6"/>
+                <Quote className="w-12 h-12 text-secondary/20 absolute top-6 right-6"/>
                 <div className="flex gap-1 mb-4">
                   {[...Array(testimonial.rating)].map((_, j) => (
-                    <Star key={j} className="w-5 h-5 fill-primary text-primary"/>
+                    <Star key={j} className="w-5 h-5 fill-secondary text-secondary"/>
                   ))}
                 </div>
                 <p className="text-lg text-slate-700 leading-relaxed mb-6 italic">
                   "{testimonial.text}"
                 </p>
                 <div>
-                  <div className="font-bold text-slate-900">{testimonial.name}</div>
+                  <div className="font-bold text-secondary">{testimonial.name}</div>
                   <div className="text-sm text-slate-600 text-xs sm:text-sm md:text-base">{testimonial.position}</div>
                   <div className="text-sm text-primary font-semibold">{testimonial.location}</div>
                 </div>
@@ -175,7 +175,7 @@ function ReferenzenContent() {
       <section className="py-20 bg-gradient-to-br from-primary/10 to-secondary/10">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-slate-900 mb-6">
+            <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-secondary mb-6">
               Werden Sie unser nächster Erfolg
             </h2>
             <p className="text-sm sm:text-base md:text-lg text-slate-600 mb-8">

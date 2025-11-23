@@ -91,7 +91,7 @@ export default function Kontakt() {
       {/* Hero Section */}
       <section className="pt-32 pb-20 bg-gradient-to-br from-slate-50 to-blue-50">
         <div className="container text-center">
-          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
+          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-6">
             Kontaktieren Sie uns
           </h1>
           <p className="text-base sm:text-lg md:text-xl text-slate-600 max-w-3xl mx-auto mb-8">
@@ -111,7 +111,7 @@ export default function Kontakt() {
         <div className="container">
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             <Card className="p-8 hover-lift text-center hover:shadow-xl transition-shadow hover-tilt hover-tilt">
-              <Phone className="w-12 h-12 text-primary mx-auto mb-4" />
+              <Phone className="w-12 h-12 text-secondary mx-auto mb-4" />
               <h3 className="font-bold text-xl mb-2">Telefon</h3>
               <p className="text-slate-600 mb-4">Rufen Sie uns an - wir beraten Sie gerne</p>
               <a href="tel:01747225473" className="text-primary font-semibold hover:underline">
@@ -120,7 +120,7 @@ export default function Kontakt() {
             </Card>
 
             <Card className="p-8 hover-lift text-center hover:shadow-xl transition-shadow hover-tilt hover-tilt">
-              <Mail className="w-12 h-12 text-primary mx-auto mb-4" />
+              <Mail className="w-12 h-12 text-secondary mx-auto mb-4" />
               <h3 className="font-bold text-xl mb-2">E-Mail</h3>
               <p className="text-slate-600 mb-4">Schreiben Sie uns eine Nachricht</p>
               <a href="mailto:info@fimi-service.de" className="text-primary font-semibold hover:underline">
@@ -129,7 +129,7 @@ export default function Kontakt() {
             </Card>
 
             <Card className="p-8 hover-lift text-center hover:shadow-xl transition-shadow hover-tilt hover-tilt">
-              <MapPin className="w-12 h-12 text-primary mx-auto mb-4" />
+              <MapPin className="w-12 h-12 text-secondary mx-auto mb-4" />
               <h3 className="font-bold text-xl mb-2">Adresse</h3>
               <p className="text-slate-600 mb-4">Besuchen Sie uns vor Ort</p>
               <p className="text-slate-900 font-semibold">
@@ -142,7 +142,7 @@ export default function Kontakt() {
 
           {/* Standort-Karte */}
           <div className="mb-16">
-            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-8 text-center">
+            <h2 className="text-2xl sm:text-3xl font-bold text-secondary mb-8 text-center">
               Unser Standort & Service-Regionen
             </h2>
             <div className="rounded-2xl overflow-hidden shadow-xl">
@@ -182,7 +182,7 @@ export default function Kontakt() {
 
           {/* Kontaktformular - Im Footer */}
           <div className="max-w-3xl mx-auto text-center py-16">
-            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6">
+            <h2 className="text-3xl sm:text-4xl font-bold text-secondary mb-6">
               Bereit für professionelle Reinigung?
             </h2>
             <p className="text-lg text-slate-600 mb-8">
@@ -201,7 +201,7 @@ export default function Kontakt() {
       {/* FAQ Section */}
       <section className="py-20 bg-slate-50">
         <div className="container max-w-4xl">
-          <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-12 text-center">
+          <h2 className="text-2xl sm:text-3xl font-bold text-secondary mb-12 text-center">
             Häufig gestellte Fragen
           </h2>
           

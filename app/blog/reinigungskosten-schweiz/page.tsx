@@ -65,7 +65,7 @@ function ReinigungskostenDeutschlandContent() {
         <div className="container max-w-4xl">
           <div className="mb-12">
             <div className="text-sm text-primary font-semibold mb-4">PREISÜBERSICHT</div>
-            <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-6 leading-tight">
+            <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-6 leading-tight">
               Reinigungskosten in Niederbayern: Ein Überblick
             </h1>
             <p className="text-sm sm:text-base md:text-lg text-slate-600 leading-relaxed">
@@ -87,7 +87,7 @@ function ReinigungskostenDeutschlandContent() {
               Die Kosten für professionelle Reinigungsdienstleistungen variieren je nach Region, Leistungsumfang und Objektgröße. In diesem Ratgeber geben wir Ihnen einen transparenten Überblick über die Preisgestaltung in Niederbayern und zeigen, welche Faktoren die Kosten beeinflussen.
             </p>
 
-            <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-slate-900 mt-12 mb-6">Preisfaktoren im Überblick</h2>
+            <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-secondary mt-12 mb-6">Preisfaktoren im Überblick</h2>
             <Tabs defaultValue="zuerich" className="mb-12">
               <TabsList className="grid w-full grid-cols-3">
                 <TabsTrigger value="zuerich" className="text-xs sm:text-sm md:text-base px-2 sm:px-4">Landshut</TabsTrigger>

@@ -45,10 +45,10 @@ export default function Aussenanlagen() {
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="inline-block bg-primary/10 text-primary px-4 py-2 rounded-full text-xs sm:text-sm font-semibold mb-6">
+              <div className="inline-block bg-secondary/10 text-secondary px-4 py-2 rounded-full text-xs sm:text-sm font-semibold mb-6">
                 Business Lösung
               </div>
-              <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
+              <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-6">
                 Außenanlagen & Grünflächenpflege
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed mb-8">
@@ -84,21 +84,21 @@ export default function Aussenanlagen() {
         <div className="container">
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/10 text-primary rounded-full mb-4">
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-secondary/10 text-secondary rounded-full mb-4">
                 <Shield className="w-8 h-8" />
               </div>
               <h3 className="text-sm sm:text-base md:text-lg font-semibold mb-2">Ganzjährige Betreuung</h3>
               <p className="text-slate-600 text-xs sm:text-sm md:text-base">Professionelle Pflege zu jeder Jahreszeit</p>
             </div>
             <div className="text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/10 text-primary rounded-full mb-4">
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-secondary/10 text-secondary rounded-full mb-4">
                 <Clock className="w-8 h-8" />
               </div>
               <h3 className="text-sm sm:text-base md:text-lg font-semibold mb-2">Flexible Einsätze</h3>
               <p className="text-slate-600 text-xs sm:text-sm md:text-base">Nach Ihrem individuellen Bedarf</p>
             </div>
             <div className="text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/10 text-primary rounded-full mb-4">
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-secondary/10 text-secondary rounded-full mb-4">
                 <Award className="w-8 h-8" />
               </div>
               <h3 className="text-sm sm:text-base md:text-lg font-semibold mb-2">In Niederbayern</h3>
@@ -124,7 +124,7 @@ export default function Aussenanlagen() {
                   <ul className="space-y-2">
                     {["Eingangsbereiche", "Parkplätze", "Gehwege", "Treppen", "Terrassen", "Innenhöfe"].map((item, i) => (
                       <li key={i} className="flex items-start gap-2">
-                        <CheckCircle className="w-5 h-5 text-primary mt-0.5"/>
+                        <CheckCircle className="w-5 h-5 text-secondary mt-0.5"/>
                         <span>{item}</span>
                       </li>
                     ))}
@@ -132,7 +132,7 @@ export default function Aussenanlagen() {
                   <ul className="space-y-2">
                     {["Hochdruckreinigung", "Unkrautentfernung", "Laubbeseitigung", "Müllentsorgung", "Graffiti-Entfernung", "Pflasterreinigung"].map((item, i) => (
                       <li key={i} className="flex items-start gap-2">
-                        <CheckCircle className="w-5 h-5 text-primary mt-0.5"/>
+                        <CheckCircle className="w-5 h-5 text-secondary mt-0.5"/>
                         <span>{item}</span>
                       </li>
                     ))}
@@ -169,7 +169,7 @@ export default function Aussenanlagen() {
                 <ul className="space-y-3">
                   {["Schneeräumung", "Streudienst", "Eisbeseitigung", "24/7 Bereitschaft", "Dokumentation für Versicherung", "Eigene Streufahrzeuge"].map((item, i) => (
                     <li key={i} className="flex items-start gap-2">
-                      <CheckCircle className="w-5 h-5 text-primary mt-0.5"/>
+                      <CheckCircle className="w-5 h-5 text-secondary mt-0.5"/>
                       <span>{item}</span>
                     </li>
                   ))}

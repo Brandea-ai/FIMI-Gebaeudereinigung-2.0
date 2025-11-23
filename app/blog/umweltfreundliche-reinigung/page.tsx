@@ -64,7 +64,7 @@ function UmweltfreundlicheReinigungContent() {
         <div className="container max-w-4xl">
           <div className="mb-12">
             <div className="text-sm text-primary font-semibold mb-4">NACHHALTIGKEIT</div>
-            <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-6 leading-tight">
+            <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-6 leading-tight">
               Umweltfreundliche Reinigung: Tipps und Tricks
             </h1>
             <p className="text-sm sm:text-base md:text-lg text-slate-600 leading-relaxed">
@@ -88,23 +88,23 @@ function UmweltfreundlicheReinigungContent() {
 
             <div className="grid md:grid-cols-3 gap-6 mb-12">
               <Card className="p-6 hover-lift text-center hover-tilt hover-tilt">
-                <Leaf className="w-12 h-12 text-primary mx-auto mb-4"/>
+                <Leaf className="w-12 h-12 text-secondary mx-auto mb-4"/>
                 <h3 className="text-sm sm:text-base md:text-lg font-bold mb-2">Ökologisch</h3>
                 <p className="text-slate-600 text-xs sm:text-sm md:text-base">Biologisch abbaubare Reinigungsmittel schonen die Umwelt</p>
               </Card>
               <Card className="p-6 hover-lift text-center hover-tilt hover-tilt">
-                <Droplets className="w-12 h-12 text-primary mx-auto mb-4"/>
+                <Droplets className="w-12 h-12 text-secondary mx-auto mb-4"/>
                 <h3 className="text-sm sm:text-base md:text-lg font-bold mb-2">Wassersparend</h3>
                 <p className="text-slate-600 text-xs sm:text-sm md:text-base">Moderne Methoden reduzieren den Wasserverbrauch erheblich</p>
               </Card>
               <Card className="p-6 hover-lift text-center hover-tilt hover-tilt">
-                <Recycle className="w-12 h-12 text-primary mx-auto mb-4"/>
+                <Recycle className="w-12 h-12 text-secondary mx-auto mb-4"/>
                 <h3 className="text-sm sm:text-base md:text-lg font-bold mb-2">Ressourcenschonend</h3>
                 <p className="text-slate-600 text-xs sm:text-sm md:text-base">Wiederverwendbare Materialien und effiziente Prozesse</p>
               </Card>
             </div>
 
-            <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-slate-900 mt-12 mb-6">Umweltfreundliche Reinigungsmethoden</h2>
+            <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-secondary mt-12 mb-6">Umweltfreundliche Reinigungsmethoden</h2>
             <Accordion type="single" collapsible className="mb-12">
               <AccordionItem value="item-1">
                 <AccordionTrigger className="text-sm sm:text-base md:text-lg font-semibold">Mikrofasertechnologie</AccordionTrigger>
@@ -143,7 +143,7 @@ function UmweltfreundlicheReinigungContent() {
                   "Nachhaltige Unternehmensführung"
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-primary mt-0.5"/>
+                    <Check className="w-5 h-5 text-secondary mt-0.5"/>
                     <span>{item}</span>
                   </div>
                 ))}
