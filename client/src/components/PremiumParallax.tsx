@@ -2,6 +2,7 @@
 
 import { motion, useScroll, useTransform, useSpring, MotionValue } from "framer-motion";
 import { useRef, ReactNode } from "react";
+import Image from "next/image";
 
 interface ParallaxSectionProps {
   children: ReactNode;
@@ -89,24 +90,25 @@ export function ParallaxImage({
   return (
     <div ref={ref} className={`relative overflow-hidden ${className}`}>
       <motion.div
-        style={{ 
+        style={{
           y,
           scale: scaleValue,
           opacity,
         }}
         className="w-full h-full"
       >
-        <motion.img
+        <Image
           src={src}
           alt={alt}
-          style={{
-            filter: useTransform(blurValue, (v) => `blur(${v}px)`),
-          }}
-          className="w-full h-full object-cover"
+          fill
+          sizes="100vw"
+          className="object-cover"
+          quality={90}
+          priority={speed === 0}
         />
       </motion.div>
       {overlay && (
-        <motion.div 
+        <motion.div
           className="absolute inset-0 bg-gradient-to-b from-black/0 via-transparent to-black/20"
           style={{ opacity: useTransform(smoothProgress, [0, 0.5, 1], [overlayOpacity, 0, overlayOpacity]) }}
         />
@@ -186,13 +188,18 @@ export function ParallaxBackground({
         style={{ y }}
         className="absolute inset-0 w-full h-[120%] -top-[10%]"
       >
-        <div
-          className="w-full h-full bg-cover bg-center"
-          style={{ backgroundImage: `url(${src})` }}
+        <Image
+          src={src}
+          alt="Background"
+          fill
+          sizes="100vw"
+          className="object-cover"
+          quality={85}
+          priority
         />
       </motion.div>
       {overlay && (
-        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/50" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/50 z-10" />
       )}
     </div>
   );
