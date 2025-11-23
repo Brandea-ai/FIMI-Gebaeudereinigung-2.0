@@ -8,9 +8,9 @@ export default function Impressum() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Impressum - Swiss Reinigungsfirma"
-        description="Rechtliche Hinweise und Impressum der Swiss Reinigungsfirma. Alle Informationen zu unserem Unternehmen."
-        keywords="Impressum, rechtliche Hinweise, Kontakt, Adresse, UID"
+        title="Impressum - FIMI-Service"
+        description="Rechtliche Hinweise und Impressum von FIMI-Service. Alle Informationen zu unserem Unternehmen."
+        keywords="Impressum, rechtliche Hinweise, Kontakt, Adresse, UST-ID"
         url="/impressum"
       />
       <Navigation />
@@ -23,27 +23,27 @@ export default function Impressum() {
             <Card className="p-8">
               <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-6 text-slate-900">Verantwortlich für den Inhalt</h2>
               <div className="space-y-4 text-lg text-slate-700">
-                <p className="font-bold text-xl text-slate-900">Swiss Reinigungsfirma</p>
-                <p>Nezir Bozhdaraj</p>
-                <p>Tannhof 10</p>
-                <p>6020 Emmenbrücke</p>
-                <p>Schweiz</p>
+                <p className="font-bold text-xl text-slate-900">FIMI-Service</p>
+                <p>Geschäftsführer: Ntonalnt Tzoutzis und Ergest Qiraj</p>
+                <p>Kellerstr. 39</p>
+                <p>84036 Landshut</p>
+                <p>Deutschland</p>
               </div>
             </Card>
 
             <Card className="p-8">
               <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-6 text-slate-900">Kontakt</h2>
               <div className="space-y-4 text-lg text-slate-700">
-                <p><strong>Telefon:</strong> <a href="tel:+41413205610" className="text-primary hover:underline">+41 41 320 56 10</a></p>
-                <p><strong>E-Mail:</strong> <a href="mailto:info@bgs-service.ch" className="text-primary hover:underline">info@bgs-service.ch</a></p>
+                <p><strong>Telefon:</strong> <a href="tel:01747225473" className="text-primary hover:underline">0174 722 5473</a></p>
+                <p><strong>E-Mail:</strong> <a href="mailto:info@fimi-service.de" className="text-primary hover:underline">info@fimi-service.de</a></p>
               </div>
             </Card>
 
             <Card className="p-8">
-              <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-6 text-slate-900">Handelsregistereintrag</h2>
+              <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-6 text-slate-900">Umsatzsteuer-Identifikationsnummer</h2>
               <div className="space-y-4 text-lg text-slate-700">
-                <p><strong>Unternehmens-Identifikationsnummer (UID):</strong></p>
-                <p className="font-mono">CHE-108.687.458</p>
+                <p><strong>UST-ID:</strong></p>
+                <p className="font-mono">DE347549925</p>
               </div>
             </Card>
 
@@ -65,7 +65,7 @@ export default function Impressum() {
             <Card className="p-8">
               <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-6 text-slate-900">Urheberrechte</h2>
               <div className="space-y-4 text-slate-700 leading-relaxed text-base">
-                <p>Die Urheber- und alle anderen Rechte an Inhalten, Bildern, Fotos oder anderen Dateien auf dieser Website gehören ausschliesslich der <strong>Swiss Reinigungsfirma</strong> oder den speziell genannten Rechtsinhabern. Für die Reproduktion jeglicher Elemente ist die schriftliche Zustimmung der Urheberrechtsträger im Voraus einzuholen.</p>
+                <p>Die Urheber- und alle anderen Rechte an Inhalten, Bildern, Fotos oder anderen Dateien auf dieser Website gehören ausschließlich <strong>FIMI-Service</strong> oder den speziell genannten Rechtsinhabern. Für die Reproduktion jeglicher Elemente ist die schriftliche Zustimmung der Urheberrechtsträger im Voraus einzuholen.</p>
               </div>
             </Card>
 

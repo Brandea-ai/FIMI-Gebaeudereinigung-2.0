@@ -18,9 +18,9 @@ export default function ProfessionelleGebaeudereinigung() {
   return (
     <>
       <SEO 
-        title="Professionelle Gebäudereinigung: Qualität & Hygiene | Swiss Reinigungsfirma"
+        title="Professionelle Gebäudereinigung: Qualität & Hygiene | FIMI-Service"
         description="Erfahren Sie, was professionelle Gebäudereinigung ausmacht. Tipps zu Qualitätsstandards, Hygiene-Anforderungen und Auswahl der richtigen Reinigungsfirma."
-        keywords="professionelle Gebäudereinigung, Qualitätsstandards Reinigung, Hygiene Büro, Reinigungsfirma Schweiz"
+        keywords="professionelle Gebäudereinigung, Qualitätsstandards Reinigung, Hygiene Büro, Reinigungsfirma Deutschland"
       />
       <ProfessionelleGebaeudereinigungContent />
     </>
@@ -39,7 +39,7 @@ function ProfessionelleGebaeudereinigungContent() {
               Professionelle Gebäudereinigung: Was Sie wissen müssen
             </h1>
             <p className="text-sm sm:text-base md:text-lg text-slate-600 leading-relaxed">
-              Alles Wichtige über professionelle Gebäudereinigung, Standards und Qualitätsmerkmale in der Schweiz.
+              Alles Wichtige über professionelle Gebäudereinigung, Standards und Qualitätsmerkmale in Niederbayern.
             </p>
           </div>
           <ParallaxImage 
@@ -54,7 +54,7 @@ function ProfessionelleGebaeudereinigungContent() {
           
           <div className="prose prose-lg max-w-none">
             <p className="text-lg leading-relaxed text-slate-700 mb-8">
-              Professionelle Gebäudereinigung ist weit mehr als nur Staubwischen und Böden wischen. Es handelt sich um ein komplexes Fachgebiet, das spezialisiertes Wissen, moderne Technologie und geschultes Personal erfordert. In diesem umfassenden Ratgeber erfahren Sie alles über Standards, Methoden und Qualitätsmerkmale professioneller Gebäudereinigung in der Schweiz.
+              Professionelle Gebäudereinigung ist weit mehr als nur Staubwischen und Böden wischen. Es handelt sich um ein komplexes Fachgebiet, das spezialisiertes Wissen, moderne Technologie und geschultes Personal erfordert. In diesem umfassenden Ratgeber erfahren Sie alles über Standards, Methoden und Qualitätsmerkmale professioneller Gebäudereinigung in Niederbayern.
             </p>
 
             <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-slate-900 mt-12 mb-6">Was macht Gebäudereinigung professionell?</h2>
