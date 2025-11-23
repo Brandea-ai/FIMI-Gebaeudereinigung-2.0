@@ -5,8 +5,8 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Check, ArrowRight } from "lucide-react";
-import SwissNavigation from "@/components/SwissNavigation";
-import SwissFooter from "@/components/SwissFooter";
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 
 interface ServiceTemplateProps {
   title: string;
@@ -31,7 +31,7 @@ export default function ServiceTemplate({
 }: ServiceTemplateProps) {
   return (
     <div className="min-h-screen bg-white">
-      <SwissNavigation />
+      <Navigation />
       
       <section className="pt-32 pb-20 bg-gradient-to-br from-white via-red-50/30 to-white">
         <div className="container">
@@ -138,7 +138,7 @@ export default function ServiceTemplate({
         </div>
       </section>
 
-      <SwissFooter />
+      <Footer />
     </div>
   );
 }
