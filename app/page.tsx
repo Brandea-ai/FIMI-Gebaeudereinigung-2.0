@@ -116,10 +116,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Trust Indicators */}
-      <section className="py-20 bg-slate-50">
+      {/* Trust Indicators - WEISS */}
+      <section className="py-20 bg-white">
         <div className="container">
-          <motion.div 
+          <motion.div
             className="grid grid-cols-2 lg:grid-cols-4 gap-8"
             initial="hidden"
             whileInView="visible"
@@ -135,8 +135,8 @@ export default function Home() {
               <motion.div key={index} variants={scaleIn}>
 
                   <Card className="p-8 text-center hover-lift hover-tilt hover-tilt">
-                    <item.icon className={`w-12 h-12 ${index % 2 === 0 ? 'text-secondary' : 'text-primary'} mx-auto mb-4`} />
-                    <h3 className="text-base sm:text-lg md:text-xl font-bold text-slate-900 mb-2">{item.value}</h3>
+                    <item.icon className="w-12 h-12 text-secondary mx-auto mb-4" />
+                    <h3 className="text-base sm:text-lg md:text-xl font-bold text-secondary mb-2">{item.value}</h3>
                     <p className="text-xs sm:text-sm md:text-base text-slate-600">{item.label}</p>
                   </Card>
 
@@ -146,12 +146,12 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Vorher/Nachher Section with Parallax Images */}
-      <section className="py-32 bg-white overflow-hidden">
+      {/* Vorher/Nachher Section with Parallax Images - BLAU */}
+      <section className="py-32 bg-primary/5 overflow-hidden">
         <div className="container">
           <RevealOnScroll>
             <div className="text-center mb-16">
-              <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
+              <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-6">
                 Sehen Sie den Unterschied
               </h2>
               <p className="text-sm sm:text-base md:text-lg text-slate-600 max-w-3xl mx-auto">
@@ -163,7 +163,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <RevealOnScroll>
               <div className="parallax-smooth">
-                <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-slate-900 mb-4">Vorher</h3>
+                <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-secondary mb-4">Vorher</h3>
                 <ParallaxImage 
                   src="/vorher-buero-schmutzig.jpg" 
                   alt="Büro vor der Reinigung"
@@ -195,12 +195,12 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Services Overview with Enhanced Cards */}
-      <section className="py-32 bg-gradient-to-br from-slate-50 via-white to-secondary/10/30">
+      {/* Services Overview with Enhanced Cards - GRÜN */}
+      <section className="py-32 bg-secondary/5">
         <div className="container">
           <RevealOnScroll>
             <div className="text-center mb-16">
-              <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
+              <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-6">
                 Unsere Reinigungsdienstleistungen
               </h2>
               <p className="text-sm sm:text-base md:text-lg text-slate-600 max-w-3xl mx-auto">
@@ -221,21 +221,21 @@ export default function Home() {
 
                 <Card className="p-10 hover-lift h-full hover-tilt hover-tilt">
                   <Users className="w-16 h-16 text-secondary mb-6" />
-                  <h3 className="text-2xl sm:text-3xl font-bold mb-4 hover:text-secondary transition-colors">Gewerbliche Reinigung</h3>
+                  <h3 className="text-2xl sm:text-3xl font-bold mb-4 text-secondary">Gewerbliche Reinigung</h3>
                   <p className="text-slate-600 mb-6">
                     Professionelle Gebäudereinigung und Industriereinigung für Unternehmen in Landshut, Regensburg, Freising und ganz Niederbayern.
                   </p>
                   <ul className="space-y-3 mb-8">
                     {["Büroreinigung", "Industriereinigung", "Hallenreinigung", "Baureinigung", "Fassaden- & Fensterreinigung", "Maschinenreinigung"].map((item, i) => (
                       <li key={i} className="flex items-center gap-2 text-slate-700 text-xs sm:text-sm md:text-base">
-                        <Check className="w-5 h-5 text-primary flex-shrink-0" />
+                        <Check className="w-5 h-5 text-secondary flex-shrink-0" />
                         {item}
                       </li>
                     ))}
                   </ul>
                   <Link href="/business/bueroreinigung">
                     <MagneticHover>
-                      <Button variant="outline" className="w-full hover:bg-primary hover:text-white transition-all">
+                      <Button variant="outline" className="w-full border-secondary text-secondary hover:bg-secondary hover:text-white transition-all">
                         Mehr erfahren
                         <ArrowRight className="ml-2 w-4 h-4" />
                       </Button>
@@ -250,21 +250,21 @@ export default function Home() {
 
                 <Card className="p-10 hover-lift h-full hover-tilt hover-tilt">
                   <Shield className="w-16 h-16 text-secondary mb-6" />
-                  <h3 className="text-2xl sm:text-3xl font-bold mb-4 hover:text-secondary transition-colors">Facility Management</h3>
+                  <h3 className="text-2xl sm:text-3xl font-bold mb-4 text-secondary">Facility Management</h3>
                   <p className="text-slate-600 mb-6">
                     Umfassende Facility-Dienstleistungen für Ihre Immobilien und Betriebsgelände in Niederbayern.
                   </p>
                   <ul className="space-y-3 mb-8">
                     {["Facility Management", "Unterhaltsreinigung", "Hausmeisterservice", "Winterdienst", "Außenanlagenpflege", "Beschaffungsmanagement"].map((item, i) => (
                       <li key={i} className="flex items-center gap-2 text-slate-700 text-xs sm:text-sm md:text-base">
-                        <Check className="w-5 h-5 text-primary flex-shrink-0" />
+                        <Check className="w-5 h-5 text-secondary flex-shrink-0" />
                         {item}
                       </li>
                     ))}
                   </ul>
                   <Link href="/business/facility-management">
                     <MagneticHover>
-                      <Button variant="outline" className="w-full hover:bg-primary hover:text-white transition-all">
+                      <Button variant="outline" className="w-full border-secondary text-secondary hover:bg-secondary hover:text-white transition-all">
                         Mehr erfahren
                         <ArrowRight className="ml-2 w-4 h-4" />
                       </Button>
@@ -277,12 +277,12 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Service-Regionen Section */}
+      {/* Service-Regionen Section - WEISS */}
       <section className="py-32 bg-white overflow-hidden">
         <div className="container">
           <RevealOnScroll>
             <div className="text-center mb-16">
-              <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
+              <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-6">
                 Unsere Service-Regionen in Niederbayern
               </h2>
               <p className="text-sm sm:text-base md:text-lg text-slate-600 max-w-3xl mx-auto">
@@ -317,12 +317,12 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <section className="py-32 bg-gradient-to-br from-slate-50 via-white to-primary/5">
+      {/* Testimonials Section - BLAU */}
+      <section className="py-32 bg-primary/5">
         <div className="container">
           <RevealOnScroll>
             <div className="text-center mb-16">
-              <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
+              <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-secondary mb-6">
                 Was unsere Kunden sagen
               </h2>
               <p className="text-sm sm:text-base md:text-lg text-slate-600 max-w-3xl mx-auto">
@@ -360,7 +360,7 @@ export default function Home() {
                   <Card className="p-8 hover-lift h-full hover-tilt hover-tilt">
                     <div className="flex gap-1 mb-4">
                       {[...Array(5)].map((_, i) => (
-                        <Star key={i} className="w-5 h-5 fill-primary text-primary" />
+                        <Star key={i} className="w-5 h-5 fill-secondary text-secondary" />
                       ))}
                     </div>
                     <p className="text-slate-700 mb-6 italic">"{testimonial.text}"</p>
@@ -376,8 +376,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA Section with Parallax Background */}
-      <section className="relative py-32 overflow-hidden bg-gradient-to-br from-primary via-secondary/20 to-primary">
+      {/* CTA Section with Parallax Background - GRÜN */}
+      <section className="relative py-32 overflow-hidden bg-gradient-to-br from-secondary to-secondary/90">
         <div className="container relative z-10">
           <RevealOnScroll>
             <div className="max-w-3xl mx-auto text-center">
@@ -390,7 +390,7 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/kontakt">
                   <MagneticHover>
-                    <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-white text-sm sm:text-base md:text-lg px-8 shadow-2xl">
+                    <Button size="lg" className="bg-white text-secondary text-sm sm:text-base md:text-lg px-8 shadow-2xl hover:bg-white/90">
                       Jetzt Beratung anfordern
                       <ArrowRight className="ml-2 w-5 h-5" />
                     </Button>
@@ -399,7 +399,7 @@ export default function Home() {
                 <AppointmentButton
                   size="lg"
                   variant="outline"
-                  className="text-sm sm:text-base md:text-lg px-8 bg-white/10 backdrop-blur-sm border-white text-white hover:bg-white hover:text-slate-900"
+                  className="text-sm sm:text-base md:text-lg px-8 bg-white/10 backdrop-blur-sm border-white text-white hover:bg-white/20"
                 />
               </div>
             </div>
