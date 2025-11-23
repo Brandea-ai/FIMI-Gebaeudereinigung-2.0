@@ -2,6 +2,7 @@
 
 import { ReactNode } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Check, ArrowRight } from "lucide-react";
@@ -58,11 +59,14 @@ export default function ServiceTemplate({
                 </a>
               </div>
             </div>
-            <div>
-              <img 
+            <div className="relative h-[500px]">
+              <Image
                 src={image}
                 alt={title}
-                className="rounded-2xl shadow-2xl w-full"
+                fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                className="rounded-2xl shadow-2xl object-cover"
+                quality={90}
               />
             </div>
           </div>

@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X, Phone, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -47,8 +48,8 @@ export default function Navigation() {
       <div className="container">
         <div className="flex items-center justify-between h-20 md:h-24">
           <Link href="/">
-            <div className="flex items-center gap-3 cursor-pointer">
-              <img src="/logo.png" alt="FIMI-Service" className="h-16 md:h-20 w-auto" />
+            <div className="flex items-center gap-3 cursor-pointer relative h-16 md:h-20 w-40 md:w-48">
+              <Image src="/logo.png" alt="FIMI-Service" fill className="object-contain object-left" priority />
             </div>
           </Link>
 

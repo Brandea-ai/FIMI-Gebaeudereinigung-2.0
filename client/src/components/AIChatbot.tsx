@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect, useRef } from 'react';
+import Image from 'next/image';
 import { MessageCircle, X, Send, Loader2, CheckCircle2, Shield, Sparkles, Phone, Mail, Circle } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import { useChatbot } from '../contexts/ChatbotContext';
@@ -371,11 +372,14 @@ Zeitpunkt: ${extractedInfo.timing || 'nicht angegeben'}
       {/* Header */}
       <div className="bg-gradient-to-r from-red-600 to-red-700 text-white p-4 rounded-t-lg flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <img
-            src={supporter.image}
-            alt={supporter.name}
-            className="w-12 h-12 rounded-full object-cover border-2 border-white shadow-lg"
-          />
+          <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-white shadow-lg">
+            <Image
+              src={supporter.image}
+              alt={supporter.name}
+              fill
+              className="object-cover"
+            />
+          </div>
           <div>
             <h3 className="font-semibold text-sm">{supporter.name} - {supporter.role}</h3>
             <div className="flex items-center gap-1 text-xs text-red-100">

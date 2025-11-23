@@ -1,4 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
+import Image from 'next/image';
 import { motion, useScroll, useTransform, useSpring, useInView } from 'framer-motion';
 
 // Scroll Progress Indicator
@@ -43,14 +44,17 @@ export const PinnedBackground: React.FC<PinnedBackgroundProps> = ({
 
   return (
     <div className={`fixed inset-0 z-0 ${className}`}>
-      <motion.div 
+      <motion.div
         style={{ y }}
         className="absolute inset-0 w-full h-[110%]"
       >
-        <img 
-          src={image} 
-          alt="Background" 
-          className="w-full h-full object-cover"
+        <Image
+          src={image}
+          alt="Background"
+          fill
+          sizes="100vw"
+          className="object-cover"
+          quality={85}
         />
       </motion.div>
       {overlay && (

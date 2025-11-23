@@ -27,8 +27,39 @@ export default function ReinigungskostenDeutschland() {
 }
 
 function ReinigungskostenDeutschlandContent() {
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Reinigungskosten in Niederbayern: Ein Überblick",
+    "description": "Transparente Informationen zu Reinigungskosten und Preisgestaltung in Landshut, Regensburg, Freising und ganz Niederbayern.",
+    "image": "https://fimi-service.de/blog-kosten.jpg",
+    "datePublished": "2025-01-15",
+    "dateModified": "2025-01-15",
+    "author": {
+      "@type": "Organization",
+      "name": "FIMI-Service",
+      "url": "https://fimi-service.de"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "FIMI-Service",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://fimi-service.de/logo.png"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://fimi-service.de/blog/reinigungskosten-schweiz"
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <Navigation />
       <article className="pt-32 pb-20">
         <div className="container max-w-4xl">

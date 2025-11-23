@@ -32,10 +32,41 @@ export default function RichtigeReinigungsfirmaFinden() {
 }
 
 function RichtigeReinigungsfirmaFindenContent() {
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Die richtige Reinigungsfirma finden: Ein Leitfaden",
+    "description": "Expertenrat zur Auswahl der idealen Reinigungsfirma für Ihr Unternehmen in Niederbayern. Qualitätskriterien, Preisvergleiche und wichtige Fragen.",
+    "image": "https://fimi-service.de/blog-firma-finden.jpg",
+    "datePublished": "2025-01-15",
+    "dateModified": "2025-01-15",
+    "author": {
+      "@type": "Organization",
+      "name": "FIMI-Service",
+      "url": "https://fimi-service.de"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "FIMI-Service",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://fimi-service.de/logo.png"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://fimi-service.de/blog/richtige-reinigungsfirma-finden"
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <Navigation />
-      
+
       <article className="pt-32 pb-20">
         <div className="container max-w-4xl">
           <div className="mb-12">

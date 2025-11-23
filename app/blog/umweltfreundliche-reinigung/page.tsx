@@ -26,8 +26,39 @@ export default function UmweltfreundlicheReinigung() {
 }
 
 function UmweltfreundlicheReinigungContent() {
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Nachhaltige Gebäudereinigung: Umweltfreundlich & Effektiv",
+    "description": "Moderne Reinigungslösungen für Niederbayern, die Umwelt und Gesundheit schonen. Erfahren Sie mehr über grüne Reinigungsmethoden und Zertifizierungen.",
+    "image": "https://fimi-service.de/blog-umwelt.jpg",
+    "datePublished": "2025-01-15",
+    "dateModified": "2025-01-15",
+    "author": {
+      "@type": "Organization",
+      "name": "FIMI-Service",
+      "url": "https://fimi-service.de"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "FIMI-Service",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://fimi-service.de/logo.png"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://fimi-service.de/blog/umweltfreundliche-reinigung"
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <Navigation />
       <article className="pt-32 pb-20">
         <div className="container max-w-4xl">

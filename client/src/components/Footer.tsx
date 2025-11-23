@@ -1,6 +1,7 @@
 'use client'
 
 import Link from "next/link";
+import Image from "next/image";
 import { Mail, Phone, MapPin, Send } from "lucide-react";
 import { useState } from "react";
 
@@ -279,7 +280,9 @@ export default function Footer() {
         <div className="container py-16">
           <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-12">
             <div>
-              <img src="/logo.png" alt="FIMI-Service" className="h-24 w-auto mb-6" />
+              <div className="relative h-24 w-48 mb-6">
+                <Image src="/logo.png" alt="FIMI-Service" fill className="object-contain object-left" />
+              </div>
               <p className="text-slate-400 text-sm leading-relaxed mb-6">
                 Ihr professioneller Business-Partner für Gebäudereinigung in Niederbayern. Qualität, Zuverlässigkeit und Präzision seit über 15 Jahren.
               </p>
