@@ -68,7 +68,7 @@ export default function Footer() {
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-8">
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 dark:text-white mb-3">
-                Jetzt Kontakt aufnehmen
+                Jetzt <span className="text-secondary">Kontakt aufnehmen</span>
               </h2>
               <p className="text-sm sm:text-base lg:text-lg text-slate-600 dark:text-slate-400">
                 Fordern Sie ein unverbindliches Angebot an – wir melden uns innerhalb von 24 Stunden
@@ -239,7 +239,7 @@ export default function Footer() {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full sm:w-auto px-6 lg:px-8 py-3 lg:py-3.5 bg-primary hover:bg-primary/90 text-white font-semibold rounded-md transition-all duration-300 flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg hover:shadow-xl text-sm sm:text-base"
+                  className="w-full sm:w-auto px-6 lg:px-8 py-3 lg:py-3.5 bg-secondary hover:bg-secondary/90 text-white font-semibold rounded-md transition-all duration-300 flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg hover:shadow-xl text-sm sm:text-base"
                 >
                   {isSubmitting ? (
                     <>

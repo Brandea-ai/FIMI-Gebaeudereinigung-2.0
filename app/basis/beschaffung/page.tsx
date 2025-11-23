@@ -111,7 +111,7 @@ export default function Beschaffung() {
                 <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold mb-6">Umfassendes Beschaffungsmanagement</h3>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <h4 className="font-bold text-lg mb-3 text-primary">Reinigungsmittel</h4>
+                    <h4 className="font-bold text-lg mb-3 text-secondary">Reinigungsmittel</h4>
                     <ul className="space-y-2">
                       {[
                         "Allzweckreiniger & Desinfektionsmittel",
@@ -129,7 +129,7 @@ export default function Beschaffung() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-bold text-lg mb-3 text-primary">Verbrauchsmaterialien</h4>
+                    <h4 className="font-bold text-lg mb-3 text-secondary">Verbrauchsmaterialien</h4>
                     <ul className="space-y-2">
                       {[
                         "Toilettenpapier & Handtücher",

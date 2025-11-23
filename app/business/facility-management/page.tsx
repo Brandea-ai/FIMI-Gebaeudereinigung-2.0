@@ -122,7 +122,7 @@ export default function FacilityManagement() {
                 <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold mb-6">Alles aus einer Hand</h3>
                 <div className="grid md:grid-cols-2 gap-8">
                   <div>
-                    <h4 className="font-bold text-lg mb-3 text-primary">Reinigungsdienstleistungen</h4>
+                    <h4 className="font-bold text-lg mb-3 text-secondary">Reinigungsdienstleistungen</h4>
                     <ul className="space-y-2">
                       {["Unterhaltsreinigung", "Grundreinigung", "Fensterreinigung", "Fassadenreinigung", "Teppichreinigung", "Sonderreinigungen"].map((item, i) => (
                         <li key={i} className="flex items-start gap-2">
@@ -133,7 +133,7 @@ export default function FacilityManagement() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-bold text-lg mb-3 text-primary">Hausmeisterservice</h4>
+                    <h4 className="font-bold text-lg mb-3 text-secondary">Hausmeisterservice</h4>
                     <ul className="space-y-2">
                       {["Kleinreparaturen", "Wartungsarbeiten", "Grünflächenpflege", "Winterdienst", "Müllentsorgung", "Objektbetreuung"].map((item, i) => (
                         <li key={i} className="flex items-start gap-2">

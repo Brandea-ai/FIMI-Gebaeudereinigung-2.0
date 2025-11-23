@@ -75,7 +75,7 @@ export default function Home() {
               className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white leading-tight mb-6"
               variants={fadeInUp}
             >
-              Professionelle <span className="text-primary">Gebäudereinigung</span> in Niederbayern
+              Professionelle <span className="text-secondary">Gebäudereinigung</span> in Niederbayern
             </motion.h1>
             <motion.p
               className="text-sm sm:text-base md:text-lg text-white/95 mb-8 leading-relaxed max-w-2xl"
@@ -133,13 +133,13 @@ export default function Home() {
               { icon: Award, label: "15+ Jahre", value: "Erfahrung" },
             ].map((item, index) => (
               <motion.div key={index} variants={scaleIn}>
-                
+
                   <Card className="p-8 text-center hover-lift hover-tilt hover-tilt">
-                    <item.icon className="w-12 h-12 text-primary mx-auto mb-4" />
+                    <item.icon className={`w-12 h-12 ${index % 2 === 0 ? 'text-secondary' : 'text-primary'} mx-auto mb-4`} />
                     <h3 className="text-base sm:text-lg md:text-xl font-bold text-slate-900 mb-2">{item.value}</h3>
                     <p className="text-xs sm:text-sm md:text-base text-slate-600">{item.label}</p>
                   </Card>
-                
+
               </motion.div>
             ))}
           </motion.div>
@@ -178,7 +178,7 @@ export default function Home() {
             </RevealOnScroll>
             <RevealOnScroll delay={0.2}>
               <div className="parallax-smooth">
-                <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-primary mb-4">Nachher</h3>
+                <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-secondary mb-4">Nachher</h3>
                 <ParallaxImage 
                   src="/nachher-buero-sauber.jpg" 
                   alt="Büro nach der Reinigung"
@@ -220,8 +220,8 @@ export default function Home() {
             <motion.div variants={fadeInUp}>
 
                 <Card className="p-10 hover-lift h-full hover-tilt hover-tilt">
-                  <Users className="w-16 h-16 text-primary mb-6" />
-                  <h3 className="text-2xl sm:text-3xl font-bold mb-4 hover:text-primary transition-colors">Gewerbliche Reinigung</h3>
+                  <Users className="w-16 h-16 text-secondary mb-6" />
+                  <h3 className="text-2xl sm:text-3xl font-bold mb-4 hover:text-secondary transition-colors">Gewerbliche Reinigung</h3>
                   <p className="text-slate-600 mb-6">
                     Professionelle Gebäudereinigung und Industriereinigung für Unternehmen in Landshut, Regensburg, Freising und ganz Niederbayern.
                   </p>
@@ -249,8 +249,8 @@ export default function Home() {
             <motion.div variants={fadeInUp}>
 
                 <Card className="p-10 hover-lift h-full hover-tilt hover-tilt">
-                  <Shield className="w-16 h-16 text-primary mb-6" />
-                  <h3 className="text-2xl sm:text-3xl font-bold mb-4 hover:text-primary transition-colors">Facility Management</h3>
+                  <Shield className="w-16 h-16 text-secondary mb-6" />
+                  <h3 className="text-2xl sm:text-3xl font-bold mb-4 hover:text-secondary transition-colors">Facility Management</h3>
                   <p className="text-slate-600 mb-6">
                     Umfassende Facility-Dienstleistungen für Ihre Immobilien und Betriebsgelände in Niederbayern.
                   </p>
@@ -377,7 +377,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section with Parallax Background */}
-      <section className="relative py-32 overflow-hidden bg-gradient-to-br from-primary via-primary to-primary/90">
+      <section className="relative py-32 overflow-hidden bg-gradient-to-br from-primary via-secondary/20 to-primary">
         <div className="container relative z-10">
           <RevealOnScroll>
             <div className="max-w-3xl mx-auto text-center">
@@ -390,7 +390,7 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/kontakt">
                   <MagneticHover>
-                    <Button size="lg" className="text-sm sm:text-base md:text-lg px-8 shadow-2xl">
+                    <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-white text-sm sm:text-base md:text-lg px-8 shadow-2xl">
                       Jetzt Beratung anfordern
                       <ArrowRight className="ml-2 w-5 h-5" />
                     </Button>

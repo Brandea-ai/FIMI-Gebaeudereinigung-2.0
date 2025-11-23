@@ -111,7 +111,7 @@ export default function Industriereinigung() {
                 <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold mb-6">Umfassende Industriereinigung</h3>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <h4 className="font-bold text-lg mb-3 text-primary">Produktionshallen</h4>
+                    <h4 className="font-bold text-lg mb-3 text-secondary">Produktionshallen</h4>
                     <ul className="space-y-2">
                       {[
                         "Hallenböden (Beton, Epoxid, PVC)",
@@ -129,7 +129,7 @@ export default function Industriereinigung() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-bold text-lg mb-3 text-primary">Spezialreinigung</h4>
+                    <h4 className="font-bold text-lg mb-3 text-secondary">Spezialreinigung</h4>
                     <ul className="space-y-2">
                       {[
                         "Maschinenreinigung",

@@ -78,7 +78,7 @@ export default function Bueroreinigung() {
         <div className="container">
           <div className="grid md:grid-cols-4 gap-8 mb-20">
             <Card className="p-6 text-center">
-              <Building className="w-12 h-12 text-primary mx-auto mb-4"/>
+              <Building className="w-12 h-12 text-secondary mx-auto mb-4"/>
               <div className="font-bold text-lg mb-2">Alle Bürogrößen</div>
               <div className="text-slate-600 text-xs sm:text-sm md:text-base">Von Startup bis Konzern</div>
             </Card>
@@ -88,7 +88,7 @@ export default function Bueroreinigung() {
               <div className="text-slate-600 text-xs sm:text-sm md:text-base">Auch außerhalb der Geschäftszeiten</div>
             </Card>
             <Card className="p-6 text-center">
-              <Shield className="w-12 h-12 text-primary mx-auto mb-4"/>
+              <Shield className="w-12 h-12 text-secondary mx-auto mb-4"/>
               <div className="font-bold text-lg mb-2">Zuverlässig</div>
               <div className="text-slate-600 text-xs sm:text-sm md:text-base">Feste Ansprechpartner</div>
             </Card>
@@ -111,7 +111,7 @@ export default function Bueroreinigung() {
                 <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold mb-6">Umfassende Büroreinigung</h3>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <h4 className="font-bold text-lg mb-3 text-primary">Tägliche Unterhaltsreinigung</h4>
+                    <h4 className="font-bold text-lg mb-3 text-secondary">Tägliche Unterhaltsreinigung</h4>
                     <ul className="space-y-2">
                       {[
                         "Böden saugen & wischen",
@@ -129,7 +129,7 @@ export default function Bueroreinigung() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-bold text-lg mb-3 text-primary">Zusatzleistungen</h4>
+                    <h4 className="font-bold text-lg mb-3 text-secondary">Zusatzleistungen</h4>
                     <ul className="space-y-2">
                       {[
                         "Fensterreinigung",

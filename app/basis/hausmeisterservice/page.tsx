@@ -111,7 +111,7 @@ export default function Hausmeisterservice() {
                 <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold mb-6">Umfassender Hausmeisterservice</h3>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <h4 className="font-bold text-lg mb-3 text-primary">Regelmäßige Aufgaben</h4>
+                    <h4 className="font-bold text-lg mb-3 text-secondary">Regelmäßige Aufgaben</h4>
                     <ul className="space-y-2">
                       {[
                         "Objektbegehungen & Kontrollen",
@@ -129,7 +129,7 @@ export default function Hausmeisterservice() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-bold text-lg mb-3 text-primary">Zusatzleistungen</h4>
+                    <h4 className="font-bold text-lg mb-3 text-secondary">Zusatzleistungen</h4>
                     <ul className="space-y-2">
                       {[
                         "Winterdienst & Schneeräumung",

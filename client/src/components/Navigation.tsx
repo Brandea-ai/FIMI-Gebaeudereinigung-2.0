@@ -54,17 +54,17 @@ export default function Navigation() {
           </Link>
 
           <div className="hidden lg:flex items-center gap-8">
-            <Link href="/" className="text-foreground hover:text-primary transition-smooth font-medium">
+            <Link href="/" className="text-foreground hover:text-secondary transition-smooth font-medium">
               Home
             </Link>
-            
+
             <div
               className="relative group"
               onMouseEnter={() => setActiveDropdown('leistungen')}
               onMouseLeave={() => setActiveDropdown(null)}
             >
               <button
-                className="text-foreground hover:text-primary transition-smooth font-medium"
+                className="text-foreground hover:text-secondary transition-smooth font-medium"
                 onClick={() => setActiveDropdown(activeDropdown === 'leistungen' ? null : 'leistungen')}
                 onKeyDown={(e) => {
                   if (e.key === 'Enter' || e.key === ' ') {
@@ -84,11 +84,11 @@ export default function Navigation() {
                   <div className="bg-white rounded-lg shadow-2xl p-8">
                     <div className="grid grid-cols-2 gap-8">
                       <div>
-                        <h3 className="text-sm font-bold text-primary mb-4 uppercase tracking-wide">Gewerbliche Reinigung</h3>
+                        <h3 className="text-sm font-bold text-secondary mb-4 uppercase tracking-wide">Gewerbliche Reinigung</h3>
                         <div className="space-y-2">
                           {businessServices.map((service, index) => (
                             <Link key={index} href={service.href}>
-                              <div className="px-3 py-2 hover:bg-secondary rounded-md transition-smooth cursor-pointer text-sm">
+                              <div className="px-3 py-2 hover:bg-secondary/10 hover:text-secondary rounded-md transition-smooth cursor-pointer text-sm">
                                 {service.title}
                               </div>
                             </Link>
@@ -96,11 +96,11 @@ export default function Navigation() {
                         </div>
                       </div>
                       <div>
-                        <h3 className="text-sm font-bold text-primary mb-4 uppercase tracking-wide">Facility Management</h3>
+                        <h3 className="text-sm font-bold text-secondary mb-4 uppercase tracking-wide">Facility Management</h3>
                         <div className="space-y-2">
                           {facilityServices.map((service, index) => (
                             <Link key={index} href={service.href}>
-                              <div className="px-3 py-2 hover:bg-secondary rounded-md transition-smooth cursor-pointer text-sm">
+                              <div className="px-3 py-2 hover:bg-secondary/10 hover:text-secondary rounded-md transition-smooth cursor-pointer text-sm">
                                 {service.title}
                               </div>
                             </Link>
@@ -113,13 +113,13 @@ export default function Navigation() {
               )}
             </div>
 
-            <Link href="/ueber-uns" className="text-foreground hover:text-primary transition-smooth font-medium">
+            <Link href="/ueber-uns" className="text-foreground hover:text-secondary transition-smooth font-medium">
               Über uns
             </Link>
-            <Link href="/referenzen" className="text-foreground hover:text-primary transition-smooth font-medium">
+            <Link href="/referenzen" className="text-foreground hover:text-secondary transition-smooth font-medium">
               Referenzen
             </Link>
-            <Link href="/blog" className="text-foreground hover:text-primary transition-smooth font-medium">
+            <Link href="/blog" className="text-foreground hover:text-secondary transition-smooth font-medium">
               Blog
             </Link>
             <Link href="/kontakt">
@@ -142,14 +142,14 @@ export default function Navigation() {
         <div className="lg:hidden bg-white border-t max-h-[80vh] overflow-y-auto">
           <div className="container py-4 space-y-4">
             <Link href="/" onClick={() => setIsOpen(false)}>
-              <div className="py-2 text-foreground hover:text-primary transition-smooth">Home</div>
+              <div className="py-2 text-foreground hover:text-secondary transition-smooth">Home</div>
             </Link>
             <div>
               <div className="py-2 font-semibold text-foreground">Gewerbliche Reinigung</div>
               <div className="pl-4 space-y-2">
                 {businessServices.map((service, index) => (
                   <Link key={index} href={service.href} onClick={() => setIsOpen(false)}>
-                    <div className="py-2 text-muted-foreground hover:text-primary transition-smooth text-sm">
+                    <div className="py-2 text-muted-foreground hover:text-secondary transition-smooth text-sm">
                       {service.title}
                     </div>
                   </Link>
@@ -161,7 +161,7 @@ export default function Navigation() {
               <div className="pl-4 space-y-2">
                 {facilityServices.map((service, index) => (
                   <Link key={index} href={service.href} onClick={() => setIsOpen(false)}>
-                    <div className="py-2 text-muted-foreground hover:text-primary transition-smooth text-sm">
+                    <div className="py-2 text-muted-foreground hover:text-secondary transition-smooth text-sm">
                       {service.title}
                     </div>
                   </Link>
@@ -169,13 +169,13 @@ export default function Navigation() {
               </div>
             </div>
             <Link href="/ueber-uns" onClick={() => setIsOpen(false)}>
-              <div className="py-2 text-foreground hover:text-primary transition-smooth">Über uns</div>
+              <div className="py-2 text-foreground hover:text-secondary transition-smooth">Über uns</div>
             </Link>
             <Link href="/referenzen" onClick={() => setIsOpen(false)}>
-              <div className="py-2 text-foreground hover:text-primary transition-smooth">Referenzen</div>
+              <div className="py-2 text-foreground hover:text-secondary transition-smooth">Referenzen</div>
             </Link>
             <Link href="/blog" onClick={() => setIsOpen(false)}>
-              <div className="py-2 text-foreground hover:text-primary transition-smooth">Blog</div>
+              <div className="py-2 text-foreground hover:text-secondary transition-smooth">Blog</div>
             </Link>
             <Link href="/kontakt" onClick={() => setIsOpen(false)}>
               <Button className="w-full">Kontakt aufnehmen</Button>

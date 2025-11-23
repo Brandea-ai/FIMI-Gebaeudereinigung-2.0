@@ -111,7 +111,7 @@ export default function Winterdienst() {
                 <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold mb-6">Umfassender Winterdienst</h3>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <h4 className="font-bold text-lg mb-3 text-primary">Schneeräumung</h4>
+                    <h4 className="font-bold text-lg mb-3 text-secondary">Schneeräumung</h4>
                     <ul className="space-y-2">
                       {[
                         "Gehwege & Zufahrten räumen",
@@ -129,7 +129,7 @@ export default function Winterdienst() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-bold text-lg mb-3 text-primary">Streudienst</h4>
+                    <h4 className="font-bold text-lg mb-3 text-secondary">Streudienst</h4>
                     <ul className="space-y-2">
                       {[
                         "Präventives Streuen",
