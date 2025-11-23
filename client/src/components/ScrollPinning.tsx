@@ -50,7 +50,7 @@ export const PinnedBackground: React.FC<PinnedBackgroundProps> = ({
       >
         <Image
           src={image}
-          alt="Background"
+          alt=""
           fill
           sizes="100vw"
           className="object-cover"

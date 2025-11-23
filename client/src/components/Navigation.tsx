@@ -58,12 +58,25 @@ export default function Navigation() {
               Home
             </Link>
             
-            <div 
+            <div
               className="relative group"
               onMouseEnter={() => setActiveDropdown('leistungen')}
               onMouseLeave={() => setActiveDropdown(null)}
             >
-              <button className="text-foreground hover:text-primary transition-smooth font-medium">
+              <button
+                className="text-foreground hover:text-primary transition-smooth font-medium"
+                onClick={() => setActiveDropdown(activeDropdown === 'leistungen' ? null : 'leistungen')}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    setActiveDropdown(activeDropdown === 'leistungen' ? null : 'leistungen');
+                  } else if (e.key === 'Escape') {
+                    setActiveDropdown(null);
+                  }
+                }}
+                aria-expanded={activeDropdown === 'leistungen'}
+                aria-haspopup="true"
+              >
                 Leistungen
               </button>
               {activeDropdown === 'leistungen' && (
@@ -117,6 +130,8 @@ export default function Navigation() {
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="lg:hidden p-2 text-foreground"
+            aria-label="Toggle navigation menu"
+            aria-expanded={isOpen}
           >
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>

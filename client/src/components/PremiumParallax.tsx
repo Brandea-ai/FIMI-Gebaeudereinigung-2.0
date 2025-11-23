@@ -190,7 +190,7 @@ export function ParallaxBackground({
       >
         <Image
           src={src}
-          alt="Background"
+          alt=""
           fill
           sizes="100vw"
           className="object-cover"
