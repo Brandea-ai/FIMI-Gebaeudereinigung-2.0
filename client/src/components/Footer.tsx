@@ -122,7 +122,7 @@ export default function Footer() {
                     value={formData.phone}
                     onChange={handleChange}
                     className="w-full px-4 py-2.5 lg:py-3 rounded-md border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all text-sm sm:text-base"
-                    placeholder="+41 41 320 56 10"
+                    placeholder="0174 722 5473"
                   />
                 </div>
 

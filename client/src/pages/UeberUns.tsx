@@ -14,9 +14,9 @@ export default function UeberUns() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Über Uns - Swiss Reinigungsfirma | Qualität & Vertrauen"
-        description="Lernen Sie die Geschichte und die Werte der Swiss Reinigungsfirma kennen. Erfahren Sie, warum wir Ihr vertrauenswürdiger Partner für professionelle Reinigung sind."
-        keywords="Über uns, Reinigungsfirma Schweiz, Team, Werte, Mission, Geschichte"
+        title="Über Uns - FIMI-Service | Qualität & Vertrauen"
+        description="Lernen Sie die Geschichte und die Werte der FIMI-Service kennen. Erfahren Sie, warum wir Ihr vertrauenswürdiger Partner für professionelle Reinigung sind."
+        keywords="Über uns, Reinigungsfirma Deutschland, Team, Werte, Mission, Geschichte"
         url="/ueber-uns"
       />
       <Navigation />
@@ -31,7 +31,7 @@ export default function UeberUns() {
                 Unsere Geschichte: Von einer Vision zu Ihrem vertrauenswürdigen Partner
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed mb-8">
-                Seit unserer Gründung durch Nezir Bozhdaraj im Jahr 2005 hat sich die Swiss Reinigungsfirma von einem kleinen, engagierten Team zu einem der führenden Reinigungsunternehmen in der Schweiz entwickelt. Unsere Mission war von Anfang an klar: Wir wollen nicht nur reinigen, wir wollen Werte schaffen und Vertrauen aufbauen.
+                Seit unserer Gründung durch Ntonalnt Tzoutzis und Ergest Qiraj im Jahr 2005 hat sich die FIMI-Service von einem kleinen, engagierten Team zu einem der führenden Reinigungsunternehmen in Niederbayern entwickelt. Unsere Mission war von Anfang an klar: Wir wollen nicht nur reinigen, wir wollen Werte schaffen und Vertrauen aufbauen.
               </p>
               <Link href="/kontakt">
                 <MagneticHover><Button size="lg" className="text-lg">
@@ -42,7 +42,7 @@ export default function UeberUns() {
             <div className="relative">
               <ParallaxImage 
                 src="/ueber-uns-hero.jpg" 
-                alt="Das Team der Swiss Reinigungsfirma"
+                alt="Das Team der FIMI-Service"
                 className="rounded-2xl shadow-2xl w-full h-[500px] object-cover h-[400px] lg:h-[500px]"
                 speed={0.2}
                 scale={true}
@@ -114,7 +114,7 @@ export default function UeberUns() {
                 ))}
               </div>
               <p className="text-slate-700 mb-6 font-serif italic text-lg">
-                "Die Zusammenarbeit mit der Swiss Reinigungsfirma ist ein echter Gewinn. Das Team ist professionell, zuverlässig und das Ergebnis immer perfekt. Wir können sie uneingeschränkt empfehlen."
+                "Die Zusammenarbeit mit der FIMI-Service ist ein echter Gewinn. Das Team ist professionell, zuverlässig und das Ergebnis immer perfekt. Wir können sie uneingeschränkt empfehlen."
               </p>
               <div>
                 <div className="font-bold text-slate-900">Anna Meier</div>
@@ -129,7 +129,7 @@ export default function UeberUns() {
                 ))}
               </div>
               <p className="text-slate-700 mb-6 font-serif italic text-lg">
-                "Seit wir die Reinigung unserer Büros an die Swiss Reinigungsfirma übergeben haben, hat sich die Arbeitsatmosphäre spürbar verbessert. Ein sauberes Umfeld motiviert!"
+                "Seit wir die Reinigung unserer Büros an die FIMI-Service übergeben haben, hat sich die Arbeitsatmosphäre spürbar verbessert. Ein sauberes Umfeld motiviert!"
               </p>
               <div>
                 <div className="font-bold text-slate-900">Peter Schmidt</div>
@@ -144,7 +144,7 @@ export default function UeberUns() {
                 ))}
               </div>
               <p className="text-slate-700 mb-6 font-serif italic text-lg">
-                "Die Flexibilität und die hohe Qualität der Arbeit haben uns überzeugt. Die Swiss Reinigungsfirma ist ein Partner, auf den man sich verlassen kann."
+                "Die Flexibilität und die hohe Qualität der Arbeit haben uns überzeugt. Die FIMI-Service ist ein Partner, auf den man sich verlassen kann."
               </p>
               <div>
                 <div className="font-bold text-slate-900">Maria Rossi</div>
@@ -162,7 +162,7 @@ export default function UeberUns() {
             <div className="relative">
               <ParallaxImage 
                 src="/nezir-bozhdaraj.jpg?v=2" 
-                alt="Nezir Bozhdaraj, Gründer der Swiss Reinigungsfirma"
+                alt="Ntonalnt Tzoutzis und Ergest Qiraj, Gründer der FIMI-Service"
                 className="rounded-2xl shadow-2xl w-full h-[500px] lg:h-[600px] object-cover" 
                 style={{ objectPosition: '50% 20%' }}
                 speed={0.2}
@@ -175,9 +175,9 @@ export default function UeberUns() {
                 Ein Wort vom Gründer
               </h2>
               <p className="text-slate-700 mb-6 font-serif italic text-lg">
-                "Als ich die Swiss Reinigungsfirma gründete, hatte ich eine einfache Vision: einen Reinigungsservice anzubieten, der auf Vertrauen, Qualität und persönlichem Engagement basiert. Ich bin stolz darauf, dass wir diese Werte auch heute noch leben und jeden Tag unser Bestes geben, um die Erwartungen unserer Kunden zu übertreffen."
+                "Als ich die FIMI-Service gründete, hatte ich eine einfache Vision: einen Reinigungsservice anzubieten, der auf Vertrauen, Qualität und persönlichem Engagement basiert. Ich bin stolz darauf, dass wir diese Werte auch heute noch leben und jeden Tag unser Bestes geben, um die Erwartungen unserer Kunden zu übertreffen."
               </p>
-              <div className="font-bold text-slate-900 text-lg">Nezir Bozhdaraj</div>
+              <div className="font-bold text-slate-900 text-lg">Ntonalnt Tzoutzis und Ergest Qiraj</div>
               <div className="text-slate-600">Gründer & Geschäftsführer</div>
             </div>
           </div>

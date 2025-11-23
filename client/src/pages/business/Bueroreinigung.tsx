@@ -18,7 +18,7 @@ import AppointmentButton from "@/components/AppointmentButton";
 export default function Bueroreinigung() {
   const serviceData = {
     name: "Professionelle Büroreinigung",
-    description: "Zuverlässige Büroreinigung für Unternehmen in Zürich, Zug und Luzern. Flexibel, effizient und auf Ihre Bedürfnisse zugeschnitten.",
+    description: "Zuverlässige Büroreinigung für Unternehmen in Landshut, Regensburg, Freising und ganz Niederbayern. Flexibel, effizient und auf Ihre Bedürfnisse zugeschnitten.",
     url: "/business/bueroreinigung",
     category: "Commercial Cleaning"
   };
@@ -26,9 +26,9 @@ export default function Bueroreinigung() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Büroreinigung Zürich, Zug & Luzern - Swiss Reinigungsfirma"
-        description="Professionelle Büroreinigung für Unternehmen in der Schweiz. Zuverlässig, flexibel und auf höchstem Qualitätsniveau."
-        keywords="Büroreinigung, Büroreinigung Zürich, Gebäudereinigung Büro, Reinigung Geschäftsräume"
+        title="Büroreinigung Niederbayern - FIMI-Service Landshut"
+        description="Professionelle Büroreinigung für Unternehmen in Niederbayern. Zuverlässig, flexibel und auf höchstem Qualitätsniveau."
+        keywords="Büroreinigung, Büroreinigung Landshut, Gebäudereinigung Büro, Reinigung Geschäftsräume"
         url="/business/bueroreinigung"
         schema={serviceSchema(serviceData)}
       />
@@ -46,7 +46,7 @@ export default function Bueroreinigung() {
                 Professionelle Büroreinigung
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed mb-8">
-                Zuverlässige Reinigungslösungen für Büros und Geschäftsräume in Zürich, Zug und Luzern. Flexibel, effizient und auf Ihre Bedürfnisse zugeschnitten.
+                Zuverlässige Reinigungslösungen für Büros und Geschäftsräume in Landshut, Regensburg, Freising und ganz Niederbayern. Flexibel, effizient und auf Ihre Bedürfnisse zugeschnitten.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a href="#kontakt-formular">

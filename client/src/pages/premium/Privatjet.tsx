@@ -27,8 +27,8 @@ export default function Privatjet() {
     <div className="min-h-screen bg-white">
       <SEO
         title="Privatjet Reinigung - Exklusiver Premium Service"
-        description="Professionelle Privatjet Reinigung in der Schweiz. Diskretion, höchste Standards und 24/7 Verfügbarkeit für anspruchsvolle Kunden."
-        keywords="Privatjet Reinigung, Flugzeug Reinigung Schweiz, Aviation Cleaning, Private Jet Service"
+        description="Professionelle Privatjet Reinigung in Niederbayern. Diskretion, höchste Standards und 24/7 Verfügbarkeit für anspruchsvolle Kunden."
+        keywords="Privatjet Reinigung, Flugzeug Reinigung Deutschland, Aviation Cleaning, Private Jet Service"
         url="/premium/privatjet"
         schema={serviceSchema(serviceData)}
       />
@@ -46,7 +46,7 @@ export default function Privatjet() {
                 Privatjet Reinigung
               </h1>
               <p className="text-lg sm:text-xl md:text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed mb-8">
-                Professionelle Reinigung für Privatjets mit höchsten Standards. Diskretion, Präzision und Verfügbarkeit rund um die Uhr für anspruchsvolle Kunden in Zürich, Zug und Luzern.
+                Professionelle Reinigung für Privatjets mit höchsten Standards. Diskretion, Präzision und Verfügbarkeit rund um die Uhr für anspruchsvolle Kunden in Landshut, Regensburg, Freising und ganz Niederbayern.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a href="#kontakt-formular">
@@ -162,7 +162,7 @@ export default function Privatjet() {
                     {
                       step: "2",
                       title: "Sicherheitscheck",
-                      desc: "Alle Mitarbeiter sind sicherheitsgeprüft und verfügen über notwendige Flughafen-Zugangsberechtigungen."
+                      desc: "Alle Mitarbeiter sind sicherheitsgeprüft und verfügen über notwendige Flughafen-Regensburgangsberechtigungen."
                     },
                     {
                       step: "3",
@@ -191,7 +191,7 @@ export default function Privatjet() {
             
             <TabsContent value="vorteile" className="space-y-6">
               <Card className="p-8">
-                <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold mb-6">Warum Swiss Reinigungsfirma?</h3>
+                <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold mb-6">Warum FIMI-Service?</h3>
                 <div className="grid md:grid-cols-2 gap-8">
                   {[
                     {
@@ -208,11 +208,11 @@ export default function Privatjet() {
                     },
                     {
                       title: "Flexible Verfügbarkeit",
-                      desc: "24/7 Service an allen großen Schweizer Flughäfen: Zürich, Genf, Bern, St. Gallen-Altenrhein."
+                      desc: "24/7 Service an allen großen Deutschlander Flughäfen: Landshut, Genf, Bern, St. Gallen-Altenrhein."
                     },
                     {
                       title: "Versicherungsschutz",
-                      desc: "Vollständig versichert mit 10 Mio. CHF Haftpflichtdeckung."
+                      desc: "Vollständig versichert mit 10 Mio. EUR Haftpflichtdeckung."
                     },
                     {
                       title: "Referenzen",
@@ -254,7 +254,7 @@ export default function Privatjet() {
                 Welche Flughäfen bedienen Sie?
               </AccordionTrigger>
               <AccordionContent className="text-slate-700 leading-relaxed pt-4">
-                Wir sind an allen großen Schweizer Flughäfen aktiv: Zürich-Kloten, Genf, Bern-Belp, St. Gallen-Altenrhein, Lugano und Samedan. Auch kleinere Privatflugplätze nach Absprache.
+                Wir sind an allen großen Deutschlander Flughäfen aktiv: Landshut-Kloten, Genf, Bern-Belp, St. Gallen-Altenrhein, Lugano und Samedan. Auch kleinere Privatflugplätze nach Absprache.
               </AccordionContent>
             </AccordionItem>
             
@@ -263,7 +263,7 @@ export default function Privatjet() {
                 Was kostet eine Privatjet Reinigung?
               </AccordionTrigger>
               <AccordionContent className="text-slate-700 leading-relaxed pt-4">
-                Die Preise variieren je nach Jet-Größe und Leistungsumfang. Eine Standard-Innenreinigung für einen Light Jet beginnt bei CHF 800. Für ein individuelles Angebot kontaktieren Sie uns bitte direkt.
+                Die Preise variieren je nach Jet-Größe und Leistungsumfang. Eine Standard-Innenreinigung für einen Light Jet beginnt bei EUR 800. Für ein individuelles Angebot kontaktieren Sie uns bitte direkt.
               </AccordionContent>
             </AccordionItem>
           </Accordion>

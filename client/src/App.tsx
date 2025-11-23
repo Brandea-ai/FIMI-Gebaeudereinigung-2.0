@@ -36,8 +36,8 @@ import Beschaffung from "./pages/basis/Beschaffung";
 import Sonderleistungen from "./pages/basis/Sonderleistungen";
 // Standorte
 import Zuerich from "./pages/standorte/Zuerich";
-import Zug from "./pages/standorte/Zug";
-import Luzern from "./pages/standorte/Luzern";
+import Regensburg from "./pages/standorte/Regensburg";
+import Freising from "./pages/standorte/Freising";
 
 // Main Pages
 import UeberUns from "./pages/UeberUns";
@@ -50,7 +50,7 @@ import Datenschutz from "./pages/Datenschutz";
 import Blog from "./pages/Blog";
 import RichtigeReinigungsfirmaFinden from "./pages/blog/RichtigeReinigungsfirmaFinden";
 import ProfessionelleGebaeudereinigung from "./pages/blog/ProfessionelleGebaeudereinigung";
-import ReinigungskostenSchweiz from "./pages/blog/ReinigungskostenSchweiz";
+import ReinigungskostenDeutschland from "./pages/blog/ReinigungskostenDeutschland";
 import UmweltfreundlicheReinigung from "./pages/blog/UmweltfreundlicheReinigung";
 
 function ScrollToTop() {
@@ -115,14 +115,14 @@ function Router() {
       <Route path="/basis/sonderleistungen" component={Sonderleistungen} />
             {/* Standorte */}
       <Route path="/standorte/zuerich" component={Zuerich} />
-      <Route path="/standorte/zug" component={Zug} />
-      <Route path="/standorte/luzern" component={Luzern} />
+      <Route path="/standorte/zug" component={Regensburg} />
+      <Route path="/standorte/luzern" component={Freising} />
       
       {/* Blog */}
       <Route path="/blog" component={Blog} />
       <Route path="/blog/richtige-reinigungsfirma-finden" component={RichtigeReinigungsfirmaFinden} />
       <Route path="/blog/professionelle-gebaeudereinigung" component={ProfessionelleGebaeudereinigung} />
-      <Route path="/blog/reinigungskosten-schweiz" component={ReinigungskostenSchweiz} />
+      <Route path="/blog/reinigungskosten-schweiz" component={ReinigungskostenDeutschland} />
       <Route path="/blog/umweltfreundliche-reinigung" component={UmweltfreundlicheReinigung} />
       
       {/* Main Pages */}

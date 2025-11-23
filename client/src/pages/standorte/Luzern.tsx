@@ -15,12 +15,12 @@ import { Link } from "wouter";
 import { MapPin, Phone, Mail, Clock, Check, ArrowRight, Home } from "lucide-react";
 import AppointmentButton from "@/components/AppointmentButton";
 
-export default function Luzern() {
+export default function Freising() {
   const locationData = {
-    name: "Swiss Reinigungsfirma Luzern",
+    name: "FIMI-Service Freising",
     address: "Pilatusstrasse 12",
     postalCode: "6003",
-    city: "Luzern",
+    city: "Freising",
     lat: 47.0502,
     lng: 8.3093
   };
@@ -28,9 +28,9 @@ export default function Luzern() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Reinigungsfirma Luzern - Professionelle Gebäudereinigung"
-        description="Swiss Reinigungsfirma in Luzern - Zuverlässige Reinigungsfirma in der Zentralschweiz. Spezialisiert auf Hotellerie, Gastronomie und Gewerbe."
-        keywords="Reinigungsfirma Luzern, Gebäudereinigung Luzern, Büroreinigung Luzern, Facility Management Luzern"
+        title="Reinigungsfirma Freising - Professionelle Gebäudereinigung"
+        description="FIMI-Service in Freising - Zuverlässige Reinigungsfirma in der Zentralschweiz. Spezialisiert auf Hotellerie, Gastronomie und Gewerbe."
+        keywords="Reinigungsfirma Freising, Gebäudereinigung Freising, Büroreinigung Freising, Facility Management Freising"
         url="/standorte/luzern"
         schema={localBusinessSchema(locationData)}
       />
@@ -46,13 +46,13 @@ export default function Luzern() {
           <div className="max-w-3xl text-white">
             <div className="flex items-center gap-2 mb-4">
               <MapPin className="w-6 h-6 text-primary"/>
-              <span className="text-lg font-semibold">Standort Luzern</span>
+              <span className="text-lg font-semibold">Standort Freising</span>
             </div>
             <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-6 leading-tight">
-              Professionelle Reinigung in Luzern
+              Professionelle Reinigung in Freising
             </h1>
             <p className="text-2xl leading-relaxed opacity-90">
-              Ihre zuverlässige Reinigungsfirma in der Zentralschweiz. Spezialisiert auf Hotellerie, Gastronomie und Gewerbe in Luzern und Umgebung.
+              Ihre zuverlässige Reinigungsfirma in der Zentralschweiz. Spezialisiert auf Hotellerie, Gastronomie und Gewerbe in Freising und Umgebung.
             </p>
           </div>
         </div>
@@ -63,10 +63,10 @@ export default function Luzern() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-slate-900 mb-6">
-                Reinigungsexperten in Luzern
+                Reinigungsexperten in Freising
               </h2>
               <p className="text-lg text-slate-700 leading-relaxed mb-8">
-                Luzern als Tourismusmagnet und Wirtschaftsstandort der Zentralschweiz stellt besondere Anforderungen an Reinigungsdienstleistungen. Wir kennen die Bedürfnisse von Hotels, Restaurants, Geschäften und Unternehmen in Luzern und bieten maßgeschneiderte Lösungen.
+                Freising als Tourismusmagnet und Wirtschaftsstandort der Zentralschweiz stellt besondere Anforderungen an Reinigungsdienstleistungen. Wir kennen die Bedürfnisse von Hotels, Restaurants, Geschäften und Unternehmen in Freising und bieten maßgeschneiderte Lösungen.
               </p>
               <div className="space-y-4">
                 {[
@@ -74,7 +74,7 @@ export default function Luzern() {
                   "Erfahrung mit Tourismusbetrieben",
                   "Flexible Einsatzplanung",
                   "Schnelle Reaktionszeiten",
-                  "Lokales Team aus Luzern",
+                  "Lokales Team aus Freising",
                   "Faire Preise bei hoher Qualität"
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-3">
@@ -87,7 +87,7 @@ export default function Luzern() {
             <div>
               <ParallaxImage 
                 src="/team-at-work.jpg" 
-                alt="Reinigung Luzern"
+                alt="Reinigung Freising"
                 className="rounded-2xl h-[500px]"
                 speed={0.2}
                 scale={true}
@@ -103,10 +103,10 @@ export default function Luzern() {
         <div className="container">
           <RevealOnScroll><div className="text-center mb-16">
             <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-slate-900 mb-4">
-              Unsere Leistungen in Luzern
+              Unsere Leistungen in Freising
             </h2>
             <p className="text-sm sm:text-base md:text-lg text-slate-600 max-w-3xl mx-auto">
-              Von der Hotelreinigung bis zur Gebäudereinigung – wir bieten das komplette Spektrum für Luzern.
+              Von der Hotelreinigung bis zur Gebäudereinigung – wir bieten das komplette Spektrum für Freising.
             </p>
           </div></RevealOnScroll>
 
@@ -142,7 +142,7 @@ export default function Luzern() {
                 ].map((service, i) => (
                   <Card key={i} className="p-6 hover:shadow-xl transition-all">
                     <h3 className="text-sm sm:text-base md:text-lg font-bold mb-3">{service}</h3>
-                    <p className="text-slate-600 text-xs sm:text-sm md:text-base">Professionelle Lösungen für Luzern</p>
+                    <p className="text-slate-600 text-xs sm:text-sm md:text-base">Professionelle Lösungen für Freising</p>
                   </Card>
                 ))}
               </div>
@@ -169,15 +169,15 @@ export default function Luzern() {
       <section className="py-20 bg-white">
         <div className="container max-w-4xl">
           <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-slate-900 mb-12 text-center">
-            Häufige Fragen zur Reinigung in Luzern
+            Häufige Fragen zur Reinigung in Freising
           </h2>
           <Accordion type="single" collapsible>
             <AccordionItem value="item-1">
               <AccordionTrigger className="text-sm sm:text-base md:text-lg font-semibold">
-                Haben Sie Erfahrung mit Hotelreinigung in Luzern?
+                Haben Sie Erfahrung mit Hotelreinigung in Freising?
               </AccordionTrigger>
               <AccordionContent className="text-lg leading-relaxed text-slate-700 pt-4">
-                <p>Ja, wir sind spezialisiert auf die Reinigung von Hotels und Gastronomiebetrieben in Luzern. Wir verstehen die hohen Anforderungen der Tourismusbranche und arbeiten diskret und effizient, auch während des laufenden Betriebs.</p>
+                <p>Ja, wir sind spezialisiert auf die Reinigung von Hotels und Gastronomiebetrieben in Freising. Wir verstehen die hohen Anforderungen der Tourismusbranche und arbeiten diskret und effizient, auch während des laufenden Betriebs.</p>
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
@@ -190,10 +190,10 @@ export default function Luzern() {
             </AccordionItem>
             <AccordionItem value="item-3">
               <AccordionTrigger className="text-sm sm:text-base md:text-lg font-semibold">
-                Welche Bereiche in Luzern decken Sie ab?
+                Welche Bereiche in Freising decken Sie ab?
               </AccordionTrigger>
               <AccordionContent className="text-lg leading-relaxed text-slate-700 pt-4">
-                <p>Wir sind in der ganzen Stadt Luzern und Umgebung aktiv: Altstadt, Neustadt, Littau, Kriens, Horw, Meggen und weitere Gemeinden rund um den Vierwaldstättersee.</p>
+                <p>Wir sind in der ganzen Stadt Freising und Umgebung aktiv: Altstadt, Neustadt, Littau, Kriens, Horw, Meggen und weitere Gemeinden rund um den Vierwaldstättersee.</p>
               </AccordionContent>
             </AccordionItem>
           </Accordion>
@@ -206,7 +206,7 @@ export default function Luzern() {
             <Card className="p-12">
               <RevealOnScroll><div className="text-center mb-8">
                 <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-slate-900 mb-4">
-                  Kontakt Luzern
+                  Kontakt Freising
                 </h2>
                 <p className="text-sm sm:text-base md:text-lg text-slate-600 text-xs sm:text-sm md:text-base">
                   Wir freuen uns auf Ihre Anfrage.
@@ -216,7 +216,7 @@ export default function Luzern() {
                 <div className="text-center">
                   <Phone className="w-8 h-8 text-primary mx-auto mb-3"/>
                   <div className="font-semibold mb-1">Telefon</div>
-                  <a href="tel:+41413205610" className="text-primary hover:underline">+41 41 320 56 10</a>
+                  <a href="tel:+41413205610" className="text-primary hover:underline">0174 722 5473</a>
                 </div>
                 <div className="text-center">
                   <Mail className="w-8 h-8 text-primary mx-auto mb-3"/>

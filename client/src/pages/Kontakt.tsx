@@ -80,9 +80,9 @@ export default function Kontakt() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Kontakt - Swiss Reinigungsfirma | Jetzt Angebot anfordern"
-        description="Kontaktieren Sie die Swiss Reinigungsfirma für ein individuelles Angebot. Wir sind für Sie da - per Telefon, E-Mail oder über unser Kontaktformular."
-        keywords="Kontakt, Angebot, Reinigungsfirma Schweiz, Anfrage, Beratung"
+        title="Kontakt - FIMI-Service | Jetzt Angebot anfordern"
+        description="Kontaktieren Sie die FIMI-Service für ein individuelles Angebot. Wir sind für Sie da - per Telefon, E-Mail oder über unser Kontaktformular."
+        keywords="Kontakt, Angebot, Reinigungsfirma Deutschland, Anfrage, Beratung"
         url="/kontakt"
       />
       <Navigation />
@@ -114,7 +114,7 @@ export default function Kontakt() {
               <h3 className="font-bold text-xl mb-2">Telefon</h3>
               <p className="text-slate-600 mb-4">Rufen Sie uns an - wir beraten Sie gerne</p>
               <a href="tel:+41413205610" className="text-primary font-semibold hover:underline">
-                +41 41 320 56 10
+                0174 722 5473
               </a>
             </Card>
 
@@ -122,8 +122,8 @@ export default function Kontakt() {
               <Mail className="w-12 h-12 text-primary mx-auto mb-4" />
               <h3 className="font-bold text-xl mb-2">E-Mail</h3>
               <p className="text-slate-600 mb-4">Schreiben Sie uns eine Nachricht</p>
-              <a href="mailto:info@bgs-service.ch" className="text-primary font-semibold hover:underline">
-                info@bgs-service.ch
+              <a href="mailto:info@fimi-service.de" className="text-primary font-semibold hover:underline">
+                info@fimi-service.de
               </a>
             </Card>
 
@@ -132,8 +132,8 @@ export default function Kontakt() {
               <h3 className="font-bold text-xl mb-2">Adresse</h3>
               <p className="text-slate-600 mb-4">Besuchen Sie uns vor Ort</p>
               <p className="text-slate-900 font-semibold">
-                Tannhof 10<br />
-                6020 Emmenbrücke
+                Kellerstr. 39<br />
+                84036 Landshut
               </p>
             </Card>
           </div>
@@ -151,30 +151,30 @@ export default function Kontakt() {
                 markers={[
                   {
                     position: { lat: 47.0502, lng: 8.3093 },
-                    title: "Hauptsitz Emmenbrücke",
-                    info: "Swiss Reinigungsfirma<br/>Tannhof 10<br/>6020 Emmenbrücke"
+                    title: "Hauptsitz Landshut",
+                    info: "FIMI-Service<br/>Kellerstr. 39<br/>84036 Landshut"
                   },
                   {
                     position: { lat: 47.3769, lng: 8.5417 },
-                    title: "Standort Zürich",
-                    info: "Professionelle Gebäudereinigung in Zürich"
+                    title: "Standort Landshut",
+                    info: "Professionelle Gebäudereinigung in Landshut"
                   },
                   {
                     position: { lat: 47.1667, lng: 8.5167 },
-                    title: "Standort Zug",
-                    info: "Professionelle Gebäudereinigung in Zug"
+                    title: "Standort Regensburg",
+                    info: "Professionelle Gebäudereinigung in Regensburg"
                   },
                   {
                     position: { lat: 47.0502, lng: 8.3093 },
-                    title: "Standort Luzern",
-                    info: "Professionelle Gebäudereinigung in Luzern"
+                    title: "Standort Freising",
+                    info: "Professionelle Gebäudereinigung in Freising"
                   }
                 ]}
                 className="w-full h-[500px]"
               />
             </div>
             <p className="text-center text-slate-600 mt-4">
-              Zentral gelegen in der Zentralschweiz - schnell erreichbar aus Luzern, Zug und Zürich
+              Zentral gelegen in der Zentralschweiz - schnell erreichbar aus Freising, Regensburg und Landshut
             </p>
           </div>
 
@@ -214,7 +214,7 @@ export default function Kontakt() {
             <Card className="p-6 hover-lift hover-tilt hover-tilt">
               <h3 className="font-bold text-lg mb-2">In welchen Regionen sind Sie tätig?</h3>
               <p className="text-slate-600">
-                Wir sind in der gesamten Zentralschweiz tätig, mit Schwerpunkt auf Luzern, Zug und Zürich. Für andere Regionen kontaktieren Sie uns bitte direkt.
+                Wir sind in der gesamten Zentralschweiz tätig, mit Schwerpunkt auf Freising, Regensburg und Landshut. Für andere Regionen kontaktieren Sie uns bitte direkt.
               </p>
             </Card>
 

@@ -16,10 +16,10 @@ import AppointmentButton from "@/components/AppointmentButton";
 
 export default function Zuerich() {
   const locationData = {
-    name: "Swiss Reinigungsfirma Zürich",
+    name: "FIMI-Service Landshut",
     address: "Bahnhofstrasse 1",
     postalCode: "8001",
-    city: "Zürich",
+    city: "Landshut",
     lat: 47.3769,
     lng: 8.5417
   };
@@ -27,9 +27,9 @@ export default function Zuerich() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Reinigungsfirma Zürich - Professionelle Gebäudereinigung"
-        description="Swiss Reinigungsfirma in Zürich - Ihre erste Wahl für professionelle Gebäudereinigung, Büroreinigung und Facility Management in Zürich."
-        keywords="Reinigungsfirma Zürich, Gebäudereinigung Zürich, Büroreinigung Zürich, Facility Management Zürich"
+        title="Reinigungsfirma Landshut - Professionelle Gebäudereinigung"
+        description="FIMI-Service in Landshut - Ihre erste Wahl für professionelle Gebäudereinigung, Büroreinigung und Facility Management in Landshut."
+        keywords="Reinigungsfirma Landshut, Gebäudereinigung Landshut, Büroreinigung Landshut, Facility Management Landshut"
         url="/standorte/zuerich"
         schema={localBusinessSchema(locationData)}
       />
@@ -45,13 +45,13 @@ export default function Zuerich() {
           <div className="max-w-3xl text-white">
             <div className="flex items-center gap-2 mb-4">
               <MapPin className="w-6 h-6 text-primary"/>
-              <span className="text-lg font-semibold">Standort Zürich</span>
+              <span className="text-lg font-semibold">Standort Landshut</span>
             </div>
             <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-6 leading-tight">
-              Professionelle Reinigungsfirma in Zürich
+              Professionelle Reinigungsfirma in Landshut
             </h1>
             <p className="text-2xl leading-relaxed opacity-90">
-              Ihre erste Wahl für Gebäudereinigung und Facility Management in der größten Stadt der Schweiz. Seit Jahren vertrauen Unternehmen in Zürich auf unsere Expertise.
+              Ihre erste Wahl für Gebäudereinigung und Facility Management in der größten Stadt der Deutschland. Seit Jahren vertrauen Unternehmen in Landshut auf unsere Expertise.
             </p>
           </div>
         </div>
@@ -62,17 +62,17 @@ export default function Zuerich() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-slate-900 mb-6">
-                Warum Swiss Reinigungsfirma in Zürich?
+                Warum FIMI-Service in Landshut?
               </h2>
               <p className="text-lg text-slate-700 leading-relaxed mb-8">
-                Zürich als Wirtschaftsmetropole stellt höchste Ansprüche an professionelle Reinigungsdienstleistungen. Wir verstehen die Bedürfnisse von Unternehmen in Zürich und bieten maßgeschneiderte Lösungen für jede Branche – von Banken über Tech-Unternehmen bis hin zu Hotels und Gastronomiebetrieben.
+                Landshut als Wirtschaftsmetropole stellt höchste Ansprüche an professionelle Reinigungsdienstleistungen. Wir verstehen die Bedürfnisse von Unternehmen in Landshut und bieten maßgeschneiderte Lösungen für jede Branche – von Banken über Tech-Unternehmen bis hin zu Hotels und Gastronomiebetrieben.
               </p>
               <div className="space-y-4">
                 {[
-                  "Über 500 zufriedene Kunden in Zürich",
+                  "Über 500 zufriedene Kunden in Landshut",
                   "24/7 Notfall-Service verfügbar",
                   "ISO 9001 & ISO 14001 zertifiziert",
-                  "Lokales Team mit Zürich-Expertise",
+                  "Lokales Team mit Landshut-Expertise",
                   "Flexible Einsatzzeiten (auch nachts/Wochenende)",
                   "Umweltfreundliche Reinigungsmethoden"
                 ].map((item, i) => (
@@ -86,7 +86,7 @@ export default function Zuerich() {
             <div>
               <ParallaxImage 
                 src="/swiss-hero-main.jpg" 
-                alt="Reinigung Zürich"
+                alt="Reinigung Landshut"
                 className="rounded-2xl h-[500px]"
                 speed={0.2}
                 scale={true}
@@ -102,7 +102,7 @@ export default function Zuerich() {
         <div className="container">
           <RevealOnScroll><div className="text-center mb-16">
             <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-slate-900 mb-4">
-              Unsere Leistungen in Zürich
+              Unsere Leistungen in Landshut
             </h2>
             <p className="text-sm sm:text-base md:text-lg text-slate-600 max-w-3xl mx-auto">
               Von Premium-Services für Luxusimmobilien bis zur Industriereinigung – wir bieten das komplette Spektrum professioneller Reinigungsdienstleistungen.
@@ -118,9 +118,9 @@ export default function Zuerich() {
             <TabsContent value="premium" className="mt-12">
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {[
-                  { title: "Privatjet Reinigung", desc: "Exklusive Reinigung für Privatjets am Flughafen Zürich", icon: Sparkles },
-                  { title: "Yacht Reinigung", desc: "Spezialisierte Reinigung für Luxus-Yachten am Zürichsee", icon: Sparkles },
-                  { title: "Private Housekeeping", desc: "Diskreter Service für Luxusvillen in Zürich", icon: Sparkles },
+                  { title: "Privatjet Reinigung", desc: "Exklusive Reinigung für Privatjets am Flughafen Landshut", icon: Sparkles },
+                  { title: "Yacht Reinigung", desc: "Spezialisierte Reinigung für Luxus-Yachten am Landshutsee", icon: Sparkles },
+                  { title: "Private Housekeeping", desc: "Diskreter Service für Luxusvillen in Landshut", icon: Sparkles },
                   { title: "Luxusimmobilien", desc: "Maßgeschneiderte Reinigung für Premium-Immobilien", icon: Sparkles }
                 ].map((service, i) => (
                   <Card key={i} className="p-6 hover:shadow-xl transition-all">
@@ -143,7 +143,7 @@ export default function Zuerich() {
                   <Card key={i} className="p-6 hover:shadow-xl transition-all">
                     <Building2 className="w-10 h-10 text-primary mb-4"/>
                     <h3 className="text-lg font-bold mb-2">{service}</h3>
-                    <p className="text-sm text-slate-600 mb-4">Professionelle Lösungen für Zürich</p>
+                    <p className="text-sm text-slate-600 mb-4">Professionelle Lösungen für Landshut</p>
                     <Link href={`/business/${service.toLowerCase().replace(/ /g, '')}`}>
                       <Button variant="outline" size="sm">Details</Button>
                     </Link>
@@ -159,7 +159,7 @@ export default function Zuerich() {
                 ].map((service, i) => (
                   <Card key={i} className="p-6 hover:shadow-xl transition-all">
                     <h3 className="text-sm sm:text-base md:text-lg font-bold mb-3">{service}</h3>
-                    <p className="text-slate-600 mb-4">Zuverlässige Basisleistungen in Zürich</p>
+                    <p className="text-slate-600 mb-4">Zuverlässige Basisleistungen in Landshut</p>
                     <Link href={`/basis/${service.toLowerCase().replace(/ /g, '')}`}>
                       <Button variant="outline">Mehr Info</Button>
                     </Link>
@@ -174,32 +174,32 @@ export default function Zuerich() {
       <section className="py-20 bg-white">
         <div className="container max-w-4xl">
           <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-slate-900 mb-12 text-center">
-            Häufige Fragen zur Reinigung in Zürich
+            Häufige Fragen zur Reinigung in Landshut
           </h2>
           <Accordion type="single" collapsible>
             <AccordionItem value="item-1">
               <AccordionTrigger className="text-sm sm:text-base md:text-lg font-semibold">
-                Was kostet professionelle Reinigung in Zürich?
+                Was kostet professionelle Reinigung in Landshut?
               </AccordionTrigger>
               <AccordionContent className="text-lg leading-relaxed text-slate-700 pt-4">
-                <p className="mb-4">Die Kosten variieren je nach Leistungsumfang und Objektgröße. In Zürich liegen die Preise für Büroreinigung typischerweise zwischen CHF 8-12 pro m² monatlich. Für Unterhaltsreinigung berechnen wir CHF 45-65 pro Stunde.</p>
+                <p className="mb-4">Die Kosten variieren je nach Leistungsumfang und Objektgröße. In Landshut liegen die Preise für Büroreinigung typischerweise zwischen EUR 8-12 pro m² monatlich. Für Unterhaltsreinigung berechnen wir EUR 45-65 pro Stunde.</p>
                 <p>Wir erstellen Ihnen gerne ein individuelles, transparentes Angebot basierend auf Ihren spezifischen Anforderungen.</p>
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
               <AccordionTrigger className="text-sm sm:text-base md:text-lg font-semibold">
-                Bieten Sie auch Notfall-Reinigung in Zürich an?
+                Bieten Sie auch Notfall-Reinigung in Landshut an?
               </AccordionTrigger>
               <AccordionContent className="text-lg leading-relaxed text-slate-700 pt-4">
-                <p>Ja, unser 24/7 Notfall-Service ist in ganz Zürich verfügbar. Bei Wasserschäden, nach Veranstaltungen oder anderen dringenden Reinigungsbedarfen sind wir innerhalb kürzester Zeit vor Ort.</p>
+                <p>Ja, unser 24/7 Notfall-Service ist in ganz Landshut verfügbar. Bei Wasserschäden, nach Veranstaltungen oder anderen dringenden Reinigungsbedarfen sind wir innerhalb kürzester Zeit vor Ort.</p>
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
               <AccordionTrigger className="text-sm sm:text-base md:text-lg font-semibold">
-                Welche Stadtteile in Zürich bedienen Sie?
+                Welche Stadtteile in Landshut bedienen Sie?
               </AccordionTrigger>
               <AccordionContent className="text-lg leading-relaxed text-slate-700 pt-4">
-                <p>Wir sind in allen Stadtteilen Zürichs aktiv: City, Zürich-West, Oerlikon, Altstetten, Wiedikon, Enge, Seefeld und allen weiteren Quartieren. Auch Gemeinden im Großraum Zürich gehören zu unserem Einzugsgebiet.</p>
+                <p>Wir sind in allen Stadtteilen Landshuts aktiv: City, Landshut-West, Oerlikon, Altstetten, Wiedikon, Enge, Seefeld und allen weiteren Quartieren. Auch Gemeinden im Großraum Landshut gehören zu unserem Einzugsgebiet.</p>
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4">
@@ -221,17 +221,17 @@ export default function Zuerich() {
             <Card className="p-12">
               <RevealOnScroll><div className="text-center mb-8">
                 <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-slate-900 mb-4">
-                  Kontaktieren Sie uns in Zürich
+                  Kontaktieren Sie uns in Landshut
                 </h2>
                 <p className="text-sm sm:text-base md:text-lg text-slate-600 text-xs sm:text-sm md:text-base">
-                  Wir beraten Sie gerne persönlich zu Ihrem Reinigungsbedarf in Zürich.
+                  Wir beraten Sie gerne persönlich zu Ihrem Reinigungsbedarf in Landshut.
                 </p>
               </div></RevealOnScroll>
               <div className="grid md:grid-cols-3 gap-8 mb-8">
                 <div className="text-center">
                   <Phone className="w-8 h-8 text-primary mx-auto mb-3"/>
                   <div className="font-semibold mb-1">Telefon</div>
-                  <a href="tel:+41413205610" className="text-primary hover:underline">+41 41 320 56 10</a>
+                  <a href="tel:+41413205610" className="text-primary hover:underline">0174 722 5473</a>
                 </div>
                 <div className="text-center">
                   <Mail className="w-8 h-8 text-primary mx-auto mb-3"/>

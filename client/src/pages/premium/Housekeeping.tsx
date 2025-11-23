@@ -27,8 +27,8 @@ export default function Housekeeping() {
     <div className="min-h-screen bg-white">
       <SEO
         title="Private Housekeeping - Exklusiver Premium Service"
-        description="Exklusiver Housekeeping-Service für Luxusimmobilien in Zürich, Zug und Luzern. Diskret, individuell und mit Premium-Produkten."
-        keywords="Private Housekeeping, Luxus Housekeeping Schweiz, Premium Haushalt Service, Executive Housekeeping"
+        description="Exklusiver Housekeeping-Service für Luxusimmobilien in Landshut, Regensburg, Freising und ganz Niederbayern. Diskret, individuell und mit Premium-Produkten."
+        keywords="Private Housekeeping, Luxus Housekeeping Deutschland, Premium Haushalt Service, Executive Housekeeping"
         url="/premium/housekeeping"
         schema={serviceSchema(serviceData)}
       />
@@ -46,7 +46,7 @@ export default function Housekeeping() {
                 Private Housekeeping
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed mb-8">
-                Exklusiver Housekeeping-Service für Luxusimmobilien. Diskret, individuell und mit Premium-Produkten – für höchste Ansprüche in Zürich, Zug und Luzern.
+                Exklusiver Housekeeping-Service für Luxusimmobilien. Diskret, individuell und mit Premium-Produkten – für höchste Ansprüche in Landshut, Regensburg, Freising und ganz Niederbayern.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a href="#kontakt-formular">
@@ -270,7 +270,7 @@ export default function Housekeeping() {
                 Sind die Mitarbeiter versichert?
               </AccordionTrigger>
               <AccordionContent className="text-slate-700 leading-relaxed pt-4">
-                Ja, alle Mitarbeiter sind vollständig versichert (Haftpflicht, Unfall). Zusätzlich besteht eine Betriebshaftpflicht über CHF 5 Millionen.
+                Ja, alle Mitarbeiter sind vollständig versichert (Haftpflicht, Unfall). Zusätzlich besteht eine Betriebshaftpflicht über EUR 5 Millionen.
               </AccordionContent>
             </AccordionItem>
             

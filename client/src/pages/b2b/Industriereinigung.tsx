@@ -10,15 +10,15 @@ export default function Industriereinigung() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl">
             <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-6">
-              Professionelle Industriereinigung in Zürich, Zug und Luzern
+              Professionelle Industriereinigung in Landshut, Regensburg, Freising und ganz Niederbayern
             </h1>
             <p className="text-sm sm:text-base md:text-lg text-red-50 mb-8">
-              Spezialisierte Reinigungslösungen für Industrieanlagen, Produktionshallen und Fertigungsbetriebe. Höchste Sicherheitsstandards und Effizienz mit Schweizer Präzision.
+              Spezialisierte Reinigungslösungen für Industrieanlagen, Produktionshallen und Fertigungsbetriebe. Höchste Sicherheitsstandards und Effizienz mit Deutschlander Präzision.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="tel:+41413205610" className="bg-white text-red-600 px-8 py-3 rounded-lg font-semibold hover:bg-red-50 transition-colors inline-flex items-center gap-2">
                 <Phone className="w-5 h-5" />
-                +41 41 320 56 10
+                0174 722 5473
               </a>
               <Link href="/kontakt" className="bg-red-800 text-white px-8 py-3 rounded-lg font-semibold hover:bg-red-900 transition-colors inline-flex items-center gap-2">
                 <Mail className="w-5 h-5" />
@@ -65,7 +65,7 @@ export default function Industriereinigung() {
             <div>
               <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold mb-6">Spezialisierte Reinigung für Industrieanlagen</h2>
               <p className="text-gray-600 mb-6">
-                Industrielle Produktionsumgebungen stellen besondere Anforderungen an die Reinigung. Swiss Reinigungsfirma verfügt über die Expertise und Ausrüstung für die professionelle Reinigung von Industrieanlagen, Produktionshallen und Fertigungsbetrieben.
+                Industrielle Produktionsumgebungen stellen besondere Anforderungen an die Reinigung. FIMI-Service verfügt über die Expertise und Ausrüstung für die professionelle Reinigung von Industrieanlagen, Produktionshallen und Fertigungsbetrieben.
               </p>
               <p className="text-gray-600 mb-6">
                 Unsere speziell geschulten Reinigungsteams arbeiten nach strengen Sicherheitsprotokollen und verstehen die besonderen Anforderungen industrieller Umgebungen. Wir minimieren Produktionsausfälle durch flexible Reinigungszeiten.
@@ -119,7 +119,7 @@ export default function Industriereinigung() {
             <div className="relative h-96 rounded-lg overflow-hidden shadow-xl order-2 md:order-1">
               <img 
                 src="/industrial-cleaning-2.jpg" 
-                alt="Industriereinigung Zürich" 
+                alt="Industriereinigung Landshut" 
                 className="w-full h-full object-cover"
               />
             </div>
@@ -198,7 +198,7 @@ export default function Industriereinigung() {
               <span>→</span>
             </Link>
             <a href="tel:+41413205610" className="bg-red-800 text-white px-8 py-3 rounded-lg font-semibold hover:bg-red-900 transition-colors">
-              +41 41 320 56 10
+              0174 722 5473
             </a>
           </div>
         </div>

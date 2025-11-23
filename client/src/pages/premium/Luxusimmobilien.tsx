@@ -27,8 +27,8 @@ export default function Luxusimmobilien() {
     <div className="min-h-screen bg-white">
       <SEO
         title="Luxusimmobilien-Reinigung - Premium Service"
-        description="Maßgeschneiderte Reinigung für Luxusimmobilien in Zürich, Zug und Luzern. Spezialisiert auf Edeloberflächen und Kunstobjekte."
-        keywords="Luxusimmobilien Reinigung, Villa Reinigung Schweiz, Premium Immobilien Service, Luxus Reinigung"
+        description="Maßgeschneiderte Reinigung für Luxusimmobilien in Landshut, Regensburg, Freising und ganz Niederbayern. Spezialisiert auf Edeloberflächen und Kunstobjekte."
+        keywords="Luxusimmobilien Reinigung, Villa Reinigung Deutschland, Premium Immobilien Service, Luxus Reinigung"
         url="/premium/luxusimmobilien"
         schema={serviceSchema(serviceData)}
       />
@@ -46,7 +46,7 @@ export default function Luxusimmobilien() {
                 Luxusimmobilien-Reinigung
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed mb-8">
-                Maßgeschneiderte Reinigung für Luxusimmobilien. Spezialisiert auf Edeloberflächen, Kunstobjekte und exklusive Materialien in Zürich, Zug und Luzern.
+                Maßgeschneiderte Reinigung für Luxusimmobilien. Spezialisiert auf Edeloberflächen, Kunstobjekte und exklusive Materialien in Landshut, Regensburg, Freising und ganz Niederbayern.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a href="#kontakt-formular">
@@ -189,19 +189,19 @@ export default function Luxusimmobilien() {
                 <div className="space-y-8">
                   {[
                     {
-                      title: "Penthouse Zürichberg",
+                      title: "Penthouse Landshutberg",
                       size: "450 m²",
                       features: ["Marmor-Böden", "Kunst-Sammlung", "Dachterrasse"],
                       desc: "Regelmäßige Pflege eines exklusiven Penthouses mit umfangreicher Kunstsammlung und hochwertigen Materialien."
                     },
                     {
-                      title: "Villa Zugersee",
+                      title: "Villa Regensburgersee",
                       size: "800 m²",
                       features: ["Naturstein", "Infinity-Pool", "Weinkeller"],
                       desc: "Komplettbetreuung einer Seevilla inklusive Außenanlagen, Pool-Reinigung und klimatisiertem Weinkeller."
                     },
                     {
-                      title: "Chalet Luzern",
+                      title: "Chalet Freising",
                       size: "600 m²",
                       features: ["Altholz", "Wellness-Bereich", "Smart Home"],
                       desc: "Spezialisierte Reinigung eines modernen Chalets mit historischen Holzelementen und integrierter Haustechnik."
@@ -245,7 +245,7 @@ export default function Luxusimmobilien() {
                 Sind Sie für Schäden versichert?
               </AccordionTrigger>
               <AccordionContent className="text-slate-700 leading-relaxed pt-4">
-                Ja, wir verfügen über eine Betriebshaftpflicht mit CHF 10 Millionen Deckungssumme, die auch wertvolle Kunstgegenstände und Antiquitäten einschließt.
+                Ja, wir verfügen über eine Betriebshaftpflicht mit EUR 10 Millionen Deckungssumme, die auch wertvolle Kunstgegenstände und Antiquitäten einschließt.
               </AccordionContent>
             </AccordionItem>
             

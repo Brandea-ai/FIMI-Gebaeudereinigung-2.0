@@ -74,7 +74,7 @@ export default function About() {
                 Unsere Mission
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Wir glauben daran, dass jedes Unternehmen das Potenzial hat, durch die richtige Kombination aus Strategie und Technologie außergewöhnliche Ergebnisse zu erzielen. Unsere Mission ist es, mittelständischen Unternehmen Zugang zu Top-Management-Expertise und modernster KI-Technologie zu verschaffen.
+                Wir glauben daran, dass jedes Unternehmen das Potenzial hat, durch die richtige Kombination aus Strategie und Technologie außergewöhnliche Ergebnisse zu erzielen. Unsere Mission ist es, mittelständischen Unternehmen Regensburgang zu Top-Management-Expertise und modernster KI-Technologie zu verschaffen.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Mit unserem Fractional CXO-Ansatz machen wir hochqualifizierte Führungskräfte flexibel verfügbar. So profitieren Sie von strategischer Expertise auf C-Level, ohne langfristige Vollzeitverpflichtungen eingehen zu müssen.

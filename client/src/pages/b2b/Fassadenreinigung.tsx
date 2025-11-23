@@ -9,7 +9,7 @@ export default function Fassadenreinigung() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl">
             <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-6">
-              Professionelle Fassadenreinigung in Zürich, Zug und Luzern
+              Professionelle Fassadenreinigung in Landshut, Regensburg, Freising und ganz Niederbayern
             </h1>
             <p className="text-sm sm:text-base md:text-lg text-red-50 mb-8">
               Schonende und effektive Fassadenreinigung für Gebäude aller Art. Werterhalt durch professionelle Pflege mit modernster Technologie.
@@ -17,7 +17,7 @@ export default function Fassadenreinigung() {
             <div className="flex flex-wrap gap-4">
               <a href="tel:+41413205610" className="bg-white text-red-600 px-8 py-3 rounded-lg font-semibold hover:bg-red-50 transition-colors inline-flex items-center gap-2">
                 <Phone className="w-5 h-5" />
-                +41 41 320 56 10
+                0174 722 5473
               </a>
               <Link href="/kontakt" className="bg-red-800 text-white px-8 py-3 rounded-lg font-semibold hover:bg-red-900 transition-colors inline-flex items-center gap-2">
                 <Mail className="w-5 h-5" />
@@ -65,7 +65,7 @@ export default function Fassadenreinigung() {
                 Die Fassade ist das Aushängeschild Ihres Gebäudes. Regelmäßige professionelle Reinigung erhält nicht nur die Optik, sondern schützt auch die Bausubstanz vor Witterungseinflüssen und Verschmutzungen.
               </p>
               <p className="text-gray-600 mb-6">
-                Swiss Reinigungsfirma verfügt über spezialisierte Teams für Fassadenreinigung mit modernster Ausrüstung und Sicherheitstechnik. Wir reinigen Fassaden aller Art – von Glasfronten bis zu historischen Gebäuden.
+                FIMI-Service verfügt über spezialisierte Teams für Fassadenreinigung mit modernster Ausrüstung und Sicherheitstechnik. Wir reinigen Fassaden aller Art – von Glasfronten bis zu historischen Gebäuden.
               </p>
               <Link href="/kontakt" className="text-red-600 font-semibold hover:text-red-700 inline-flex items-center gap-2">
                 Jetzt Beratungstermin vereinbaren
@@ -108,7 +108,7 @@ export default function Fassadenreinigung() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
             <div className="relative h-96 rounded-lg overflow-hidden shadow-xl order-2 md:order-1">
-              <img src="/facade-cleaning-2.jpg" alt="Fassadenreinigung Zürich" className="w-full h-full object-cover"/>
+              <img src="/facade-cleaning-2.jpg" alt="Fassadenreinigung Landshut" className="w-full h-full object-cover"/>
             </div>
             <div className="order-1 md:order-2">
               <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold mb-6">Modernste Reinigungstechnologie für Ihre Fassade</h2>
@@ -155,7 +155,7 @@ export default function Fassadenreinigung() {
                 },
                 {
                   question: 'Was kostet eine Fassadenreinigung?',
-                  answer: 'Die Kosten hängen von Fassadengröße, Verschmutzungsgrad, Zugänglichkeit und gewählter Reinigungsmethode ab. Kontaktieren Sie uns für eine kostenlose Besichtigung und ein unverbindliches Angebot.'
+                  answer: 'Die Kosten hängen von Fassadengröße, Verschmutzungsgrad, Regensburgänglichkeit und gewählter Reinigungsmethode ab. Kontaktieren Sie uns für eine kostenlose Besichtigung und ein unverbindliches Angebot.'
                 }
               ].map((faq, index) => (
                 <details key={index} className="group bg-gray-50 rounded-lg p-6">
@@ -183,7 +183,7 @@ export default function Fassadenreinigung() {
               <span>→</span>
             </Link>
             <a href="tel:+41413205610" className="bg-red-800 text-white px-8 py-3 rounded-lg font-semibold hover:bg-red-900 transition-colors">
-              +41 41 320 56 10
+              0174 722 5473
             </a>
           </div>
         </div>

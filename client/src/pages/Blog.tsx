@@ -13,7 +13,7 @@ export default function Blog() {
   const articles = [
     {
       title: "Wie finde ich die richtige Reinigungsfirma?",
-      excerpt: "Ein umfassender Leitfaden zur Auswahl der perfekten Reinigungsfirma für Ihr Unternehmen in der Schweiz.",
+      excerpt: "Ein umfassender Leitfaden zur Auswahl der perfekten Reinigungsfirma für Ihr Unternehmen in Niederbayern.",
       image: "/blog-reinigungsfirma-finden.jpg",
       date: "15. Januar 2025",
       readTime: "8 Min.",
@@ -28,8 +28,8 @@ export default function Blog() {
       slug: "professionelle-gebaeudereinigung"
     },
     {
-      title: "Reinigungskosten in der Schweiz: Ein Überblick",
-      excerpt: "Transparente Informationen zu Reinigungskosten und Preisgestaltung in Zürich, Zug und Luzern.",
+      title: "Reinigungskosten in Niederbayern: Ein Überblick",
+      excerpt: "Transparente Informationen zu Reinigungskosten und Preisgestaltung in Landshut, Regensburg, Freising und ganz Niederbayern.",
       image: "/blog-kosten.jpg",
       date: "5. Januar 2025",
       readTime: "7 Min.",
@@ -56,7 +56,7 @@ export default function Blog() {
               Wissen & Ratgeber
             </h1>
             <p className="text-sm sm:text-base md:text-lg text-slate-600 leading-relaxed">
-              Expertenwissen rund um professionelle Reinigung, Gebäudeservice und Facility Management in der Schweiz.
+              Expertenwissen rund um professionelle Reinigung, Gebäudeservice und Facility Management in Niederbayern.
             </p>
           </div>
         </div>

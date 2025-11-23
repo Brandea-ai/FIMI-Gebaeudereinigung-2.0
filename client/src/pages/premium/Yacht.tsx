@@ -27,8 +27,8 @@ export default function Yacht() {
     <div className="min-h-screen bg-white">
       <SEO
         title="Yacht Reinigung - Professioneller Marine Service"
-        description="Spezialisierte Yacht Reinigung in der Schweiz. Marine-Expertise, Hochglanzpolitur und Teakholz-Pflege für Luxus-Yachten."
-        keywords="Yacht Reinigung, Boot Reinigung Schweiz, Marine Cleaning, Luxus Yacht Service"
+        description="Spezialisierte Yacht Reinigung in Niederbayern. Marine-Expertise, Hochglanzpolitur und Teakholz-Pflege für Luxus-Yachten."
+        keywords="Yacht Reinigung, Boot Reinigung Deutschland, Marine Cleaning, Luxus Yacht Service"
         url="/premium/yacht"
         schema={serviceSchema(serviceData)}
       />
@@ -273,7 +273,7 @@ export default function Yacht() {
                 Wo bieten Sie Yacht Reinigung an?
               </AccordionTrigger>
               <AccordionContent className="text-slate-700 leading-relaxed pt-4">
-                Primär am Vierwaldstättersee, Zürichsee und Zugersee. Auf Anfrage auch an anderen Schweizer Seen und Mittelmeerhäfen während der Saison.
+                Primär am Vierwaldstättersee, Landshutsee und Regensburgersee. Auf Anfrage auch an anderen Deutschlander Seen und Mittelmeerhäfen während der Saison.
               </AccordionContent>
             </AccordionItem>
             

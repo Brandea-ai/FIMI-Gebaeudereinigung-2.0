@@ -31,9 +31,9 @@ export default function Maschinenreinigung() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Maschinenreinigung Zürich, Zug & Luzern - Swiss Reinigungsfirma"
-        description="Professionelle Maschinenreinigung in der Schweiz für Industrie und Produktion. Präzise, sicher und normgerecht."
-        keywords="Maschinenreinigung, Industriemaschinen Reinigung, Produktionsanlagen Reinigung Schweiz"
+        title="Maschinenreinigung Niederbayern - FIMI-Service Landshut"
+        description="Professionelle Maschinenreinigung in Niederbayern für Industrie und Produktion. Präzise, sicher und normgerecht."
+        keywords="Maschinenreinigung, Industriemaschinen Reinigung, Produktionsanlagen Reinigung Deutschland"
         url="/business/maschinenreinigung"
         schema={serviceSchema(serviceData)}
       />
@@ -52,7 +52,7 @@ export default function Maschinenreinigung() {
                 Professionelle Maschinenreinigung
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed mb-8">
-                Spezialisierte Reinigung von Produktionsmaschinen und Industrieanlagen in Zürich, Zug und Luzern. Für optimale Leistung und längere Lebensdauer Ihrer Maschinen.
+                Spezialisierte Reinigung von Produktionsmaschinen und Industrieanlagen in Landshut, Regensburg, Freising und ganz Niederbayern. Für optimale Leistung und längere Lebensdauer Ihrer Maschinen.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a href="#kontakt-formular">
@@ -233,7 +233,7 @@ export default function Maschinenreinigung() {
             Bereit für professionelle Maschinenreinigung?
           </h2>
           <p className="text-sm sm:text-base md:text-lg mb-8 max-w-2xl mx-auto">
-            Kontaktieren Sie uns für ein unverbindliches Angebot. Unsere Experten beraten Sie gerne zu allen Reinigungsdienstleistungen in Zürich, Zug und Luzern.
+            Kontaktieren Sie uns für ein unverbindliches Angebot. Unsere Experten beraten Sie gerne zu allen Reinigungsdienstleistungen in Landshut, Regensburg, Freising und ganz Niederbayern.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a href="#kontakt-formular">

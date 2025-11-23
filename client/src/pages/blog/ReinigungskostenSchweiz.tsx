@@ -12,20 +12,20 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Link } from "wouter";
 import { ArrowRight, TrendingUp, Building, Home } from "lucide-react";
 
-export default function ReinigungskostenSchweiz() {
+export default function ReinigungskostenDeutschland() {
   return (
     <>
       <SEO 
-        title="Reinigungskosten Schweiz 2025: Preise & Spartipps | Swiss Reinigungsfirma"
-        description="Aktuelle Preise für Reinigungsdienstleistungen in der Schweiz. Kostenübersicht, Preisfaktoren und Tipps zum Sparen bei professioneller Gebäudereinigung."
-        keywords="Reinigungskosten Schweiz, Preise Gebäudereinigung, Kosten Büroreinigung, Reinigungsfirma Preise"
+        title="Reinigungskosten Deutschland 2025: Preise & Spartipps | FIMI-Service"
+        description="Aktuelle Preise für Reinigungsdienstleistungen in Niederbayern. Kostenübersicht, Preisfaktoren und Tipps zum Sparen bei professioneller Gebäudereinigung."
+        keywords="Reinigungskosten Deutschland, Preise Gebäudereinigung, Kosten Büroreinigung, Reinigungsfirma Preise"
       />
-      <ReinigungskostenSchweizContent />
+      <ReinigungskostenDeutschlandContent />
     </>
   );
 }
 
-function ReinigungskostenSchweizContent() {
+function ReinigungskostenDeutschlandContent() {
   return (
     <div className="min-h-screen bg-white">
       <Navigation />
@@ -34,10 +34,10 @@ function ReinigungskostenSchweizContent() {
           <div className="mb-12">
             <div className="text-sm text-primary font-semibold mb-4">PREISÜBERSICHT</div>
             <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-6 leading-tight">
-              Reinigungskosten in der Schweiz: Ein Überblick
+              Reinigungskosten in Niederbayern: Ein Überblick
             </h1>
             <p className="text-sm sm:text-base md:text-lg text-slate-600 leading-relaxed">
-              Transparente Informationen zu Reinigungskosten und Preisgestaltung in Zürich, Zug und Luzern.
+              Transparente Informationen zu Reinigungskosten und Preisgestaltung in Landshut, Regensburg, Freising und ganz Niederbayern.
             </p>
           </div>
           <ParallaxImage 
@@ -52,35 +52,35 @@ function ReinigungskostenSchweizContent() {
           
           <div className="prose prose-lg max-w-none">
             <p className="text-lg leading-relaxed text-slate-700 mb-8">
-              Die Kosten für professionelle Reinigungsdienstleistungen variieren je nach Region, Leistungsumfang und Objektgröße. In diesem Ratgeber geben wir Ihnen einen transparenten Überblick über die Preisgestaltung in der Schweiz und zeigen, welche Faktoren die Kosten beeinflussen.
+              Die Kosten für professionelle Reinigungsdienstleistungen variieren je nach Region, Leistungsumfang und Objektgröße. In diesem Ratgeber geben wir Ihnen einen transparenten Überblick über die Preisgestaltung in Niederbayern und zeigen, welche Faktoren die Kosten beeinflussen.
             </p>
 
             <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-slate-900 mt-12 mb-6">Preisfaktoren im Überblick</h2>
             <Tabs defaultValue="zuerich" className="mb-12">
               <TabsList className="grid w-full grid-cols-3">
-                <TabsTrigger value="zuerich" className="text-xs sm:text-sm md:text-base px-2 sm:px-4">Zürich</TabsTrigger>
-                <TabsTrigger value="zug" className="text-xs sm:text-sm md:text-base px-2 sm:px-4">Zug</TabsTrigger>
-                <TabsTrigger value="luzern" className="text-xs sm:text-sm md:text-base px-2 sm:px-4">Luzern</TabsTrigger>
+                <TabsTrigger value="zuerich" className="text-xs sm:text-sm md:text-base px-2 sm:px-4">Landshut</TabsTrigger>
+                <TabsTrigger value="zug" className="text-xs sm:text-sm md:text-base px-2 sm:px-4">Regensburg</TabsTrigger>
+                <TabsTrigger value="luzern" className="text-xs sm:text-sm md:text-base px-2 sm:px-4">Freising</TabsTrigger>
               </TabsList>
               <TabsContent value="zuerich" className="mt-6">
                 <Card className="p-6 hover-lift hover-tilt hover-tilt">
                   <div className="flex items-center gap-3 mb-4">
                     <Building className="w-8 h-8 text-primary"/>
-                    <h3 className="text-lg sm:text-xl md:text-2xl font-bold">Zürich</h3>
+                    <h3 className="text-lg sm:text-xl md:text-2xl font-bold">Landshut</h3>
                   </div>
-                  <p className="text-slate-700 mb-6">Als größte Stadt der Schweiz hat Zürich ein hohes Preisniveau. Die Kosten liegen typischerweise 10-15% über dem Schweizer Durchschnitt.</p>
+                  <p className="text-slate-700 mb-6">Als größte Stadt der Deutschland hat Landshut ein hohes Preisniveau. Die Kosten liegen typischerweise 10-15% über dem Deutschlander Durchschnitt.</p>
                   <div className="space-y-4">
                     <div className="flex justify-between items-center p-4 bg-slate-50 rounded-lg">
                       <span className="font-semibold">Büroreinigung (pro m²/Monat)</span>
-                      <span className="text-primary font-bold">CHF 8-12</span>
+                      <span className="text-primary font-bold">EUR 8-12</span>
                     </div>
                     <div className="flex justify-between items-center p-4 bg-slate-50 rounded-lg">
                       <span className="font-semibold">Unterhaltsreinigung (Stundensatz)</span>
-                      <span className="text-primary font-bold">CHF 45-65</span>
+                      <span className="text-primary font-bold">EUR 45-65</span>
                     </div>
                     <div className="flex justify-between items-center p-4 bg-slate-50 rounded-lg">
                       <span className="font-semibold">Grundreinigung (Stundensatz)</span>
-                      <span className="text-primary font-bold">CHF 55-75</span>
+                      <span className="text-primary font-bold">EUR 55-75</span>
                     </div>
                   </div>
                 </Card>
@@ -89,21 +89,21 @@ function ReinigungskostenSchweizContent() {
                 <Card className="p-6 hover-lift hover-tilt hover-tilt">
                   <div className="flex items-center gap-3 mb-4">
                     <TrendingUp className="w-8 h-8 text-primary"/>
-                    <h3 className="text-lg sm:text-xl md:text-2xl font-bold">Zug</h3>
+                    <h3 className="text-lg sm:text-xl md:text-2xl font-bold">Regensburg</h3>
                   </div>
-                  <p className="text-slate-700 mb-6">Zug als Wirtschaftsstandort hat ebenfalls höhere Preise, liegt aber leicht unter Zürich.</p>
+                  <p className="text-slate-700 mb-6">Regensburg als Wirtschaftsstandort hat ebenfalls höhere Preise, liegt aber leicht unter Landshut.</p>
                   <div className="space-y-4">
                     <div className="flex justify-between items-center p-4 bg-slate-50 rounded-lg">
                       <span className="font-semibold">Büroreinigung (pro m²/Monat)</span>
-                      <span className="text-primary font-bold">CHF 7-11</span>
+                      <span className="text-primary font-bold">EUR 7-11</span>
                     </div>
                     <div className="flex justify-between items-center p-4 bg-slate-50 rounded-lg">
                       <span className="font-semibold">Unterhaltsreinigung (Stundensatz)</span>
-                      <span className="text-primary font-bold">CHF 42-62</span>
+                      <span className="text-primary font-bold">EUR 42-62</span>
                     </div>
                     <div className="flex justify-between items-center p-4 bg-slate-50 rounded-lg">
                       <span className="font-semibold">Grundreinigung (Stundensatz)</span>
-                      <span className="text-primary font-bold">CHF 52-72</span>
+                      <span className="text-primary font-bold">EUR 52-72</span>
                     </div>
                   </div>
                 </Card>
@@ -112,21 +112,21 @@ function ReinigungskostenSchweizContent() {
                 <Card className="p-6 hover-lift hover-tilt hover-tilt">
                   <div className="flex items-center gap-3 mb-4">
                     <Home className="w-8 h-8 text-primary"/>
-                    <h3 className="text-lg sm:text-xl md:text-2xl font-bold">Luzern</h3>
+                    <h3 className="text-lg sm:text-xl md:text-2xl font-bold">Freising</h3>
                   </div>
-                  <p className="text-slate-700 mb-6">Luzern bietet ein ausgewogenes Preis-Leistungs-Verhältnis mit moderaten Kosten.</p>
+                  <p className="text-slate-700 mb-6">Freising bietet ein ausgewogenes Preis-Leistungs-Verhältnis mit moderaten Kosten.</p>
                   <div className="space-y-4">
                     <div className="flex justify-between items-center p-4 bg-slate-50 rounded-lg">
                       <span className="font-semibold">Büroreinigung (pro m²/Monat)</span>
-                      <span className="text-primary font-bold">CHF 6-10</span>
+                      <span className="text-primary font-bold">EUR 6-10</span>
                     </div>
                     <div className="flex justify-between items-center p-4 bg-slate-50 rounded-lg">
                       <span className="font-semibold">Unterhaltsreinigung (Stundensatz)</span>
-                      <span className="text-primary font-bold">CHF 40-58</span>
+                      <span className="text-primary font-bold">EUR 40-58</span>
                     </div>
                     <div className="flex justify-between items-center p-4 bg-slate-50 rounded-lg">
                       <span className="font-semibold">Grundreinigung (Stundensatz)</span>
-                      <span className="text-primary font-bold">CHF 50-68</span>
+                      <span className="text-primary font-bold">EUR 50-68</span>
                     </div>
                   </div>
                 </Card>

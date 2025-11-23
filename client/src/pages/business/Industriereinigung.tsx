@@ -26,9 +26,9 @@ export default function Industriereinigung() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Industriereinigung Zürich, Zug & Luzern - Swiss Reinigungsfirma"
-        description="Professionelle Industriereinigung in der Schweiz. Spezialisiert auf Produktionshallen, Werkstätten und Industrieanlagen."
-        keywords="Industriereinigung, Produktionshallen Reinigung, Werkstatt Reinigung Schweiz, Industrieanlagen Reinigung"
+        title="Industriereinigung Niederbayern - FIMI-Service Landshut"
+        description="Professionelle Industriereinigung in Niederbayern. Spezialisiert auf Produktionshallen, Werkstätten und Industrieanlagen."
+        keywords="Industriereinigung, Produktionshallen Reinigung, Werkstatt Reinigung Deutschland, Industrieanlagen Reinigung"
         url="/business/industriereinigung"
         schema={serviceSchema(serviceData)}
       />
@@ -46,7 +46,7 @@ export default function Industriereinigung() {
                 Professionelle Industriereinigung
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed mb-8">
-                Spezialisierte Reinigungslösungen für Produktionshallen, Werkstätten und Industrieanlagen in Zürich, Zug und Luzern. Sicher, effizient und normgerecht.
+                Spezialisierte Reinigungslösungen für Produktionshallen, Werkstätten und Industrieanlagen in Landshut, Regensburg, Freising und ganz Niederbayern. Sicher, effizient und normgerecht.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a href="#kontakt-formular">
@@ -207,7 +207,7 @@ export default function Industriereinigung() {
                     },
                     {
                       title: "Versicherungsschutz",
-                      desc: "Umfassende Betriebs- und Produkthaftpflicht mit CHF 10 Millionen Deckungssumme. Alle Mitarbeiter unfallversichert."
+                      desc: "Umfassende Betriebs- und Produkthaftpflicht mit EUR 10 Millionen Deckungssumme. Alle Mitarbeiter unfallversichert."
                     },
                     {
                       title: "Dokumentation",

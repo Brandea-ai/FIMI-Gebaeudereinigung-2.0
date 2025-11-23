@@ -21,9 +21,9 @@ export default function SwissHome() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Professionelle Gebäudereinigung in Zürich, Zug & Luzern"
-        description="Swiss Reinigungsfirma - Professionelle Reinigungsfirma in der Schweiz für Unternehmen und Premium-Kunden. Gebäudereinigung, Büroreinigung und exklusive Premium Services."
-        keywords="Reinigungsfirma Schweiz, Gebäudereinigung Zürich, Büroreinigung Zug, Facility Management Luzern, Professionelle Reinigung"
+        title="Professionelle Gebäudereinigung in Landshut, Regensburg & Freising"
+        description="FIMI-Service - Professionelle Reinigungsfirma in Niederbayern für Unternehmen und Premium-Kunden. Gebäudereinigung, Büroreinigung und exklusive Premium Services."
+        keywords="Reinigungsfirma Deutschland, Gebäudereinigung Landshut, Büroreinigung Regensburg, Facility Management Freising, Professionelle Reinigung"
         url="/"
         schema={organizationSchema}
       />
@@ -46,13 +46,13 @@ export default function SwissHome() {
         <div className="container relative z-10 py-24 md:py-32">
           <div className="max-w-4xl">
             <div className="inline-block px-3 sm:px-4 py-1.5 sm:py-2 bg-primary/10 rounded-full mb-4 sm:mb-6">
-              <span className="text-primary font-semibold text-sm sm:text-base">Professionelle Reinigungsfirma in der Schweiz</span>
+              <span className="text-primary font-semibold text-sm sm:text-base">Professionelle Reinigungsfirma in Niederbayern</span>
             </div>
             <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-white leading-tight mb-6">
-              Erstklassige <span className="text-primary">Gebäudereinigung</span> für Zürich, Zug und Luzern
+              Erstklassige <span className="text-primary">Gebäudereinigung</span> für Landshut, Regensburg, Freising und ganz Niederbayern
             </h1>
             <p className="text-sm sm:text-base md:text-lg text-white/95 mb-8 leading-relaxed max-w-2xl">
-              Professionelle Reinigungsdienste für Unternehmen und Premium-Kunden mit Schweizer Präzision.
+              Professionelle Reinigungsdienste für Unternehmen und Premium-Kunden mit Deutschlander Präzision.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
               <Link href="/kontakt" className="w-full sm:w-auto">
@@ -63,7 +63,7 @@ export default function SwissHome() {
               </Link>
               <a href="tel:+41413205610" className="w-full sm:w-auto">
                 <Button size="lg" variant="outline" className="w-full sm:w-auto text-sm sm:text-base md:text-lg px-5 sm:px-6 md:px-8 py-4 sm:py-6 bg-white/10 backdrop-blur-sm border-white text-white hover:bg-white hover:text-slate-900">
-                  +41 41 320 56 10
+                  0174 722 5473
                 </Button>
               </a>
             </div>
@@ -79,7 +79,7 @@ export default function SwissHome() {
               { icon: Shield, label: "Zertifizierte Qualität", value: "ISO Standards" },
               { icon: Clock, label: "24/7 Verfügbar", value: "Notfall Service" },
               { icon: Users, label: "500+ Kunden", value: "Zufrieden" },
-              { icon: Award, label: "15+ Jahre Erfahrung", value: "Schweizweit" },
+              { icon: Award, label: "15+ Jahre Erfahrung", value: "Deutschlandweit" },
             ].map((item, index) => (
               <Card key={index} className="p-8 text-center hover:shadow-xl transition-all">
                 <item.icon className="w-12 h-12 text-primary mx-auto mb-4" />
@@ -167,7 +167,7 @@ export default function SwissHome() {
               <Users className="w-16 h-16 text-primary mb-6" />
               <h3 className="text-2xl sm:text-3xl font-bold mb-4 group-hover:text-primary transition-colors">Business Lösungen</h3>
               <p className="text-slate-600 mb-6">
-                Professionelle Gebäudereinigung und Facility Management für Unternehmen in Zürich, Zug und Luzern.
+                Professionelle Gebäudereinigung und Facility Management für Unternehmen in Landshut, Regensburg, Freising und ganz Niederbayern.
               </p>
               <ul className="space-y-3 mb-8">
                 {["Büroreinigung", "Industriereinigung", "Fassaden- & Fensterreinigung", "Facility Management"].map((item, i) => (
@@ -217,10 +217,10 @@ export default function SwissHome() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-8">
-                Warum Swiss Reinigungsfirma?
+                Warum FIMI-Service?
               </h2>
               <p className="text-sm sm:text-base md:text-lg text-slate-600 mb-8">
-                Als führende Reinigungsfirma in der Schweiz verstehen wir Schweizer Qualität und moderne Reinigungstechnologie. Unsere professionellen Fachkräfte sorgen für makellose Sauberkeit mit Schweizer Präzision in Zürich, Zug und Luzern.
+                Als führende Reinigungsfirma in Niederbayern verstehen wir Deutschlander Qualität und moderne Reinigungstechnologie. Unsere professionellen Fachkräfte sorgen für makellose Sauberkeit mit Deutschlander Präzision in Landshut, Regensburg, Freising und ganz Niederbayern.
               </p>
               <div className="space-y-6">
                 {[
@@ -267,19 +267,19 @@ export default function SwissHome() {
             {[
               {
                 name: "Thomas Müller",
-                company: "Geschäftsführer, Tech AG Zürich",
-                text: "Seit 3 Jahren arbeiten wir mit Swiss Reinigungsfirma zusammen. Die Qualität der Gebäudereinigung ist hervorragend und das Team ist äußerst zuverlässig.",
+                company: "Geschäftsführer, Tech AG Landshut",
+                text: "Seit 3 Jahren arbeiten wir mit FIMI-Service zusammen. Die Qualität der Gebäudereinigung ist hervorragend und das Team ist äußerst zuverlässig.",
                 rating: 5,
               },
               {
                 name: "Sarah Weber",
-                company: "Facility Manager, Bank Zug",
+                company: "Facility Manager, Bank Regensburg",
                 text: "Professionelle Reinigung auf höchstem Niveau. Die Kommunikation ist ausgezeichnet und die Flexibilität bei Sonderwünschen beeindruckend.",
                 rating: 5,
               },
               {
                 name: "Michael Schneider",
-                company: "Eigentümer, Hotel Luzern",
+                company: "Eigentümer, Hotel Freising",
                 text: "Die Reinigungsfirma übertrifft unsere Erwartungen. Besonders schätzen wir die Diskretion und die umweltfreundlichen Reinigungsmittel.",
                 rating: 5,
               },
@@ -315,18 +315,18 @@ export default function SwissHome() {
         <div className="container relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
-              Unsere Standorte in der Schweiz
+              Unsere Standorte in Niederbayern
             </h2>
             <p className="text-sm sm:text-base md:text-lg text-slate-600 text-xs sm:text-sm md:text-base">
-              Professionelle Reinigungsdienstleistungen in den wichtigsten Wirtschaftsregionen der Schweiz
+              Professionelle Reinigungsdienstleistungen in den wichtigsten Wirtschaftsregionen der Deutschland
             </p>
           </div>
 
           <div className="grid lg:grid-cols-3 gap-8">
             {[
-              { city: "Zürich", description: "Reinigungsfirma für Zürich und Umgebung", href: "/standorte/zuerich" },
-              { city: "Zug", description: "Gebäudereinigung in Zug und Zentralschweiz", href: "/standorte/zug" },
-              { city: "Luzern", description: "Reinigungsservice in Luzern und Region", href: "/standorte/luzern" },
+              { city: "Landshut", description: "Reinigungsfirma für Landshut und Umgebung", href: "/standorte/zuerich" },
+              { city: "Regensburg", description: "Gebäudereinigung in Regensburg und Zentralschweiz", href: "/standorte/zug" },
+              { city: "Freising", description: "Reinigungsservice in Freising und Region", href: "/standorte/luzern" },
             ].map((location, i) => (
               <Link key={i} href={location.href}>
                 <Card className="p-10 hover:shadow-2xl transition-all cursor-pointer group">
@@ -364,7 +364,7 @@ export default function SwissHome() {
               </Link>
               <a href="tel:+41413205610">
                 <Button size="lg" variant="outline" className="text-sm sm:text-base md:text-lg px-6 sm:px-8 py-6">
-                  +41 41 320 56 10
+                  0174 722 5473
                 </Button>
               </a>
             </div>

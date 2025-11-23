@@ -15,12 +15,12 @@ import { Link } from "wouter";
 import { MapPin, Phone, Mail, Clock, Check, ArrowRight, TrendingUp } from "lucide-react";
 import AppointmentButton from "@/components/AppointmentButton";
 
-export default function Zug() {
+export default function Regensburg() {
   const locationData = {
-    name: "Swiss Reinigungsfirma Zug",
+    name: "FIMI-Service Regensburg",
     address: "Baarerstrasse 8",
     postalCode: "6300",
-    city: "Zug",
+    city: "Regensburg",
     lat: 47.1667,
     lng: 8.5167
   };
@@ -28,9 +28,9 @@ export default function Zug() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Reinigungsfirma Zug - Professionelle Gebäudereinigung"
-        description="Swiss Reinigungsfirma in Zug - Professionelle Gebäudereinigung für internationale Unternehmen und anspruchsvolle Kunden im Kanton Zug."
-        keywords="Reinigungsfirma Zug, Gebäudereinigung Zug, Büroreinigung Zug, Facility Management Zug"
+        title="Reinigungsfirma Regensburg - Professionelle Gebäudereinigung"
+        description="FIMI-Service in Regensburg - Professionelle Gebäudereinigung für internationale Unternehmen und anspruchsvolle Kunden im Kanton Regensburg."
+        keywords="Reinigungsfirma Regensburg, Gebäudereinigung Regensburg, Büroreinigung Regensburg, Facility Management Regensburg"
         url="/standorte/zug"
         schema={localBusinessSchema(locationData)}
       />
@@ -46,13 +46,13 @@ export default function Zug() {
           <div className="max-w-3xl text-white">
             <div className="flex items-center gap-2 mb-4">
               <MapPin className="w-6 h-6 text-primary"/>
-              <span className="text-lg font-semibold">Standort Zug</span>
+              <span className="text-lg font-semibold">Standort Regensburg</span>
             </div>
             <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-6 leading-tight">
-              Reinigungsfirma in Zug für höchste Ansprüche
+              Reinigungsfirma in Regensburg für höchste Ansprüche
             </h1>
             <p className="text-2xl leading-relaxed opacity-90">
-              Professionelle Gebäudereinigung für internationale Unternehmen und anspruchsvolle Kunden im Kanton Zug. Qualität und Diskretion garantiert.
+              Professionelle Gebäudereinigung für internationale Unternehmen und anspruchsvolle Kunden im Kanton Regensburg. Qualität und Diskretion garantiert.
             </p>
           </div>
         </div>
@@ -63,10 +63,10 @@ export default function Zug() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-slate-900 mb-6">
-                Reinigung auf Zug-Niveau
+                Reinigung auf Regensburg-Niveau
               </h2>
               <p className="text-lg text-slate-700 leading-relaxed mb-8">
-                Der Kanton Zug ist bekannt für seine internationale Geschäftswelt und hohen Qualitätsstandards. Als führende Reinigungsfirma in Zug verstehen wir die Erwartungen globaler Unternehmen und bieten Reinigungsdienstleistungen, die diesen Ansprüchen gerecht werden.
+                Der Kanton Regensburg ist bekannt für seine internationale Geschäftswelt und hohen Qualitätsstandards. Als führende Reinigungsfirma in Regensburg verstehen wir die Erwartungen globaler Unternehmen und bieten Reinigungsdienstleistungen, die diesen Ansprüchen gerecht werden.
               </p>
               <div className="space-y-4">
                 {[
@@ -87,7 +87,7 @@ export default function Zug() {
             <div>
               <ParallaxImage 
                 src="/standort-zug-hero.jpg" 
-                alt="Reinigung Zug"
+                alt="Reinigung Regensburg"
                 className="rounded-2xl h-[500px]"
                 speed={0.2}
                 scale={true}
@@ -103,10 +103,10 @@ export default function Zug() {
         <div className="container">
           <RevealOnScroll><div className="text-center mb-16">
             <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-slate-900 mb-4">
-              Unsere Leistungen in Zug
+              Unsere Leistungen in Regensburg
             </h2>
             <p className="text-sm sm:text-base md:text-lg text-slate-600 max-w-3xl mx-auto">
-              Maßgeschneiderte Reinigungslösungen für den Wirtschaftsstandort Zug – von Corporate Offices bis zu Luxusimmobilien.
+              Maßgeschneiderte Reinigungslösungen für den Wirtschaftsstandort Regensburg – von Corporate Offices bis zu Luxusimmobilien.
             </p>
           </div></RevealOnScroll>
 
@@ -122,7 +122,7 @@ export default function Zug() {
                   { title: "Corporate Office Reinigung", desc: "Spezialisiert auf internationale Unternehmen" },
                   { title: "Büroreinigung", desc: "Tägliche Unterhaltsreinigung für Offices" },
                   { title: "Konferenzraum-Service", desc: "Flexible Reinigung nach Meetings" },
-                  { title: "Industriereinigung", desc: "Für Produktionsstätten im Kanton Zug" },
+                  { title: "Industriereinigung", desc: "Für Produktionsstätten im Kanton Regensburg" },
                   { title: "Fassadenreinigung", desc: "Hochhausreinigung mit Spezialtechnik" },
                   { title: "Fensterreinigung", desc: "Professionelle Glasreinigung" }
                 ].map((service, i) => (
@@ -138,7 +138,7 @@ export default function Zug() {
               <div className="grid md:grid-cols-2 gap-6">
                 {[
                   { title: "Executive Housekeeping", desc: "Diskreter Service für Führungskräfte" },
-                  { title: "Luxusimmobilien", desc: "Premium-Reinigung für Villen am Zugersee" },
+                  { title: "Luxusimmobilien", desc: "Premium-Reinigung für Villen am Regensburgersee" },
                   { title: "Yacht-Service", desc: "Spezialisierte Reinigung für Yachten" },
                   { title: "Private Housekeeping", desc: "Exklusiver Service für Premium-Kunden" }
                 ].map((service, i) => (
@@ -157,7 +157,7 @@ export default function Zug() {
                 ].map((service, i) => (
                   <Card key={i} className="p-6 hover:shadow-xl transition-all">
                     <h3 className="text-sm sm:text-base md:text-lg font-bold mb-3">{service}</h3>
-                    <p className="text-slate-600 text-xs sm:text-sm md:text-base">Umfassende Facility-Lösungen in Zug</p>
+                    <p className="text-slate-600 text-xs sm:text-sm md:text-base">Umfassende Facility-Lösungen in Regensburg</p>
                   </Card>
                 ))}
               </div>
@@ -169,15 +169,15 @@ export default function Zug() {
       <section className="py-20 bg-white">
         <div className="container max-w-4xl">
           <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-slate-900 mb-12 text-center">
-            Häufige Fragen zur Reinigung in Zug
+            Häufige Fragen zur Reinigung in Regensburg
           </h2>
           <Accordion type="single" collapsible>
             <AccordionItem value="item-1">
               <AccordionTrigger className="text-sm sm:text-base md:text-lg font-semibold">
-                Was unterscheidet Ihre Reinigung in Zug?
+                Was unterscheidet Ihre Reinigung in Regensburg?
               </AccordionTrigger>
               <AccordionContent className="text-lg leading-relaxed text-slate-700 pt-4">
-                <p>Wir sind spezialisiert auf die Bedürfnisse internationaler Unternehmen im Kanton Zug. Unser mehrsprachiges Team, höchste Diskretion und Compliance mit internationalen Standards machen uns zur ersten Wahl für anspruchsvolle Kunden.</p>
+                <p>Wir sind spezialisiert auf die Bedürfnisse internationaler Unternehmen im Kanton Regensburg. Unser mehrsprachiges Team, höchste Diskretion und Compliance mit internationalen Standards machen uns zur ersten Wahl für anspruchsvolle Kunden.</p>
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
@@ -207,7 +207,7 @@ export default function Zug() {
             <Card className="p-12">
               <RevealOnScroll><div className="text-center mb-8">
                 <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-slate-900 mb-4">
-                  Kontakt Zug
+                  Kontakt Regensburg
                 </h2>
                 <p className="text-sm sm:text-base md:text-lg text-slate-600 text-xs sm:text-sm md:text-base">
                   Vereinbaren Sie ein persönliches Beratungsgespräch.
@@ -217,7 +217,7 @@ export default function Zug() {
                 <div className="text-center">
                   <Phone className="w-8 h-8 text-primary mx-auto mb-3"/>
                   <div className="font-semibold mb-1">Telefon</div>
-                  <a href="tel:+41413205610" className="text-primary hover:underline">+41 41 320 56 10</a>
+                  <a href="tel:+41413205610" className="text-primary hover:underline">0174 722 5473</a>
                 </div>
                 <div className="text-center">
                   <Mail className="w-8 h-8 text-primary mx-auto mb-3"/>

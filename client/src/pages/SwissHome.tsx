@@ -41,9 +41,9 @@ export default function SwissHome() {
   return (
     <div className="min-h-screen bg-white">
       <SEO
-        title="Professionelle Gebäudereinigung in Zürich, Zug & Luzern"
-        description="Swiss Reinigungsfirma - Professionelle Reinigungsfirma in der Schweiz für Unternehmen und Premium-Kunden. Gebäudereinigung, Büroreinigung und exklusive Premium Services."
-        keywords="Reinigungsfirma Schweiz, Gebäudereinigung Zürich, Büroreinigung Zug, Facility Management Luzern, Professionelle Reinigung"
+        title="Professionelle Gebäudereinigung in Landshut, Regensburg & Freising"
+        description="FIMI-Service - Professionelle Reinigungsfirma in Niederbayern für Unternehmen und Premium-Kunden. Gebäudereinigung, Büroreinigung und exklusive Premium Services."
+        keywords="Reinigungsfirma Deutschland, Gebäudereinigung Landshut, Büroreinigung Regensburg, Facility Management Freising, Professionelle Reinigung"
         url="/"
         schema={organizationSchema}
       />
@@ -68,19 +68,19 @@ export default function SwissHome() {
               className="inline-block px-3 sm:px-4 py-1.5 sm:py-2 bg-primary/10 rounded-full mb-4 sm:mb-6"
               variants={fadeInUp}
             >
-              <span className="text-primary font-semibold text-sm sm:text-base">Professionelle Reinigungsfirma in der Schweiz</span>
+              <span className="text-primary font-semibold text-sm sm:text-base">Professionelle Reinigungsfirma in Niederbayern</span>
             </motion.div>
             <motion.h1 
               className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white leading-tight mb-6"
               variants={fadeInUp}
             >
-              Erstklassige <span className="text-primary">Gebäudereinigung</span> für Zürich, Zug und Luzern
+              Erstklassige <span className="text-primary">Gebäudereinigung</span> für Landshut, Regensburg, Freising und ganz Niederbayern
             </motion.h1>
             <motion.p 
               className="text-sm sm:text-base md:text-lg text-white/95 mb-8 leading-relaxed max-w-2xl"
               variants={fadeInUp}
             >
-              Professionelle Reinigungsdienste für Unternehmen und Premium-Kunden mit Schweizer Präzision.
+              Professionelle Reinigungsdienste für Unternehmen und Premium-Kunden mit Deutschlander Präzision.
             </motion.p>
             <motion.div
               className="flex flex-col sm:flex-row gap-3 sm:gap-4"
@@ -129,7 +129,7 @@ export default function SwissHome() {
               { icon: Shield, label: "Zertifizierte Qualität", value: "ISO Standards" },
               { icon: Clock, label: "24/7 Verfügbar", value: "Notfall Service" },
               { icon: Users, label: "500+ Kunden", value: "Zufrieden" },
-              { icon: Award, label: "15+ Jahre Erfahrung", value: "Schweizweit" },
+              { icon: Award, label: "15+ Jahre Erfahrung", value: "Deutschlandweit" },
             ].map((item, index) => (
               <motion.div key={index} variants={scaleIn}>
                 
@@ -251,7 +251,7 @@ export default function SwissHome() {
                   <Users className="w-16 h-16 text-primary mb-6" />
                   <h3 className="text-2xl sm:text-3xl font-bold mb-4 hover:text-primary transition-colors">Business Lösungen</h3>
                   <p className="text-slate-600 mb-6">
-                    Professionelle Gebäudereinigung und Facility Management für Unternehmen in Zürich, Zug und Luzern.
+                    Professionelle Gebäudereinigung und Facility Management für Unternehmen in Landshut, Regensburg, Freising und ganz Niederbayern.
                   </p>
                   <ul className="space-y-3 mb-8">
                     {["Büroreinigung", "Industriereinigung", "Fassaden- & Fensterreinigung", "Facility Management"].map((item, i) => (
@@ -311,10 +311,10 @@ export default function SwissHome() {
           <RevealOnScroll>
             <div className="text-center mb-16">
               <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-slate-900 mb-6">
-                Unsere Standorte in der Schweiz
+                Unsere Standorte in Niederbayern
               </h2>
               <p className="text-sm sm:text-base md:text-lg text-slate-600 max-w-3xl mx-auto">
-                Professionelle Reinigungsdienstleistungen in den wichtigsten Wirtschaftsregionen der Schweiz
+                Professionelle Reinigungsdienstleistungen in den wichtigsten Wirtschaftsregionen der Deutschland
               </p>
             </div>
           </RevealOnScroll>
@@ -327,9 +327,9 @@ export default function SwissHome() {
             variants={staggerContainer}
           >
             {[
-              { name: "Zürich", image: "/zurich-city.jpg", link: "/standorte/zuerich" },
-              { name: "Zug", image: "/zug-city.jpg", link: "/standorte/zug" },
-              { name: "Luzern", image: "/luzern-city.jpg", link: "/standorte/luzern" },
+              { name: "Landshut", image: "/zurich-city.jpg", link: "/standorte/zuerich" },
+              { name: "Regensburg", image: "/zug-city.jpg", link: "/standorte/zug" },
+              { name: "Freising", image: "/luzern-city.jpg", link: "/standorte/luzern" },
             ].map((location, index) => (
               <motion.div key={index} variants={scaleIn}>
                 <Link href={location.link}>
@@ -387,17 +387,17 @@ export default function SwissHome() {
               {
                 text: "Professionell, zuverlässig und immer pünktlich. Die Reinigungsqualität ist hervorragend!",
                 author: "Thomas M.",
-                role: "Geschäftsführer, Zürich"
+                role: "Geschäftsführer, Landshut"
               },
               {
                 text: "Seit Jahren vertrauen wir auf die exzellenten Services. Absolut empfehlenswert!",
                 author: "Sarah K.",
-                role: "Property Manager, Zug"
+                role: "Property Manager, Regensburg"
               },
               {
-                text: "Die Premium-Services übertreffen alle Erwartungen. Schweizer Qualität auf höchstem Niveau.",
+                text: "Die Premium-Services übertreffen alle Erwartungen. Deutschlander Qualität auf höchstem Niveau.",
                 author: "Michael R.",
-                role: "Unternehmer, Luzern"
+                role: "Unternehmer, Freising"
               }
             ].map((testimonial, index) => (
               <motion.div key={index} variants={fadeInUp}>

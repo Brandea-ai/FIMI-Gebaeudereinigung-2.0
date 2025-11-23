@@ -114,8 +114,8 @@ export default function AIChatbot() {
   const handleConsent = () => {
     setHasConsent(true);
     const greeting = supporter.gender === 'male'
-      ? `Guten Tag! Ich bin ${supporter.name}, Ihr persönlicher Berater von der Swiss Reinigungsfirma.`
-      : `Guten Tag! Ich bin ${supporter.name}, Ihre persönliche Beraterin von der Swiss Reinigungsfirma.`;
+      ? `Guten Tag! Ich bin ${supporter.name}, Ihr persönlicher Berater von der FIMI-Service.`
+      : `Guten Tag! Ich bin ${supporter.name}, Ihre persönliche Beraterin von der FIMI-Service.`;
 
     let content;
     if (appointmentMode) {
@@ -492,7 +492,7 @@ Zeitpunkt: ${extractedInfo.timing || 'nicht angegeben'}
                 <div className="flex gap-2">
                   {/* E-Mail FIRST (red) */}
                   <a
-                    href="mailto:info@bgs-service.ch"
+                    href="mailto:info@fimi-service.de"
                     className="flex-1 bg-red-600 hover:bg-red-700 text-white py-2 px-4 rounded-lg font-medium transition-colors flex items-center justify-center gap-2"
                   >
                     <Mail className="w-4 h-4" />

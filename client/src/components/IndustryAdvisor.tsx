@@ -177,7 +177,7 @@ export default function IndustryAdvisor() {
       {/* Footer Note */}
       <div className="mt-6 pt-6 border-t border-gray-700">
         <p className="text-gray-400 text-xs text-center">
-          Unsere KI nutzt alle Informationen unserer Website, um Ihnen die bestmögliche Empfehlung zu geben. Bei Fragen: info@bgs-service.ch
+          Unsere KI nutzt alle Informationen unserer Website, um Ihnen die bestmögliche Empfehlung zu geben. Bei Fragen: info@fimi-service.de
         </p>
       </div>
     </div>

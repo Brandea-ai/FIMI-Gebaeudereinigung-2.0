@@ -53,7 +53,7 @@ export default function ServiceTemplate({
                 </Link>
                 <a href="tel:+41413205610">
                   <Button size="lg" variant="outline">
-                    +41 41 320 56 10
+                    0174 722 5473
                   </Button>
                 </a>
               </div>

@@ -1,12 +1,12 @@
-// Schema.org structured data helpers for Swiss Reinigungsfirma
+// Schema.org structured data helpers for FIMI-Service
 
 export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Swiss Reinigungsfirma",
+  "name": "FIMI-Service",
   "url": "https://bgs-gebaeudeservice.vercel.app",
   "logo": "https://bgs-gebaeudeservice.vercel.app/swiss-logo.webp",
-  "description": "Professionelle Reinigungsfirma in der Schweiz für Gebäudereinigung, Büroreinigung und Facility Management",
+  "description": "Professionelle Reinigungsfirma in Niederbayern für Gebäudereinigung, Büroreinigung und Facility Management",
   "address": {
     "@type": "PostalAddress",
     "addressCountry": "CH",
@@ -33,7 +33,7 @@ export const localBusinessSchema = (location: {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "@id": `https://bgs-gebaeudeservice.vercel.app/standorte/${location.city.toLowerCase()}`,
-  "name": `Swiss Reinigungsfirma ${location.city}`,
+  "name": `FIMI-Service ${location.city}`,
   "image": "https://bgs-gebaeudeservice.vercel.app/swiss-hero-main.jpg",
   "description": `Professionelle Reinigungsfirma und Gebäudereinigung in ${location.city}. Zuverlässige Reinigungsdienste für Unternehmen und Premium-Kunden.`,
   "address": {
@@ -50,7 +50,7 @@ export const localBusinessSchema = (location: {
   },
   "url": `https://bgs-gebaeudeservice.vercel.app/standorte/${location.city.toLowerCase()}`,
   "telephone": "+41-41-320-56-10",
-  "priceRange": "CHF",
+  "priceRange": "EUR",
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
@@ -79,7 +79,7 @@ export const serviceSchema = (service: {
   "description": service.description,
   "provider": {
     "@type": "Organization",
-    "name": "Swiss Reinigungsfirma",
+    "name": "FIMI-Service",
     "url": "https://bgs-gebaeudeservice.vercel.app"
   },
   "areaServed": {
@@ -119,11 +119,11 @@ export const articleSchema = (article: {
   "dateModified": article.dateModified || article.datePublished,
   "author": {
     "@type": "Organization",
-    "name": "Swiss Reinigungsfirma"
+    "name": "FIMI-Service"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Swiss Reinigungsfirma",
+    "name": "FIMI-Service",
     "logo": {
       "@type": "ImageObject",
       "url": "https://bgs-gebaeudeservice.vercel.app/swiss-logo.webp"

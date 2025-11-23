@@ -40,12 +40,12 @@ export default function FacilityManagement() {
               Professionelles <span className="text-red-500">Facility Management</span>
             </h1>
             <p className="text-sm sm:text-base md:text-lg md:text-base sm:text-lg md:text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Ganzheitliche Gebäudebewirtschaftung für Unternehmen in Zürich, Zug und Luzern
+              Ganzheitliche Gebäudebewirtschaftung für Unternehmen in Landshut, Regensburg, Freising und ganz Niederbayern
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:+41413205610" className="inline-flex items-center justify-center px-8 py-4 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors text-lg font-semibold">
                 <Phone className="w-5 h-5 mr-2" />
-                +41 41 320 56 10
+                0174 722 5473
               </a>
               <Link href="/kontakt">
                 <a className="inline-flex items-center justify-center px-8 py-4 bg-white text-slate-900 rounded-lg hover:bg-gray-100 transition-colors text-lg font-semibold">
@@ -252,7 +252,7 @@ export default function FacilityManagement() {
               </a>
             </Link>
             <a href="tel:+41413205610" className="inline-flex items-center justify-center px-8 py-4 bg-white text-slate-900 rounded-lg hover:bg-gray-100 transition-colors text-lg font-semibold">
-              +41 41 320 56 10
+              0174 722 5473
             </a>
           </div>
           <div className="mt-8 text-sm text-gray-400">

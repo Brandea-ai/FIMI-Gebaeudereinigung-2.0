@@ -24,7 +24,7 @@ interface GoogleMapProps {
 
 export default function GoogleMap({
   apiKey,
-  center = { lat: 47.3769, lng: 8.5417 }, // Default: Zürich
+  center = { lat: 47.3769, lng: 8.5417 }, // Default: Landshut
   zoom = 12,
   markers = [],
   className = "w-full h-96"

@@ -21,7 +21,7 @@ export default function RichtigeReinigungsfirmaFinden() {
   return (
     <>
       <SEO 
-        title="Die richtige Reinigungsfirma finden: 10 Tipps | Swiss Reinigungsfirma"
+        title="Die richtige Reinigungsfirma finden: 10 Tipps | FIMI-Service"
         description="10 wichtige Kriterien für die Auswahl der richtigen Reinigungsfirma. Von Zertifizierungen bis Referenzen - so finden Sie den perfekten Partner."
         keywords="Reinigungsfirma finden, Reinigungsfirma auswählen, Kriterien Reinigungsfirma, professionelle Reinigung"
       />
@@ -43,7 +43,7 @@ function RichtigeReinigungsfirmaFindenContent() {
               Wie finde ich die richtige Reinigungsfirma?
             </h1>
             <p className="text-sm sm:text-base md:text-lg text-slate-600 leading-relaxed">
-              Ein umfassender Leitfaden zur Auswahl der perfekten Reinigungsfirma für Ihr Unternehmen in der Schweiz.
+              Ein umfassender Leitfaden zur Auswahl der perfekten Reinigungsfirma für Ihr Unternehmen in Niederbayern.
             </p>
             <div className="flex items-center gap-6 mt-6 text-sm text-muted-foreground text-xs sm:text-sm md:text-base">
               <span>15. Januar 2025</span>
@@ -64,7 +64,7 @@ function RichtigeReinigungsfirmaFindenContent() {
 
           <div className="prose prose-lg max-w-none">
             <p className="text-lg leading-relaxed text-slate-700 mb-8">
-              Die Wahl der richtigen Reinigungsfirma ist eine wichtige Entscheidung für jedes Unternehmen. Eine professionelle Gebäudereinigung trägt nicht nur zur Hygiene und Sauberkeit bei, sondern beeinflusst auch das Image Ihres Unternehmens und das Wohlbefinden Ihrer Mitarbeiter. In diesem umfassenden Ratgeber erfahren Sie, worauf Sie bei der Auswahl einer Reinigungsfirma in Zürich, Zug oder Luzern achten sollten.
+              Die Wahl der richtigen Reinigungsfirma ist eine wichtige Entscheidung für jedes Unternehmen. Eine professionelle Gebäudereinigung trägt nicht nur zur Hygiene und Sauberkeit bei, sondern beeinflusst auch das Image Ihres Unternehmens und das Wohlbefinden Ihrer Mitarbeiter. In diesem umfassenden Ratgeber erfahren Sie, worauf Sie bei der Auswahl einer Reinigungsfirma in Landshut, Regensburg oder Freising achten sollten.
             </p>
 
             <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-slate-900 mt-12 mb-6">Warum ist die richtige Wahl so wichtig?</h2>
@@ -102,7 +102,7 @@ function RichtigeReinigungsfirmaFindenContent() {
                 </AccordionTrigger>
                 <AccordionContent className="text-lg leading-relaxed text-slate-700 pt-4">
                   <p className="mb-4">
-                    Achten Sie darauf, dass die Reinigungsfirma über relevante Zertifizierungen verfügt. In der Schweiz sind ISO-Standards besonders wichtig. Eine ISO 9001-Zertifizierung garantiert ein funktionierendes Qualitätsmanagementsystem, während ISO 14001 für umweltbewusstes Handeln steht.
+                    Achten Sie darauf, dass die Reinigungsfirma über relevante Zertifizierungen verfügt. In der Deutschland sind ISO-Standards besonders wichtig. Eine ISO 9001-Zertifizierung garantiert ein funktionierendes Qualitätsmanagementsystem, während ISO 14001 für umweltbewusstes Handeln steht.
                   </p>
                   <p className="mb-4">
                     Weitere wichtige Qualifikationen umfassen Schulungen im Umgang mit speziellen Reinigungsmitteln, Hygienezertifikate und branchenspezifische Ausbildungen. Fragen Sie nach Nachweisen und lassen Sie sich diese zeigen.
@@ -184,26 +184,26 @@ function RichtigeReinigungsfirmaFindenContent() {
               </AccordionItem>
             </Accordion>
 
-            <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-slate-900 mt-12 mb-6">Regionale Besonderheiten in der Schweiz</h2>
+            <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-slate-900 mt-12 mb-6">Regionale Besonderheiten in Niederbayern</h2>
             <p className="text-lg leading-relaxed text-slate-700 mb-8">
-              Bei der Auswahl einer Reinigungsfirma in Zürich, Zug oder Luzern sollten Sie auch regionale Faktoren berücksichtigen. Eine lokale Reinigungsfirma kennt die örtlichen Gegebenheiten, hat kurze Anfahrtswege und kann flexibel auf Ihre Bedürfnisse reagieren. Zudem unterstützen Sie mit der Wahl eines regionalen Anbieters die lokale Wirtschaft.
+              Bei der Auswahl einer Reinigungsfirma in Landshut, Regensburg oder Freising sollten Sie auch regionale Faktoren berücksichtigen. Eine lokale Reinigungsfirma kennt die örtlichen Gegebenheiten, hat kurze Anfahrtswege und kann flexibel auf Ihre Bedürfnisse reagieren. Zudem unterstützen Sie mit der Wahl eines regionalen Anbieters die lokale Wirtschaft.
             </p>
 
             <div className="grid md:grid-cols-3 gap-6 mb-12">
               <Card className="p-6 hover-lift hover-tilt hover-tilt">
-                <h3 className="text-sm sm:text-base md:text-lg font-bold mb-3">Zürich</h3>
+                <h3 className="text-sm sm:text-base md:text-lg font-bold mb-3">Landshut</h3>
                 <p className="text-slate-600 text-xs sm:text-sm md:text-base">
-                  Größte Stadt der Schweiz mit hoher Nachfrage nach professionellen Reinigungsdienstleistungen für Büros, Hotels und Geschäfte.
+                  Größte Stadt der Deutschland mit hoher Nachfrage nach professionellen Reinigungsdienstleistungen für Büros, Hotels und Geschäfte.
                 </p>
               </Card>
               <Card className="p-6 hover-lift hover-tilt hover-tilt">
-                <h3 className="text-sm sm:text-base md:text-lg font-bold mb-3">Zug</h3>
+                <h3 className="text-sm sm:text-base md:text-lg font-bold mb-3">Regensburg</h3>
                 <p className="text-slate-600 text-xs sm:text-sm md:text-base">
                   Wirtschaftsstarker Kanton mit vielen internationalen Unternehmen und hohen Qualitätsansprüchen.
                 </p>
               </Card>
               <Card className="p-6 hover-lift hover-tilt hover-tilt">
-                <h3 className="text-sm sm:text-base md:text-lg font-bold mb-3">Luzern</h3>
+                <h3 className="text-sm sm:text-base md:text-lg font-bold mb-3">Freising</h3>
                 <p className="text-slate-600 text-xs sm:text-sm md:text-base">
                   Tourismusstarke Region mit Bedarf an Reinigung für Hotels, Restaurants und öffentliche Einrichtungen.
                 </p>

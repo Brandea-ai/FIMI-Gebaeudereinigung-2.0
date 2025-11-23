@@ -10,15 +10,15 @@ export default function Bueroreinigung() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl">
             <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-6">
-              Professionelle Büroreinigung in Zürich, Zug und Luzern
+              Professionelle Büroreinigung in Landshut, Regensburg, Freising und ganz Niederbayern
             </h1>
             <p className="text-sm sm:text-base md:text-lg text-red-50 mb-8">
-              Erstklassige Reinigungsdienstleistungen für Büros und Geschäftsräume. Unsere erfahrenen Fachkräfte sorgen für ein sauberes, hygienisches und produktives Arbeitsumfeld mit Schweizer Präzision.
+              Erstklassige Reinigungsdienstleistungen für Büros und Geschäftsräume. Unsere erfahrenen Fachkräfte sorgen für ein sauberes, hygienisches und produktives Arbeitsumfeld mit Deutschlander Präzision.
             </p>
             <div className="flex flex-wrap gap-4">
               <a href="tel:+41413205610" className="bg-white text-red-600 px-8 py-3 rounded-lg font-semibold hover:bg-red-50 transition-colors inline-flex items-center gap-2">
                 <Phone className="w-5 h-5" />
-                +41 41 320 56 10
+                0174 722 5473
               </a>
               <Link href="/kontakt" className="bg-red-800 text-white px-8 py-3 rounded-lg font-semibold hover:bg-red-900 transition-colors inline-flex items-center gap-2">
                 <Mail className="w-5 h-5" />
@@ -65,7 +65,7 @@ export default function Bueroreinigung() {
             <div>
               <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold mb-6">Umfassende Büroreinigung für produktive Arbeitsumgebungen</h2>
               <p className="text-gray-600 mb-6">
-                Ein sauberes Büro ist die Grundlage für produktives Arbeiten und ein professionelles Erscheinungsbild. Swiss Reinigungsfirma bietet maßgeschneiderte Reinigungslösungen für Büros jeder Größe in Zürich, Zug und Luzern.
+                Ein sauberes Büro ist die Grundlage für produktives Arbeiten und ein professionelles Erscheinungsbild. FIMI-Service bietet maßgeschneiderte Reinigungslösungen für Büros jeder Größe in Landshut, Regensburg, Freising und ganz Niederbayern.
               </p>
               <p className="text-gray-600 mb-6">
                 Unsere erfahrenen Reinigungskräfte arbeiten diskret und effizient, um Ihre Geschäftsabläufe nicht zu stören. Wir verwenden umweltfreundliche Reinigungsmittel und modernste Reinigungstechnologie für optimale Ergebnisse.
@@ -119,7 +119,7 @@ export default function Bueroreinigung() {
             <div className="relative h-96 rounded-lg overflow-hidden shadow-xl order-2 md:order-1">
               <img 
                 src="/office-cleaning-2.jpg" 
-                alt="Büroreinigung Zürich" 
+                alt="Büroreinigung Landshut" 
                 className="w-full h-full object-cover"
               />
             </div>
@@ -129,7 +129,7 @@ export default function Bueroreinigung() {
                 Jedes Büro hat individuelle Anforderungen. Wir entwickeln gemeinsam mit Ihnen einen maßgeschneiderten Reinigungsplan, der perfekt auf Ihre Bedürfnisse und Ihr Budget abgestimmt ist.
               </p>
               <p className="text-gray-600 mb-6">
-                Von kleinen Büros bis zu großen Geschäftskomplexen – unsere Reinigungsfirma verfügt über die Expertise und Kapazität für Projekte jeder Größenordnung. Profitieren Sie von unserer langjährigen Erfahrung und Schweizer Qualität.
+                Von kleinen Büros bis zu großen Geschäftskomplexen – unsere Reinigungsfirma verfügt über die Expertise und Kapazität für Projekte jeder Größenordnung. Profitieren Sie von unserer langjährigen Erfahrung und Deutschlander Qualität.
               </p>
               <div className="space-y-4">
                 <Link href="/b2b/facility-management" className="text-red-600 hover:text-red-700 block">
@@ -161,7 +161,7 @@ export default function Bueroreinigung() {
                 },
                 {
                   question: 'Welche Reinigungsmittel verwenden Sie?',
-                  answer: 'Wir verwenden ausschließlich umweltfreundliche, zertifizierte Reinigungsmittel, die effektiv reinigen und gleichzeitig die Gesundheit Ihrer Mitarbeiter schützen. Alle Produkte entsprechen den höchsten Schweizer Standards.'
+                  answer: 'Wir verwenden ausschließlich umweltfreundliche, zertifizierte Reinigungsmittel, die effektiv reinigen und gleichzeitig die Gesundheit Ihrer Mitarbeiter schützen. Alle Produkte entsprechen den höchsten Deutschlander Standards.'
                 },
                 {
                   question: 'Wie wird die Qualität sichergestellt?',
@@ -198,7 +198,7 @@ export default function Bueroreinigung() {
               <span>→</span>
             </Link>
             <a href="tel:+41413205610" className="bg-red-800 text-white px-8 py-3 rounded-lg font-semibold hover:bg-red-900 transition-colors">
-              +41 41 320 56 10
+              0174 722 5473
             </a>
           </div>
         </div>

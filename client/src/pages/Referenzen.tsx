@@ -15,9 +15,9 @@ export default function Referenzen() {
   return (
     <>
       <SEO 
-        title="Referenzen & Erfolgsgeschichten | Swiss Reinigungsfirma"
-        description="Überzeugen Sie sich von unseren erfolgreichen Reinigungsprojekten in Zürich, Zug und Luzern. Von Luxushotels bis Industrieanlagen - Referenzen zufriedener Kunden."
-        keywords="Referenzen Reinigungsfirma, Kundenbewertungen, Erfolgsgeschichten, Reinigung Zürich, Gebäudereinigung Schweiz"
+        title="Referenzen & Erfolgsgeschichten | FIMI-Service"
+        description="Überzeugen Sie sich von unseren erfolgreichen Reinigungsprojekten in Landshut, Regensburg, Freising und ganz Niederbayern. Von Luxushotels bis Industrieanlagen - Referenzen zufriedener Kunden."
+        keywords="Referenzen Reinigungsfirma, Kundenbewertungen, Erfolgsgeschichten, Reinigung Landshut, Gebäudereinigung Deutschland"
       />
       <ReferenzenContent />
     </>
@@ -27,21 +27,21 @@ export default function Referenzen() {
 function ReferenzenContent() {
   const projects = [
     {
-      title: "Luxury Hotel Zürich",
+      title: "Luxury Hotel Landshut",
       category: "Hotellerie",
       image: "/referenzen-projekt1.jpg",
       description: "Komplette Reinigungslösung für 5-Sterne-Hotel mit 200 Zimmern",
       results: ["99% Gästezufriedenheit", "30% Effizienzsteigerung", "ISO-Zertifizierung erreicht"]
     },
     {
-      title: "Tech Campus Zug",
+      title: "Tech Campus Regensburg",
       category: "Business",
       image: "/referenzen-projekt2.jpg",
       description: "Facility Management für internationales Tech-Unternehmen",
       results: ["24/7 Service etabliert", "Kosten um 20% reduziert", "Nachhaltigkeitsziele erreicht"]
     },
     {
-      title: "Produktionshalle Luzern",
+      title: "Produktionshalle Freising",
       category: "Industrie",
       image: "/referenzen-projekt3.jpg",
       description: "Spezialisierte Industriereinigung mit Maschinenwartung",
@@ -53,21 +53,21 @@ function ReferenzenContent() {
     {
       name: "Dr. Thomas Müller",
       position: "CEO, TechCorp AG",
-      location: "Zug",
-      text: "Swiss Reinigungsfirma hat unsere Erwartungen übertroffen. Die Professionalität und Zuverlässigkeit sind beispielhaft. Unser Campus ist immer makellos sauber.",
+      location: "Regensburg",
+      text: "FIMI-Service hat unsere Erwartungen übertroffen. Die Professionalität und Zuverlässigkeit sind beispielhaft. Unser Campus ist immer makellos sauber.",
       rating: 5
     },
     {
       name: "Sandra Weber",
       position: "Hoteldirektorin",
-      location: "Zürich",
+      location: "Landshut",
       text: "In der Hotellerie sind Sauberkeit und Diskretion entscheidend. Das Team arbeitet perfekt, auch unter Zeitdruck. Unsere Gäste sind begeistert.",
       rating: 5
     },
     {
       name: "Marco Bernasconi",
       position: "Facility Manager",
-      location: "Luzern",
+      location: "Freising",
       text: "Endlich ein Partner, der mitdenkt. Die proaktiven Verbesserungsvorschläge haben uns viel Geld gespart. Absolute Empfehlung!",
       rating: 5
     }
@@ -84,7 +84,7 @@ function ReferenzenContent() {
               Referenzen & Kundenerfolge
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-slate-600 leading-relaxed">
-              Über 500 zufriedene Kunden in Zürich, Zug und Luzern vertrauen auf unsere Expertise. Entdecken Sie, wie wir Unternehmen zu makelloser Sauberkeit verholfen haben.
+              Über 500 zufriedene Kunden in Landshut, Regensburg, Freising und ganz Niederbayern vertrauen auf unsere Expertise. Entdecken Sie, wie wir Unternehmen zu makelloser Sauberkeit verholfen haben.
             </p>
           </div>
         </div>

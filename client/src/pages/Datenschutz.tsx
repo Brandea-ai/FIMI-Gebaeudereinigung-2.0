@@ -19,10 +19,10 @@ export default function Datenschutz() {
             <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-4">Verantwortliche Stelle</h2>
             <div className="text-slate-700 leading-relaxed">
               <p className="mb-2">Verantwortlich für die Datenverarbeitung auf dieser Website ist:</p>
-              <p className="font-semibold mt-4">Swiss Reinigungsfirma</p>
-              <p>Tannhof 10, 6020 Emmenbrücke, Schweiz</p>
-              <p>Telefon: +41 41 320 56 10</p>
-              <p>E-Mail: info@bgs-service.ch</p>
+              <p className="font-semibold mt-4">FIMI-Service</p>
+              <p>Kellerstr. 39, 84036 Landshut, Deutschland</p>
+              <p>Telefon: 0174 722 5473</p>
+              <p>E-Mail: info@fimi-service.de</p>
             </div>
           </Card>
 
@@ -118,7 +118,7 @@ export default function Datenschutz() {
                   <li>Beschwerde bei einer Aufsichtsbehörde einzureichen</li>
                 </ul>
                 <p>
-                  Zur Ausübung Ihrer Rechte wenden Sie sich bitte an: info@bgs-service.ch
+                  Zur Ausübung Ihrer Rechte wenden Sie sich bitte an: info@fimi-service.de
                 </p>
               </AccordionContent>
             </AccordionItem>
@@ -149,7 +149,7 @@ export default function Datenschutz() {
                   Wir verwenden innerhalb des Website-Besuchs das verbreitete SSL-Verfahren (Secure Socket Layer) in Verbindung mit der jeweils höchsten Verschlüsselungsstufe, die von Ihrem Browser unterstützt wird.
                 </p>
                 <p>
-                  Wir bedienen uns im Übrigen geeigneter technischer und organisatorischer Sicherheitsmaßnahmen, um Ihre Daten gegen zufällige oder vorsätzliche Manipulationen, teilweisen oder vollständigen Verlust, Zerstörung oder gegen den unbefugten Zugriff Dritter zu schützen.
+                  Wir bedienen uns im Übrigen geeigneter technischer und organisatorischer Sicherheitsmaßnahmen, um Ihre Daten gegen zufällige oder vorsätzliche Manipulationen, teilweisen oder vollständigen Verlust, Zerstörung oder gegen den unbefugten Regensburgriff Dritter zu schützen.
                 </p>
               </AccordionContent>
             </AccordionItem>
@@ -161,7 +161,7 @@ export default function Datenschutz() {
               Bei Fragen zur Erhebung, Verarbeitung oder Nutzung Ihrer personenbezogenen Daten, bei Auskünften, Berichtigung, Sperrung oder Löschung von Daten sowie Widerruf erteilter Einwilligungen wenden Sie sich bitte an:
             </p>
             <p className="text-slate-900 font-semibold mt-4">
-              info@bgs-service.ch
+              info@fimi-service.de
             </p>
           </Card>
         </div>

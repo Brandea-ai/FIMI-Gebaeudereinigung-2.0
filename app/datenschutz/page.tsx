@@ -22,8 +22,8 @@ export default function Datenschutz() {
               <p className="mb-2">Verantwortlich für die Datenverarbeitung auf dieser Website ist:</p>
               <p className="font-semibold mt-4">FIMI-Service</p>
               <p>Kellerstr. 39, 84036 Landshut, Deutschland</p>
-              <p>Telefon: +41 41 320 56 10</p>
-              <p>E-Mail: info@bgs-service.ch</p>
+              <p>Telefon: 0174 722 5473</p>
+              <p>E-Mail: info@fimi-service.de</p>
             </div>
           </Card>
 
@@ -119,7 +119,7 @@ export default function Datenschutz() {
                   <li>Beschwerde bei einer Aufsichtsbehörde einzureichen</li>
                 </ul>
                 <p>
-                  Zur Ausübung Ihrer Rechte wenden Sie sich bitte an: info@bgs-service.ch
+                  Zur Ausübung Ihrer Rechte wenden Sie sich bitte an: info@fimi-service.de
                 </p>
               </AccordionContent>
             </AccordionItem>
@@ -162,7 +162,7 @@ export default function Datenschutz() {
               Bei Fragen zur Erhebung, Verarbeitung oder Nutzung Ihrer personenbezogenen Daten, bei Auskünften, Berichtigung, Sperrung oder Löschung von Daten sowie Widerruf erteilter Einwilligungen wenden Sie sich bitte an:
             </p>
             <p className="text-slate-900 font-semibold mt-4">
-              info@bgs-service.ch
+              info@fimi-service.de
             </p>
           </Card>
         </div>

@@ -12,7 +12,7 @@ export default function StGallen() {
   return (
     <>
       <SEO 
-        title="Professionelle Reinigungsfirma St. Gallen | Swiss Reinigungsfirma"
+        title="Professionelle Reinigungsfirma St. Gallen | FIMI-Service"
         description="Professionelle Gebäudereinigung in St. Gallen und Umgebung. Büroreinigung, Industriereinigung und Facility Management von erfahrenen Fachkräften."
         keywords="Reinigungsfirma St. Gallen, Gebäudereinigung St. Gallen, Büroreinigung St. Gallen, Facility Management"
       />
