@@ -52,8 +52,8 @@ export default function Home() {
 
       {/* Hero Section with Advanced Parallax */}
       <section className="relative min-h-screen flex items-center overflow-hidden">
-        <ParallaxBackground 
-          src="/swiss-hero-main.jpg"
+        <ParallaxBackground
+          src="/facility-management-hero.jpg"
           speed={0.5}
           overlay={true}
         />
