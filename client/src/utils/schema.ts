@@ -4,22 +4,28 @@ export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "FIMI-Service",
-  "url": "https://bgs-gebaeudeservice.vercel.app",
-  "logo": "https://bgs-gebaeudeservice.vercel.app/swiss-logo.webp",
+  "url": "https://fimi-service.de",
+  "logo": "https://fimi-service.de/logo.png",
   "description": "Professionelle Reinigungsfirma in Niederbayern für Gebäudereinigung, Büroreinigung und Facility Management",
   "address": {
     "@type": "PostalAddress",
-    "addressCountry": "CH",
-    "addressRegion": "Zentralschweiz"
+    "streetAddress": "Kellerstr. 39",
+    "addressLocality": "Landshut",
+    "postalCode": "84036",
+    "addressRegion": "Bayern",
+    "addressCountry": "DE"
   },
   "contactPoint": {
     "@type": "ContactPoint",
-    "telephone": "+41-41-320-56-10",
+    "telephone": "+49-174-722-5473",
     "contactType": "customer service",
-    "availableLanguage": ["de", "en"],
-    "areaServed": ["CH"]
+    "availableLanguage": ["de"],
+    "areaServed": ["DE"]
   },
-  "sameAs": []
+  "sameAs": [
+    "https://www.facebook.com/fimi-service",
+    "https://www.instagram.com/fimi-service"
+  ]
 };
 
 export const localBusinessSchema = (location: {
@@ -32,25 +38,26 @@ export const localBusinessSchema = (location: {
 }) => ({
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": `https://bgs-gebaeudeservice.vercel.app/standorte/${location.city.toLowerCase()}`,
+  "@id": `https://fimi-service.de/#location-${location.city.toLowerCase()}`,
   "name": `FIMI-Service ${location.city}`,
-  "image": "https://bgs-gebaeudeservice.vercel.app/swiss-hero-main.jpg",
-  "description": `Professionelle Reinigungsfirma und Gebäudereinigung in ${location.city}. Zuverlässige Reinigungsdienste für Unternehmen und Premium-Kunden.`,
+  "image": "https://fimi-service.de/og-image.jpg",
+  "description": `Professionelle Reinigungsfirma und Gebäudereinigung in ${location.city}. Zuverlässige Reinigungsdienste für Unternehmen in Niederbayern.`,
   "address": {
     "@type": "PostalAddress",
     "streetAddress": location.address,
     "addressLocality": location.city,
     "postalCode": location.postalCode,
-    "addressCountry": "CH"
+    "addressRegion": "Bayern",
+    "addressCountry": "DE"
   },
   "geo": {
     "@type": "GeoCoordinates",
     "latitude": location.lat,
     "longitude": location.lng
   },
-  "url": `https://bgs-gebaeudeservice.vercel.app/standorte/${location.city.toLowerCase()}`,
-  "telephone": "+41-41-320-56-10",
-  "priceRange": "EUR",
+  "url": `https://fimi-service.de`,
+  "telephone": "+49-174-722-5473",
+  "priceRange": "€€",
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
@@ -61,8 +68,8 @@ export const localBusinessSchema = (location: {
   ],
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "reviewCount": "127"
+    "ratingValue": "4.8",
+    "reviewCount": "95"
   }
 });
 
@@ -74,21 +81,39 @@ export const serviceSchema = (service: {
 }) => ({
   "@context": "https://schema.org",
   "@type": "Service",
-  "@id": `https://bgs-gebaeudeservice.vercel.app${service.url}`,
+  "@id": `https://fimi-service.de${service.url}`,
   "name": service.name,
   "description": service.description,
   "provider": {
     "@type": "Organization",
     "name": "FIMI-Service",
-    "url": "https://bgs-gebaeudeservice.vercel.app"
+    "url": "https://fimi-service.de"
   },
-  "areaServed": {
-    "@type": "Country",
-    "name": "Switzerland"
-  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Landshut",
+      "containedIn": {
+        "@type": "State",
+        "name": "Bayern"
+      }
+    },
+    {
+      "@type": "City",
+      "name": "Regensburg"
+    },
+    {
+      "@type": "City",
+      "name": "Freising"
+    },
+    {
+      "@type": "State",
+      "name": "Niederbayern"
+    }
+  ],
   "serviceType": service.category,
-  "url": `https://bgs-gebaeudeservice.vercel.app${service.url}`,
-  "image": "https://bgs-gebaeudeservice.vercel.app/swiss-hero-main.jpg"
+  "url": `https://fimi-service.de${service.url}`,
+  "image": "https://fimi-service.de/og-image.jpg"
 });
 
 export const breadcrumbSchema = (items: { name: string; url: string }[]) => ({
@@ -98,7 +123,7 @@ export const breadcrumbSchema = (items: { name: string; url: string }[]) => ({
     "@type": "ListItem",
     "position": index + 1,
     "name": item.name,
-    "item": `https://bgs-gebaeudeservice.vercel.app${item.url}`
+    "item": `https://fimi-service.de${item.url}`
   }))
 });
 
@@ -114,7 +139,7 @@ export const articleSchema = (article: {
   "@type": "Article",
   "headline": article.title,
   "description": article.description,
-  "image": article.image || "https://bgs-gebaeudeservice.vercel.app/swiss-hero-main.jpg",
+  "image": article.image || "https://fimi-service.de/og-image.jpg",
   "datePublished": article.datePublished,
   "dateModified": article.dateModified || article.datePublished,
   "author": {
@@ -126,12 +151,12 @@ export const articleSchema = (article: {
     "name": "FIMI-Service",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://bgs-gebaeudeservice.vercel.app/swiss-logo.webp"
+      "url": "https://fimi-service.de/logo.png"
     }
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": `https://bgs-gebaeudeservice.vercel.app${article.url}`
+    "@id": `https://fimi-service.de${article.url}`
   }
 });
 

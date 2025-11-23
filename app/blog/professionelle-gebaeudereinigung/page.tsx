@@ -28,8 +28,39 @@ export default function ProfessionelleGebaeudereinigung() {
 }
 
 function ProfessionelleGebaeudereinigungContent() {
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Professionelle Gebäudereinigung: Was Sie wissen müssen",
+    "description": "Alles Wichtige über professionelle Gebäudereinigung, Standards und Qualitätsmerkmale in Niederbayern.",
+    "image": "https://fimi-service.de/blog-gebaeudereinigung.jpg",
+    "datePublished": "2025-01-15",
+    "dateModified": "2025-01-15",
+    "author": {
+      "@type": "Organization",
+      "name": "FIMI-Service",
+      "url": "https://fimi-service.de"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "FIMI-Service",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://fimi-service.de/logo.png"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://fimi-service.de/blog/professionelle-gebaeudereinigung"
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <Navigation />
       <article className="pt-32 pb-20">
         <div className="container max-w-4xl">
