@@ -47,3 +47,8 @@ next-env.d.ts
 # OS
 .DS_Store
 Thumbs.db
+
+# Markdown files (except README.md in root and docs/)
+/*.md
+!README.md
+!docs/
